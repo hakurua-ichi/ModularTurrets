@@ -31,7 +31,7 @@ public static class CenteredPartIcons
                 && definition.defName != "MT_TurretBase" && definition.defName != "MT_TurretBaseLarge"
                 && definition.defName != "MT_AssemblyBench") continue;
             try { Apply(definition); }
-            catch (Exception error) { Log.Warning(L.T("MT_IconCenteringFailed", definition.defName, error.Message)); }
+            catch (Exception error) { ModDiagnostics.WarningOnce("Rendering.CenteredPartIcon", error); }
         }
     }
 

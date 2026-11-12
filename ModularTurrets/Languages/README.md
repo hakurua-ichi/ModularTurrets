@@ -83,7 +83,7 @@ The Def's label is enough to give the new selector entry a name. To localize tha
 
 An **explicit mod language** loads English first, then overlays the selected folder's keyed text and definition labels/descriptions. Missing entries therefore retain the English fallback; labels/descriptions without a dictionary entry can fall back to the underlying definition. A missing keyed string with no English entry displays its key.
 
-The explicit override affects the mod UI that uses `L.T`, `L.Label` or `L.Description`. It does not change the game's global language, ordinary game UI, or job report strings that RimWorld itself displays.
+The explicit override updates this mod's UI and its own things' names and descriptions, including existing buildings and items in standard game windows. Returning to automatic selection restores the game's translated names. Other RimWorld UI text and ordinary job reports keep the game language.
 
 Both custom dictionaries and normal game loading respect the active folders selected by `LoadFolders.xml`. CE or other compatibility text should remain in its optional module, and is not read by the custom loader when that folder is inactive.
 

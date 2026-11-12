@@ -46,7 +46,7 @@ internal static class ParagonVisuals
                 && original.FragmentShaderFileName == "Cutout.frag.glsl")
                     housingShader = ShaderDatabase.Cutout;
             }
-            catch (Exception error) { Warn(error.Message); }
+            catch (Exception error) { Warn(error); }
             if (housingShader == null) Warn("shader unavailable or changed");
             return housingShader != null;
         }
@@ -87,7 +87,7 @@ internal static class ParagonVisuals
                 }
             }
         }
-        catch (Exception error) { Warn(error.Message); }
+        catch (Exception error) { Warn(error); }
         Materials[source] = new CachedMaterial { Version = version, Result = result };
         return result;
     }
@@ -161,13 +161,20 @@ internal static class ParagonVisuals
         catch (Exception error)
         {
             if (created != null) UnityEngine.Object.Destroy(created);
-            Warn(error.Message);
+            Warn(error);
         }
         finally { Icons[definition] = result; }
         return result;
     }
 
     private static byte Byte(float value) => (byte)Math.Clamp((int)MathF.Floor(value * 255f + .5f), 0, 255);
+    private static void Warn(Exception error)
+    {
+        if (warned) return;
+        warned = true;
+        ModDiagnostics.WarningOnce("Rendering.ParagonVisuals", error);
+    }
+
     private static void Warn(string detail)
     {
         if (warned) return;

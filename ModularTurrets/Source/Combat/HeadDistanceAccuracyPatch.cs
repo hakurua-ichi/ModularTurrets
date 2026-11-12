@@ -88,6 +88,6 @@ internal static class HeadDistanceAccuracyPatch
         weaponFactor = null;
         if (warned) return;
         warned = true;
-        Log.Warning(L.T("MT_HeadDistanceAccuracyUnavailable", error.Message));
+        ModDiagnostics.WarningOnce("Combat.HeadDistanceAccuracyDisabled", error);
     }
 }

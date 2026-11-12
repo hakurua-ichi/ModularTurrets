@@ -25,7 +25,7 @@ internal static class ParagonItemIconPatch
             new Harmony("local.modularturrets.paragon-item-icon").Patch(original,
                 postfix: new HarmonyMethod(typeof(ParagonItemIconPatch), nameof(Postfix)) { priority = Priority.Last });
         }
-        catch (Exception error) { Log.Warning(L.T("MT_ParagonIconPatchFailed", error.Message)); }
+        catch (Exception error) { ModDiagnostics.WarningOnce("Rendering.ParagonItemIconPatch", error); }
     }
 
     private static void Postfix(Thing thing, Material material, ref Texture __result)

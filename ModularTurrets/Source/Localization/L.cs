@@ -22,7 +22,12 @@ public static class L
         ? T("MT_LanguageAutomatic", LanguageDatabase.activeLanguage?.FriendlyNameNative ?? T("MT_LanguageGameDefault"))
         : Label(language);
 
-    public static void Reload() { loadedSelection = null; text = null; labels = null; }
+    public static void Reload()
+    {
+        loadedSelection = null; text = null; labels = null;
+        try { ThingDefLanguage.Apply(); }
+        catch (Exception error) { ModDiagnostics.WarningOnce("Localization.ApplyDefinitionNames", error); }
+    }
 
     public static string T(string key, params object[] args)
     {
@@ -36,9 +41,9 @@ public static class L
         }
         if (args == null || args.Length == 0) return template;
         try { return string.Format(CultureInfo.CurrentCulture, template, args); }
-        catch (FormatException)
+        catch (FormatException error)
         {
-            Log.ErrorOnce("[Modular Turrets] Invalid translation format: " + key, GenText.StableStringHash(key));
+            ModDiagnostics.ErrorOnce("Localization.Format/" + key, error);
             return template;
         }
     }
@@ -60,6 +65,12 @@ public static class L
         EnsureLoaded();
         return TryGetDefText(definition, "description", out string description)
             ? description : definition.description ?? string.Empty;
+    }
+
+    internal static string DefinitionText(Def definition, string field, string fallback)
+    {
+        EnsureLoaded();
+        return TryGetDefText(definition, field, out string value) ? value : fallback;
     }
 
     private static bool TryGetDefText(Def definition, string field, out string value)
@@ -129,12 +140,16 @@ public static class L
                 if (Directory.Exists(current) && (File.GetAttributes(current) & FileAttributes.ReparsePoint) != 0) return null;
             return candidate;
         }
-        catch (Exception exception) when (exception is ArgumentException or IOException or UnauthorizedAccessException) { return null; }
+        catch (Exception exception) when (exception is ArgumentException or IOException or UnauthorizedAccessException)
+        {
+            ModDiagnostics.WarningOnce("Localization.LanguageDirectory", exception);
+            return null;
+        }
     }
 
     private static void ReadBaseLabels(string modRoot)
     {
-        // Raw English Def text avoids changing global Defs when only this mod's UI language changes.
+        // Raw text supplies English fallback independently of game-language injection.
         ReadXmlFiles(Path.Combine(modRoot, "Defs"), document =>
         {
             foreach (XElement definition in document.Root?.Elements() ?? Enumerable.Empty<XElement>())
@@ -165,7 +180,7 @@ public static class L
             }
             catch (Exception exception) when (exception is XmlException or IOException or UnauthorizedAccessException)
             {
-                Log.Warning("[Modular Turrets] Could not read language XML: " + Path.GetFileName(file) + " (" + exception.GetType().Name + ")");
+                ModDiagnostics.WarningOnce("Localization.ReadXml/" + Selection + "/" + Path.GetFileName(file), exception);
             }
         }
     }

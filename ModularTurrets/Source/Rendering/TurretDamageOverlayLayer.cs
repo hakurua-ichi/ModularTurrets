@@ -13,7 +13,7 @@ internal static class TurretDamageOverlayLayer
         try { ApplyPatch(); }
         catch (Exception exception)
         {
-            Log.Warning("[Modular Turrets] Base damage overlay layer unavailable: " + exception.Message);
+            ModDiagnostics.WarningOnce("Rendering.BaseDamageOverlay", exception);
         }
     }
 

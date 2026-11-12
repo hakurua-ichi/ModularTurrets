@@ -26,7 +26,7 @@ internal static class InstalledPartWealthPatch
         catch (Exception error)
         {
             InstalledPartWealth.BlockTransfer();
-            Log.Warning(L.T("MT_WealthTransferUnavailable", error.Message));
+            ModDiagnostics.WarningOnce("Economy.InstalledPartWealthPatch", error);
         }
     }
 }

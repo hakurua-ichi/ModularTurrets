@@ -98,6 +98,8 @@
     <Compile Include="Economy/Building_ModularTurret.UpgradeInvestment.cs" />
     <Compile Include="Localization/ModLanguageDef.cs" />
     <Compile Include="Localization/L.cs" />
+    <Compile Include="Localization/ThingDefLanguage.cs" />
+    <Compile Include="Diagnostics/ModDiagnostics.cs" />
     <Compile Include="Modules/ModuleEffectDef.cs" />
     <Compile Include="Modules/ModuleEffectContext.cs" />
     <Compile Include="Modules/ModuleModifiers.cs" />

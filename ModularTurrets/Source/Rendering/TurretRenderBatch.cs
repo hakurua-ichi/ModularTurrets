@@ -371,7 +371,7 @@ internal static class TurretRenderBatch
         active = scopeEnabled = false;
         if (warnedFailure) return;
         warnedFailure = true;
-        try { Log.Warning("[Modular Turrets] Sprite instancing disabled for this session after a rendering error; ordinary sprites remain enabled. " + exception.Message); }
+        try { ModDiagnostics.WarningOnce("Rendering.SpriteInstancingDisabled", exception); }
         catch { /* Logging must not replace the game's original draw exception. */ }
     }
 

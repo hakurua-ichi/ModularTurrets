@@ -40,7 +40,7 @@ internal static class UnfinishedCraftingCompatibility
     {
         if (initialized) return;
         try { ApplyPatch(); initialized = true; }
-        catch (Exception error) { Log.ErrorOnce(L.T("MT_UnfinishedPatchFailed", error.Message), 1724213701); }
+        catch (Exception error) { ModDiagnostics.ErrorOnce("Construction.UnfinishedCraftingPatch", error); }
     }
 
     [MethodImpl(MethodImplOptions.NoInlining)]
@@ -74,7 +74,7 @@ internal static class UnfinishedCraftingCompatibility
                 try { job.bill = ConvertLegacyBill((Bill_Production)oldBill); }
                 catch (Exception error)
                 {
-                    Log.ErrorOnce(L.T("MT_UnfinishedMigrationFailed", oldBill.recipe.label, error.Message), 1724213702);
+                    ModDiagnostics.ErrorOnce("Construction.UnfinishedCraftingMigration", error);
                     __result.actor.jobs.EndCurrentJob(JobCondition.Incompletable);
                     return;
                 }

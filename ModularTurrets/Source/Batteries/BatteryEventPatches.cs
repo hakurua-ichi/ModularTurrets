@@ -30,7 +30,7 @@ internal static class BatteryEventPatches
                 if (transpiler) harmony.Patch(target, transpiler: patch);
                 else harmony.Patch(target, prefix: patch);
             }
-            catch (Exception ex) { Log.Warning($"[ModularTurrets] {type.Name}.{method}: {ex.Message}"); }
+            catch (Exception ex) { ModDiagnostics.WarningOnce("Batteries.EventPatch/" + method, ex); }
         }
     }
 

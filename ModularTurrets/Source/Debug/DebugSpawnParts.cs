@@ -154,6 +154,7 @@ internal static class DebugSpawnParts
             }
             catch (Exception error)
             {
+                ModDiagnostics.ErrorOnce("Debug.SpawnPart", error);
                 if (item != null && !item.Spawned && !item.Destroyed) item.Destroy(DestroyMode.Vanish);
                 Messages.Message(L.T("MT_DebugSpawnFailed", error.Message), MessageTypeDefOf.RejectInput, false);
             }

@@ -56,7 +56,7 @@ public static class SlotPartIcons
             try { icon = Create(part, anchor, paragon); }
             catch (Exception error)
             {
-                Log.Warning(L.T("MT_IconCenteringFailed", part.def.defName + "/" + slot, error.Message));
+                ModDiagnostics.WarningOnce("UI.SlotPartIcon", error);
             }
             // Failed or empty sources fall back once, without retries on every UI frame.
             Cache[key] = icon;

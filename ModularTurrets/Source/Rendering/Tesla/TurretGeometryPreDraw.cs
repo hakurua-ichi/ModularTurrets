@@ -150,7 +150,7 @@ internal static class TurretGeometryPreDraw
         if (Faulted) return;
         Faulted = true;
         lastError = error.GetType().Name + ": " + error.Message;
-        try { Log.Warning("[Modular Turrets] Tesla pre-draw disabled; using scalar geometry. " + error.Message); }
+        try { ModDiagnostics.WarningOnce("Rendering.TeslaGeometryFallback", error); }
         catch { /* Diagnostics must not replace the original draw path. */ }
     }
 

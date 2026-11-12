@@ -36,7 +36,7 @@ internal static class RelocationPatch
             // Failed protection must not expose a vanilla bypass through the shared building def.
             foreach (var def in DefDatabase<ThingDef>.AllDefsListForReading)
                 if (def.thingClass != null && typeof(Building_ModularTurret).IsAssignableFrom(def.thingClass)) def.minifiedDef = null;
-            Log.Warning(L.T("MT_RelocateBackendFailed", error.Message));
+            ModDiagnostics.WarningOnce("Construction.RelocationPatch", error);
         }
     }
 

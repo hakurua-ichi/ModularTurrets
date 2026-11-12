@@ -1224,14 +1224,15 @@
       <li>ModularTurrets.JobDriver_ModularTurretWork, ModularTurrets:OrderStillValid</li>
       <li>ModularTurrets.JobDriver_ModularTurretWork, ModularTurrets:TryMakePreToilReservations</li>
       <li>ModularTurrets.JobDriver_ModularTurretWork, ModularTurrets:get_Turret</li>
-      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadBaseLabels&gt;b__17_0</li>
-      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadLanguage&gt;b__15_0</li>
-      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadLanguage&gt;b__15_1</li>
-      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadXmlFiles&gt;b__18_0</li>
+      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadBaseLabels&gt;b__18_0</li>
+      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadLanguage&gt;b__16_0</li>
+      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadLanguage&gt;b__16_1</li>
+      <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;ReadXmlFiles&gt;b__19_0</li>
       <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;get_Languages&gt;b__6_0</li>
       <li>ModularTurrets.L+&lt;&gt;c, ModularTurrets:&lt;get_Languages&gt;b__6_1</li>
-      <li>ModularTurrets.L+&lt;&gt;c__DisplayClass14_0, ModularTurrets:&lt;EnsureLoaded&gt;b__0</li>
-      <li>ModularTurrets.L+&lt;&gt;c__DisplayClass15_0, ModularTurrets:&lt;ReadLanguage&gt;b__2</li>
+      <li>ModularTurrets.L+&lt;&gt;c__DisplayClass15_0, ModularTurrets:&lt;EnsureLoaded&gt;b__0</li>
+      <li>ModularTurrets.L+&lt;&gt;c__DisplayClass16_0, ModularTurrets:&lt;ReadLanguage&gt;b__2</li>
+      <li>ModularTurrets.L, ModularTurrets:DefinitionText</li>
       <li>ModularTurrets.L, ModularTurrets:Description</li>
       <li>ModularTurrets.L, ModularTurrets:EnsureLoaded</li>
       <li>ModularTurrets.L, ModularTurrets:Label</li>
@@ -1310,6 +1311,9 @@
       <li>ModularTurrets.MissileFlightExtension+&lt;ConfigErrors&gt;d__5, ModularTurrets:System.Collections.IEnumerator.get_Current</li>
       <li>ModularTurrets.MissileFlightExtension+&lt;ConfigErrors&gt;d__5, ModularTurrets:System.IDisposable.Dispose</li>
       <li>ModularTurrets.MissileFlightExtension, ModularTurrets:ConfigErrors</li>
+      <li>ModularTurrets.ModDiagnostics, ModularTurrets:ErrorOnce</li>
+      <li>ModularTurrets.ModDiagnostics, ModularTurrets:Report</li>
+      <li>ModularTurrets.ModDiagnostics, ModularTurrets:WarningOnce</li>
       <li>ModularTurrets.ModLanguageDef, ModularTurrets:get_IsAutomatic</li>
       <li>ModularTurrets.ModularMarketValue, ModularTurrets:Amount</li>
       <li>ModularTurrets.ModularMarketValue, ModularTurrets:AppliesTo</li>
@@ -1712,6 +1716,7 @@
       <li>ModularTurrets.TeslaPulseVisuals, ModularTurrets:Offset</li>
       <li>ModularTurrets.TeslaPulseVisuals, ModularTurrets:Spawn</li>
       <li>ModularTurrets.TeslaPulseVisuals, ModularTurrets:get_LineWidth</li>
+      <li>ModularTurrets.ThingDefLanguage, ModularTurrets:Apply</li>
       <li>ModularTurrets.TransportersArrivalAction_ModularMortar, ModularTurrets:Arrived</li>
       <li>ModularTurrets.TransportersArrivalAction_ModularMortar, ModularTurrets:ExposeData</li>
       <li>ModularTurrets.TransportersArrivalAction_ModularMortar, ModularTurrets:StillValid</li>

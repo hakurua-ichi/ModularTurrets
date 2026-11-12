@@ -212,7 +212,7 @@ public sealed class MapComponent_FootprintMigration : MapComponent, IThingHolder
             if (history.Count > historyCount) history.RemoveRange(historyCount, history.Count - historyCount);
             cleanDisplaced = false; awaitingSpawn = null;
             Quarantine(full, targets, L.T("MT_MigrationInternalFailure", error.GetType().Name));
-            Log.Error(L.T("MT_MigrationErrorLog", error));
+            ModDiagnostics.ErrorOnce("Construction.FootprintMigration", error);
         }
     }
 
@@ -255,7 +255,7 @@ public sealed class MapComponent_FootprintMigration : MapComponent, IThingHolder
         foreach (Thing victim in Displaced.ToList())
         {
             try { victim.Destroy(DestroyMode.Vanish); }
-            catch (Exception error) { lastFailure = L.T("MT_MigrationCleanupFailure", victim.ThingID); Log.Error(L.T("MT_MigrationErrorLog", error)); noticePending = true; }
+            catch (Exception error) { lastFailure = L.T("MT_MigrationCleanupFailure", victim.ThingID); ModDiagnostics.ErrorOnce("Construction.FootprintMigration", error); noticePending = true; }
         }
         cleanDisplaced = false;
     }
@@ -304,7 +304,7 @@ public sealed class MapComponent_FootprintMigration : MapComponent, IThingHolder
                 if (!Pending.Contains(target) && !Pending.TryAdd(target, false)) Log.Error(L.T("MT_MigrationHoldingFailed", target.ThingID));
             }
             lastFailure = L.T("MT_MigrationInternalFailure", error.GetType().Name); NotifyResult();
-            Log.Error(L.T("MT_MigrationErrorLog", error)); return false;
+            ModDiagnostics.ErrorOnce("Construction.FootprintMigration", error); return false;
         }
     }
 

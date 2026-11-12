@@ -24,7 +24,7 @@ internal static class RangedImpactGrammarPatch
         }
         catch (Exception exception)
         {
-            Log.Error(L.T("MT_ImpactGrammarPatchFailed", exception.Message));
+            ModDiagnostics.ErrorOnce("Combat.ImpactGrammarPatch", exception);
         }
     }
 

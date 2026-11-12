@@ -28,7 +28,7 @@ internal static class ProjectileFriendlyFirePatch
         }
         catch (Exception exception)
         {
-            Log.Error(L.T("MT_IffPatchFailed", exception.Message));
+            ModDiagnostics.ErrorOnce("Combat.FriendlyFirePatch", exception);
         }
     }
 
@@ -88,7 +88,7 @@ internal static class ProjectileFriendlyFirePatch
             filter = AccessTools.Method(typeof(ProjectileFriendlyFirePatch), nameof(HostileForInterception));
             if (filter == null) throw new MissingMethodException(nameof(HostileForInterception));
         }
-        catch (Exception exception) { WarnInterceptShape(exception.Message); return code; }
+        catch (Exception exception) { ModDiagnostics.WarningOnce("Combat.InterceptTranspiler", exception); WarnInterceptShape(exception.Message); return code; }
 
         // Other mods can rerun this transpiler after Initialize has returned.
         // Retain every existing instruction, label and exception block; add only

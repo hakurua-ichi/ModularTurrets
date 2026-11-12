@@ -23,7 +23,7 @@ internal static class LoosePartOutlinePrewarm
             }
             catch (Exception error)
             {
-                Log.Warning(L.T("MT_ItemOutlineInitializationFailed", definition.defName, error.Message));
+                ModDiagnostics.WarningOnce("Rendering.ItemOutlineInitialization", error);
             }
         }
     }
