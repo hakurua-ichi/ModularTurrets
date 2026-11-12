@@ -12,7 +12,7 @@ Modular turrets and batteries for **RimWorld 1.7/Waylith**. Requires **Harmony**
 ## Install
 
 - Use the runtime release's `ModularTurrets` folder as Workshop content or place it under the game's `Mods` directory. Load Harmony before Modular Turrets. Close the game before replacing an installed version.
-- Steam Workshop: Not yet published.
+- [Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3838344308)
 
 ## Build
 
