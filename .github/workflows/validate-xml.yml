@@ -21,39 +21,5 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Validate XML files
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import xml.etree.ElementTree as ET
-
-          errors = []
-          seen = {}
-          files = list(Path("ModularTurrets").rglob("*.xml"))
-
-          for path in files:
-              try:
-                  root = ET.parse(path).getroot()
-              except ET.ParseError as e:
-                  errors.append(f"{path}: {e}")
-                  continue
-
-              if root.tag != "LanguageData":
-                  continue
-
-              for node in root:
-                  key = (str(path.parent), node.tag)
-                  if key in seen:
-                      errors.append(
-                          f"Duplicate key {node.tag}: "
-                          f"{seen[key]} and {path}"
-                      )
-                  else:
-                      seen[key] = path
-
-          if errors:
-              print("\n".join(errors))
-              raise SystemExit(1)
-
-          print(f"Validated {len(files)} XML files")
-          PY
+      - name: Validate XML and translations
+        run: python3 .github/scripts/validate_xml.py
