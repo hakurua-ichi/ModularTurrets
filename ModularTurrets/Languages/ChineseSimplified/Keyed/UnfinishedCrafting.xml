@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_UnfinishedPatchFailed>未能初始化未完成部件制作兼容补丁：{0}</MT_UnfinishedPatchFailed>
+  <MT_UnfinishedMigrationFailed>由于无法转换清单 {0}，已停止制作，原有清单已保留：{1}</MT_UnfinishedMigrationFailed>
+
+</LanguageData>

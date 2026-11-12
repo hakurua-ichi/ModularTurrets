@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_RenderInstancingLabel>炮塔 GPU 实例化</MT_RenderInstancingLabel>
+  <MT_RenderInstancingHint>默认值：开启。合并符合条件的炮塔贴图以减少 CPU 渲染提交次数。&#10;在不支持的条件下会自动退回单独绘制。若出现闪烁等画面异常，请关闭此选项。</MT_RenderInstancingHint>
+
+</LanguageData>

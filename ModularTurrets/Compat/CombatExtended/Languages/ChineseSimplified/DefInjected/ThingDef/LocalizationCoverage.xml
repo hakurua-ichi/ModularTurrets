@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_Projectile_Laser.label>车载激光束</MT_CE_Projectile_Laser.label>
+  <MT_CE_Projectile_Quantum.label>车载量子冲击</MT_CE_Projectile_Quantum.label>
+  <MT_CE_Projectile_Tesla.label>车载特斯拉脉冲</MT_CE_Projectile_Tesla.label>
+  <MT_CE_Projectile_TeslaHit.label>车载特斯拉脉冲冲击</MT_CE_Projectile_TeslaHit.label>
+  <MT_CE_Projectile_Missile.label>车载弧线小型导弹</MT_CE_Projectile_Missile.label>
+</LanguageData>

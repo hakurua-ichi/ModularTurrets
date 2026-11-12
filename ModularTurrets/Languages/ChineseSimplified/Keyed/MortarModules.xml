@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MortarSupportAutoReloadDesc>允许迫击炮速射支援模块自动装填炮塔占地边缘 6 格内可用的实体炮弹。已禁用、已预留、搬运中以及位于其他楼层（Logical Floors）的弹药除外；在 Combat Extended 中使用当前所选的兼容弹药。关闭此项将停止自动装填，已分配给殖民者的重装工作不受影响。</MT_MortarSupportAutoReloadDesc>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_BatteryAssembly.label>assemble modular batteries</MT_BatteryAssembly.label>
+  <MT_BatteryAssembly.verb>work on</MT_BatteryAssembly.verb>
+  <MT_BatteryAssembly.gerund>working on modular batteries</MT_BatteryAssembly.gerund>
+  <MT_FillBatteries.label>deliver materials to batteries</MT_FillBatteries.label>
+  <MT_FillBatteries.verb>deliver materials to</MT_FillBatteries.verb>
+  <MT_FillBatteries.gerund>delivering battery modules and materials</MT_FillBatteries.gerund>
+</LanguageData>

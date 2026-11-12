@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SoundTrialLabel>Use trial firing sounds</MT_SoundTrialLabel>
+  <MT_SoundTrialHint>Use the new trial firing sounds.&#10;Turn this off to use the original 0.1.9 firing sounds.&#10;Changes apply from the next shot.&#10;These sounds are a trial version awaiting listening review.</MT_SoundTrialHint>
+</LanguageData>

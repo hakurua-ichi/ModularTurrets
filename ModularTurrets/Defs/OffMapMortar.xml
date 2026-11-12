@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef>
+    <defName>MT_OffMapMortarFlight</defName>
+    <label>mortar shell in flight</label>
+    <description>A modular mortar shell travelling to another loaded map.</description>
+    <worldObjectClass>RimWorld.Planet.TravellingTransporters</worldObjectClass>
+    <texture>Things/Projectile/ShellHighExplosive</texture>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>Things/Projectile/ShellHighExplosive</expandingIconTexture>
+    <expandingIconPriority>60</expandingIconPriority>
+    <expandMore>true</expandMore>
+    <fullyExpandedInSpace>true</fullyExpandedInSpace>
+    <validLaunchTarget>false</validLaunchTarget>
+  </WorldObjectDef>
+</Defs>

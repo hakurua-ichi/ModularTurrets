@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_TurretBase.label>모듈러 포탑 베이스 (기존 식별자)</MT_TurretBase.label>
+  <MT_TurretBase.description>원래라면 이 물건은 일반적인 플레이에서 볼 수 없습니다.&#10;가급적이면 사용하지 마십시오.&#10;원래 저장 식별자를 유지하는 기존 포탑 베이스입니다.&#10;모든 베이스는 이제 3×3을 점유하며 완료된 점유 변환은 다시 실행하지 않습니다.&#10;최초 구형 변환은 층별 장애물을 예약하여 가능한 원래 위치를 유지하거나 빈 3×3 공간으로 이동합니다.&#10;기존 건물·청사진·암석과 압축 지도 데이터는 보존합니다.&#10;배치할 공간이 없으면 같은 베이스와 건설 객체를 맵 밖 보관함에 보존하고 사용자가 명시적으로 재배치를 시도할 수 있습니다.&#10;장착 부품, 업그레이드, 작업 진행과 탄약은 같은 개체에 유지됩니다.&#10;새 건설은 현재 3×3 모듈러 포탑 베이스를 사용합니다.&#10;전투로 완전히 파괴되면 주변 약 5×5 범위에 폭발 피해를 줍니다. 잔해 전환이나 해체 시에는 폭발하지 않습니다.</MT_TurretBase.description>
+  <MT_TurretBaseLarge.label>모듈러 포탑 베이스</MT_TurretBaseLarge.label>
+  <MT_TurretBaseLarge.description>교체식 메인 부품과 보조 모듈을 결합하는 3×3 자동 포탑 베이스입니다.&#10;완성된 부품을 운반해 건설 작업량 100으로 장착합니다.&#10;주포(상단 부품)가 없으면 사격할 수 없습니다.&#10;건설 작업으로 공격·방어·사거리를 영구 개선할 수 있습니다.&#10;전투로 완전히 파괴되면 주변 약 5×5 범위에 폭발 피해를 줍니다. 잔해 전환이나 해체 시에는 폭발하지 않습니다.</MT_TurretBaseLarge.description>
+  <MT_AssemblyBench.label>포탑 조립 작업대</MT_AssemblyBench.label>
+  <MT_AssemblyBench.description>모듈러 포탑의 메인 부품과 보조 모듈을 제작하는 정밀 조립 작업대입니다.&#10;주포와 모듈의 업그레이드는 장착된 베이스에서 요청할 수 있습니다.</MT_AssemblyBench.description>
+  <MT_Head_Autocannon.label>기관포 메인 부품</MT_Head_Autocannon.label>
+  <MT_Head_Autocannon.description>기관포 상단 부품입니다.&#10;좌·우·상 모듈을 조합해 역할을 조정할 수 있습니다.</MT_Head_Autocannon.description>
+  <MT_Head_Sniper.label>저격포 메인 부품</MT_Head_Sniper.label>
+  <MT_Head_Sniper.description>저격포 상단 부품입니다.&#10;좌·우·상 모듈을 조합해 역할을 조정할 수 있습니다.</MT_Head_Sniper.description>
+  <MT_Head_DualAutocannon.label>이중 기관포 메인 부품</MT_Head_DualAutocannon.label>
+  <MT_Head_DualAutocannon.description>이중 기관포 상단 부품입니다.&#10;좌·우·상 모듈을 조합해 역할을 조정할 수 있습니다.</MT_Head_DualAutocannon.description>
+  <MT_Head_DualSniper.label>이중 저격포 메인 부품</MT_Head_DualSniper.label>
+  <MT_Head_DualSniper.description>이중 저격포 상단 부품입니다.&#10;좌·우·상 모듈을 조합해 역할을 조정할 수 있습니다.</MT_Head_DualSniper.description>
+  <MT_Head_DualMortar.label>이중 박격포 메인 부품</MT_Head_DualMortar.label>
+  <MT_Head_DualMortar.description>실물 포탄을 사용하는 무인 이중 박격포 상부입니다.&#10;장착 효과와 강화 설명은 현재 전투 방식에 맞춰 표시됩니다.</MT_Head_DualMortar.description>
+  <MT_Head_Flamethrower.label>화염방사기 메인 부품</MT_Head_Flamethrower.label>
+  <MT_Head_Flamethrower.description>화염방사기 상단 부품입니다.&#10;기본 사거리 6칸의 전방 90도 부채꼴 안에 있는 유효한 림·건물과 불에 탈 수 있는 식물·바닥 물품에 빗나감 없이 화염 피해를 주지만 벽에 막힙니다.</MT_Head_Flamethrower.description>
+  <MT_Head_Minigun.label>미니건 메인 부품</MT_Head_Minigun.label>
+  <MT_Head_Minigun.description>미니건 상단 부품입니다.&#10;좌·우·상 모듈을 조합해 역할을 조정할 수 있습니다.</MT_Head_Minigun.description>
+  <MT_Head_Laser.label>레이저포 메인 부품</MT_Head_Laser.label>
+  <MT_Head_Laser.description>레이저포 상단 부품입니다.&#10;관통력이 높은 레이저를 한 발씩 발사하며 탄체 비행 없이 피해를 줍니다.</MT_Head_Laser.description>
+  <MT_Head_Missile.label>미사일포 메인 부품</MT_Head_Missile.label>
+  <MT_Head_Missile.description>미사일 8발을 빠르게 발사하며, 좌우로 퍼지는 곡선 궤적을 그립니다.&#10;좌·우·상 모듈을 조합해 역할을 조정할 수 있습니다.</MT_Head_Missile.description>
+  <MT_Head_Tesla.label>테슬라 메인 부품</MT_Head_Tesla.label>
+  <MT_Head_Tesla.description>테슬라 상단 부품입니다.&#10;벽을 무시하고 포탑 사거리 안의 살아 있는 폰과 적대 건물에 전격을 동시에 가하며 빗나가지 않습니다.&#10;폰은 진영과 관계없이 피해를 받을 수 있습니다.&#10;구조상 상단 모듈을 장착할 수 없으며 좌·우 슬롯만 사용합니다.</MT_Head_Tesla.description>
+  <MT_Head_Quantum.label>양자포 메인 부품</MT_Head_Quantum.label>
+  <MT_Head_Quantum.description>양자포 상단 부품입니다.&#10;조준과 연사 간격을 유지하면서 탄체 비행 없이 단일 표적에 즉시 피해를 줍니다.&#10;벽과 지붕을 무시하며, 사거리와 명중률은 적용됩니다.</MT_Head_Quantum.description>
+  <MT_Module_Range.label>사거리 증가 모듈</MT_Module_Range.label>
+  <MT_Module_Range.description>레이더형 보조 모듈입니다.&#10;주포와 보조무기의 사거리를 늘립니다.&#10;제작 시 0단계이며 장착 후 5단계까지 업그레이드할 수 있습니다.&#10;분리해도 업그레이드 단계가 보존됩니다.&#10;같은 종류를 여러 개 장착하면 가장 강한 하나의 업그레이드 효과값은 100%, 나머지는 각각 35%만 반영하여 최종 능력치를 계산합니다.&#10;0단계에도 이 규칙이 적용됩니다.</MT_Module_Range.description>
+  <MT_Module_Shield.label>쉴드 모듈</MT_Module_Shield.label>
+  <MT_Module_Shield.description>통신 장치 형태의 방어 모듈입니다.&#10;피해를 흡수하는 재충전 쉴드를 생성하며, 파손 뒤에는 재가동 대기 시간이 필요합니다.&#10;제작 시 0단계이며 장착 후 5단계까지 업그레이드할 수 있습니다.&#10;분리해도 업그레이드 단계가 보존됩니다.&#10;같은 종류를 여러 개 장착하면 가장 강한 하나의 업그레이드 효과값은 100%, 나머지는 각각 35%만 반영하여 최종 능력치를 계산합니다.&#10;0단계에도 이 규칙이 적용됩니다.</MT_Module_Shield.description>
+  <MT_Module_Auxiliary.label>보조 기관포 모듈</MT_Module_Auxiliary.label>
+  <MT_Module_Auxiliary.description>주포와 별도의 사격 주기를 갖는 소형 기관포입니다. 업그레이드로 보조무기의 성능을 개선합니다. 제작 시 0단계이며 장착 후 5단계까지 업그레이드할 수 있습니다. 분리해도 업그레이드 단계가 보존됩니다.</MT_Module_Auxiliary.description>
+  <MT_Module_Aiming.label>조준 보조 모듈</MT_Module_Aiming.label>
+  <MT_Module_Aiming.description>레이저 조준 장치입니다.&#10;주포와 보조무기의 조준 시간을 줄입니다.&#10;제작 시 0단계이며 장착 후 5단계까지 업그레이드할 수 있습니다.&#10;분리해도 업그레이드 단계가 보존됩니다.&#10;같은 종류를 여러 개 장착하면 가장 강한 하나의 업그레이드 효과값은 100%, 나머지는 각각 35%만 반영하여 최종 능력치를 계산합니다.&#10;0단계에도 이 규칙이 적용됩니다.</MT_Module_Aiming.description>
+  <MT_Module_Cooling.label>냉각 모듈</MT_Module_Cooling.label>
+  <MT_Module_Cooling.description>냉각수 배관을 갖춘 방열 모듈입니다.&#10;주포와 보조무기의 일제사격 사이 대기 시간을 줄입니다.&#10;제작 시 0단계이며 장착 후 5단계까지 업그레이드할 수 있습니다.&#10;분리해도 업그레이드 단계가 보존됩니다.&#10;같은 종류를 여러 개 장착하면 가장 강한 하나의 업그레이드 효과값은 100%, 나머지는 각각 35%만 반영하여 최종 능력치를 계산합니다.&#10;0단계에도 이 규칙이 적용됩니다.</MT_Module_Cooling.description>
+  <MT_Gun_Autocannon.label>기관포</MT_Gun_Autocannon.label>
+  <MT_Gun_Autocannon.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Autocannon.description>
+  <MT_Projectile_Autocannon.label>기관포 투사체</MT_Projectile_Autocannon.label>
+  <MT_Gun_Sniper.label>저격포</MT_Gun_Sniper.label>
+  <MT_Gun_Sniper.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Sniper.description>
+  <MT_Projectile_Sniper.label>저격포 투사체</MT_Projectile_Sniper.label>
+  <MT_Gun_DualAutocannon.label>이중 기관포</MT_Gun_DualAutocannon.label>
+  <MT_Gun_DualAutocannon.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_DualAutocannon.description>
+  <MT_Projectile_DualAutocannon.label>이중 기관포 투사체</MT_Projectile_DualAutocannon.label>
+  <MT_Gun_DualSniper.label>이중 저격포</MT_Gun_DualSniper.label>
+  <MT_Gun_DualSniper.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_DualSniper.description>
+  <MT_Projectile_DualSniper.label>이중 저격포 투사체</MT_Projectile_DualSniper.label>
+  <MT_Gun_DualMortar.label>이중 박격포</MT_Gun_DualMortar.label>
+  <MT_Gun_DualMortar.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_DualMortar.description>
+  <MT_Projectile_DualMortar.label>이중 박격포 투사체</MT_Projectile_DualMortar.label>
+  <MT_Gun_Flamethrower.label>화염방사기</MT_Gun_Flamethrower.label>
+  <MT_Gun_Flamethrower.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Flamethrower.description>
+  <MT_Projectile_Flamethrower.label>화염방사기 투사체</MT_Projectile_Flamethrower.label>
+  <MT_Gun_Minigun.label>미니건</MT_Gun_Minigun.label>
+  <MT_Gun_Minigun.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Minigun.description>
+  <MT_Projectile_Minigun.label>미니건 투사체</MT_Projectile_Minigun.label>
+  <MT_Gun_Laser.label>레이저포</MT_Gun_Laser.label>
+  <MT_Gun_Laser.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Laser.description>
+  <MT_Projectile_Laser.label>레이저포 투사체</MT_Projectile_Laser.label>
+  <MT_Gun_Missile.label>미사일포</MT_Gun_Missile.label>
+  <MT_Gun_Missile.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Missile.description>
+  <MT_Projectile_Missile.label>미사일포 투사체</MT_Projectile_Missile.label>
+  <MT_Gun_Tesla.label>테슬라 코일</MT_Gun_Tesla.label>
+  <MT_Gun_Tesla.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Tesla.description>
+  <MT_Projectile_Tesla.label>테슬라 투사체</MT_Projectile_Tesla.label>
+  <MT_Gun_Quantum.label>양자포</MT_Gun_Quantum.label>
+  <MT_Gun_Quantum.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Quantum.description>
+  <MT_Projectile_Quantum.label>양자포 투사체</MT_Projectile_Quantum.label>
+  <MT_Gun_Auxiliary.label>보조 기관포</MT_Gun_Auxiliary.label>
+  <MT_Gun_Auxiliary.description>모듈러 포탑이 운용하는 내부 무장입니다.</MT_Gun_Auxiliary.description>
+  <MT_Projectile_Auxiliary.label>보조 기관포 투사체</MT_Projectile_Auxiliary.label>
+  <MT_Module_Fan.label>추적 서보 모듈</MT_Module_Fan.label>
+  <MT_Module_Fan.description>포탑이 목표를 추적하는 회전 속도를 높입니다.&#10;0/I/II/III/IV/V단계는 회전 속도가 각각 1.125/1.25/1.5/2/3/5배가 됩니다.&#10;같은 효과는 가장 높은 단계 하나만 적용하며, 분리해도 업그레이드 단계가 유지됩니다.</MT_Module_Fan.description>
+  <MT_Module_FireControl.label>정밀 사격 통제 모듈</MT_Module_FireControl.label>
+  <MT_Module_FireControl.description>조준 보조·아군 보호 모듈입니다.&#10;조립 관리와 아이템 정보에서 현재 포탑·전투 방식에 맞는 효과를 확인할 수 있습니다.&#10;분리해도 강화 단계는 유지됩니다.&#10;광란 등 공격적인 정신이상·화재 확산·붕괴는 보호하지 않습니다.</MT_Module_FireControl.description>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MakeBatteryGenerationModule.label>制作蓄电池自发电模块</MT_MakeBatteryGenerationModule.label>
+  <MT_MakeBatteryGenerationModule.description>把猫咪那核桃仁大小的大脑产生的电量包装成“自发电”拿来卖——边缘世界今天也依旧和平呢。&#10;&#10;每天产生相当于有效储能容量1/100（Wd）的电力，每个模块保底发电25 W。&#10;每次升级增加该基础发电量的25%，最高可升至V级。&#10;升级等级保存在实体部件上，拆卸后重新安装仍会保留。</MT_MakeBatteryGenerationModule.description>
+  <MT_MakeBatteryGenerationModule.jobString>正在制作蓄电池自发电模块。</MT_MakeBatteryGenerationModule.jobString>
+  <MT_MakeBatteryStorageModule.label>制作蓄电池大容量存储模块</MT_MakeBatteryStorageModule.label>
+  <MT_MakeBatteryStorageModule.description>严刑拷打外星人后开发出的离谱能量守恒革命！&#10;&#10;增加10,000 Wd储能容量，并使每次本体升级获得的容量提升50%。&#10;安装两个时效果叠加。</MT_MakeBatteryStorageModule.description>
+  <MT_MakeBatteryStorageModule.jobString>正在制作蓄电池大容量存储模块。</MT_MakeBatteryStorageModule.jobString>
+  <MT_MakeBatteryCoilModule.label>制作蓄电池无线供电模块</MT_MakeBatteryCoilModule.label>
+  <MT_MakeBatteryCoilModule.description>释放强烈的电磁波来无线供电。&#10;附近的房价怕是要跌了……&#10;&#10;通过蓄电池所在的电网，无需电线即可为40格内的用电设施供电。&#10;每次升级增加5格范围，V级时可达65格。&#10;升级等级保存在实体部件上，拆卸后重新安装仍会保留。</MT_MakeBatteryCoilModule.description>
+  <MT_MakeBatteryCoilModule.jobString>正在制作蓄电池无线供电模块。</MT_MakeBatteryCoilModule.jobString>
+  <MT_MakeBatteryProtectionModule.label>制作蓄电池浪涌保护模块</MT_MakeBatteryProtectionModule.label>
+  <MT_MakeBatteryProtectionModule.description>区区一个二极管加浪涌保护器，到底为什么要做得这么巨大？&#10;&#10;保护该蓄电池存储的电力免受电网短路影响，并防止需要零部件的机械故障。</MT_MakeBatteryProtectionModule.description>
+  <MT_MakeBatteryProtectionModule.jobString>正在制作蓄电池浪涌保护模块。</MT_MakeBatteryProtectionModule.jobString>
+  <MT_MakeBatteryReserveModule.label>制作蓄电池应急备用电源模块</MT_MakeBatteryReserveModule.label>
+  <MT_MakeBatteryReserveModule.description>总有一天你会迎来急需快速按下 CTRL + S 的时刻！&#10;&#10;额外储存相当于常规容量20%的应急备用电力。&#10;利用富余电力充电，并在电网供电不足时释放。&#10;安装两个时备用比例保持不变。</MT_MakeBatteryReserveModule.description>
+  <MT_MakeBatteryReserveModule.jobString>正在制作蓄电池应急备用电源模块。</MT_MakeBatteryReserveModule.jobString>
+  <MT_MakeBatteryEfficiencyModule.label>制作蓄电池充电效率模块</MT_MakeBatteryEfficiencyModule.label>
+  <MT_MakeBatteryEfficiencyModule.description>将电池串联起来提高了充电效率！&#10;虽然有利于快充，但希望别被当成土制炸弹。&#10;&#10;将充电效率提升至100%。&#10;安装一个即可获得全部效果。&#10;此模块无法升级。</MT_MakeBatteryEfficiencyModule.description>
+  <MT_MakeBatteryEfficiencyModule.jobString>正在制作蓄电池充电效率模块。</MT_MakeBatteryEfficiencyModule.jobString>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_UnfinishedPatchFailed>미완성 부품 제작 호환 처리를 초기화하지 못했습니다: {0}</MT_UnfinishedPatchFailed>
+  <MT_UnfinishedMigrationFailed>{0} 제작 지시를 변환하지 못해 작업을 중단했습니다. 기존 지시는 유지됩니다: {1}</MT_UnfinishedMigrationFailed>
+</LanguageData>

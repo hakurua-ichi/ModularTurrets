@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MortarSupportAutoReloadDesc>Allow the mortar support module to load real, usable shells within 6 cells of the turret footprint. Forbidden, reserved, carried and ammunition on other floors (Logical Floors) is excluded. Combat Extended uses the selected compatible ammunition. Turning this off stops automatic loading; existing pawn reload jobs are unchanged.</MT_MortarSupportAutoReloadDesc>
+</LanguageData>

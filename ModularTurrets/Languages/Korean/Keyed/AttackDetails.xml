@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MainAttackShots>공격 1회(한 번의 연사): 주포 최대 {0}발.&#10;각 발은 주 대상에게 한 번 타격을 시도합니다. 빗나감·엄폐·목표 상실·탄약 부족으로 실제 타격 수는 줄어들 수 있습니다. 폭발·범위·추가 효과는 다른 대상에도 피해를 줄 수 있으며 보조 무장은 별도로 발사합니다.</MT_MainAttackShots>
+  <MT_MainAttackPulses>공격 1회: 범위 펄스 {0}회.&#10;펄스마다 사거리 안의 유효한 대상을 각각 한 번 타격합니다. 대상 수는 상황에 따라 달라지며 보조 무장은 별도로 발사합니다.</MT_MainAttackPulses>
+  <MT_MainAttackShotsCE>설정된 주포 연사: 공격 1회당 최대 {0}발.&#10;실제 발사 수는 Combat Extended의 사격 모드와 탄약량에 따라 달라집니다. 산탄·폭발·추가 효과가 타격을 더할 수 있으며 명중을 보장하는 횟수는 아닙니다. 보조 무장은 별도로 발사합니다.</MT_MainAttackShotsCE>
+  <MT_BaseArmorLimit>받는 피해 배율이 이미 하한선(5%)에 도달했습니다. 방어 성능이 더 이상 오르지 않으므로 추가 업그레이드를 예약할 수 없습니다.</MT_BaseArmorLimit>
+</LanguageData>

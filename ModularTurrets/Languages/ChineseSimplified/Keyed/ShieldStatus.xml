@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_ShieldStatusTitle>炮塔护盾</MT_ShieldStatusTitle>
+  <MT_ShieldStatusEnergy>{0:N0} / {1:N0}</MT_ShieldStatusEnergy>
+  <MT_ShieldStatusFull>充能完毕</MT_ShieldStatusFull>
+  <MT_ShieldStatusNoPower>断电</MT_ShieldStatusNoPower>
+  <MT_ShieldStatusDelay>{0:0} 秒后开始充能</MT_ShieldStatusDelay>
+  <MT_ShieldStatusRecharging>充能中</MT_ShieldStatusRecharging>
+  <MT_ShieldStatusEmergencyReady>典范紧急充能：就绪</MT_ShieldStatusEmergencyReady>
+  <MT_ShieldStatusEmergencyDelay>典范紧急充能：{0:0} 秒</MT_ShieldStatusEmergencyDelay>
+  <MT_ShieldStatusEmergencyNoPower>典范紧急充能：需要电力</MT_ShieldStatusEmergencyNoPower>
+  <MT_ShieldStatusTip>当前护盾能量 / 最大容量。&#10;此护盾仅保护该炮塔本身；吸收伤害与充能均需消耗电力。</MT_ShieldStatusTip>
+  <MT_ShieldStatusEmergencyTip>典范紧急充能会在护盾耗尽时触发。&#10;EMP 不会触发此效果，且不会吸收击破护盾那一击的剩余伤害。</MT_ShieldStatusEmergencyTip>
+  <MT_ShieldRechargeRules>每次吸收伤害都会将充能等待时间重置为 5 秒。&#10;护盾耗尽或受到 EMP 攻击时需等待 20 秒。&#10;等待结束后，通电状态下每秒恢复最大护盾值的 1/120。</MT_ShieldRechargeRules>
+
+</LanguageData>

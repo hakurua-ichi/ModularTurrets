@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_DebugSpawnPart>指定等级生成部件</MT_DebugSpawnPart>
+  <MT_DebugSpawnHeads>炮塔主炮</MT_DebugSpawnHeads>
+  <MT_DebugSpawnModules>炮塔模块</MT_DebugSpawnModules>
+  <MT_DebugSpawnBatteryModules>蓄电池模块</MT_DebugSpawnBatteryModules>
+  <MT_DebugSpawnTier>{0}级</MT_DebugSpawnTier>
+  <MT_DebugSpawnLevel>强化 {0}级</MT_DebugSpawnLevel>
+  <MT_DebugSpawnParagon>典范（V级）</MT_DebugSpawnParagon>
+  <MT_DebugSpawnChoice>{0} · {1}</MT_DebugSpawnChoice>
+  <MT_DebugSpawnOutsideMap>请选择当前地图内的格子。</MT_DebugSpawnOutsideMap>
+  <MT_DebugSpawnFloorUnavailable>当前楼层不可用，未放置部件。</MT_DebugSpawnFloorUnavailable>
+  <MT_DebugSpawnNoSpace>附近没有可放置该部件的安全空格。</MT_DebugSpawnNoSpace>
+  <MT_DebugSpawnFailed>未能生成所选部件：{0}</MT_DebugSpawnFailed>
+</LanguageData>

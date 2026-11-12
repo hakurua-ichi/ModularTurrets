@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_Projectile_Laser.label>mounted laser beam</MT_CE_Projectile_Laser.label>
+  <MT_CE_Projectile_Quantum.label>mounted quantum impact</MT_CE_Projectile_Quantum.label>
+  <MT_CE_Projectile_Tesla.label>mounted Tesla pulse</MT_CE_Projectile_Tesla.label>
+  <MT_CE_Projectile_TeslaHit.label>mounted Tesla pulse impact</MT_CE_Projectile_TeslaHit.label>
+  <MT_CE_Projectile_Missile.label>mounted curved miniature missile</MT_CE_Projectile_Missile.label>
+</LanguageData>

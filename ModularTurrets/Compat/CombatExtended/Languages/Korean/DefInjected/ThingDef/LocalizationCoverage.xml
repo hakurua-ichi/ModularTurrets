@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_Projectile_Laser.label>장착형 레이저 광선</MT_CE_Projectile_Laser.label>
+  <MT_CE_Projectile_Quantum.label>장착형 양자 충격</MT_CE_Projectile_Quantum.label>
+  <MT_CE_Projectile_Tesla.label>장착형 테슬라 펄스</MT_CE_Projectile_Tesla.label>
+  <MT_CE_Projectile_TeslaHit.label>장착형 테슬라 펄스 충격</MT_CE_Projectile_TeslaHit.label>
+  <MT_CE_Projectile_Missile.label>장착형 곡선 소형 미사일</MT_CE_Projectile_Missile.label>
+</LanguageData>

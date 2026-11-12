@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MakeBatteryGenerationModule.label>make battery self-generation module</MT_MakeBatteryGenerationModule.label>
+  <MT_MakeBatteryGenerationModule.description>Passing off the electrical output of a walnut-sized cat brain as "self-generation"—just another peaceful day on the Rim.&#10;&#10;Generate 1/100 of effective storage capacity in Wd per day, at least 25 W per module.&#10;Each upgrade level adds 25% of this base output, up to level V.&#10;Upgrade levels follow the physical module when it is removed and installed again.</MT_MakeBatteryGenerationModule.description>
+  <MT_MakeBatteryGenerationModule.jobString>Making battery self-generation module.</MT_MakeBatteryGenerationModule.jobString>
+  <MT_MakeBatteryStorageModule.label>make battery high-capacity storage module</MT_MakeBatteryStorageModule.label>
+  <MT_MakeBatteryStorageModule.description>We tortured an alien into giving up an absurd revolution in energy conservation!&#10;&#10;Add 10,000 Wd of storage and increase the capacity gained from each base upgrade by 50%.&#10;These bonuses add per installed copy.</MT_MakeBatteryStorageModule.description>
+  <MT_MakeBatteryStorageModule.jobString>Making battery high-capacity storage module.</MT_MakeBatteryStorageModule.jobString>
+  <MT_MakeBatteryCoilModule.label>make battery wireless power module</MT_MakeBatteryCoilModule.label>
+  <MT_MakeBatteryCoilModule.description>Radiates intense electromagnetic waves to supply power wirelessly.&#10;There go the neighborhood property values...&#10;&#10;Supply electrical consumers within 40 cells through the battery power network without connecting wires.&#10;Each upgrade adds 5 cells of range, up to 65 cells at level V.&#10;Upgrade levels follow the physical module when it is removed and installed again.</MT_MakeBatteryCoilModule.description>
+  <MT_MakeBatteryCoilModule.jobString>Making battery wireless power module.</MT_MakeBatteryCoilModule.jobString>
+  <MT_MakeBatteryProtectionModule.label>make battery surge protection module</MT_MakeBatteryProtectionModule.label>
+  <MT_MakeBatteryProtectionModule.description>Why on earth did they build a simple diode and surge protector this huge?&#10;&#10;Protect this battery's stored electricity from power-network short circuits and prevent component breakdowns.</MT_MakeBatteryProtectionModule.description>
+  <MT_MakeBatteryProtectionModule.jobString>Making battery surge protection module.</MT_MakeBatteryProtectionModule.jobString>
+  <MT_MakeBatteryReserveModule.label>make battery emergency reserve module</MT_MakeBatteryReserveModule.label>
+  <MT_MakeBatteryReserveModule.description>Sooner or later, there comes a moment when you desperately need a quick CTRL + S!&#10;&#10;Store an additional 20% of ordinary capacity as emergency reserve.&#10;Charge it from surplus electricity and release it when the network is short of power.&#10;Two copies keep the same reserve fraction.</MT_MakeBatteryReserveModule.description>
+  <MT_MakeBatteryReserveModule.jobString>Making battery emergency reserve module.</MT_MakeBatteryReserveModule.jobString>
+  <MT_MakeBatteryEfficiencyModule.label>make battery charging-efficiency module</MT_MakeBatteryEfficiencyModule.label>
+  <MT_MakeBatteryEfficiencyModule.description>Wired the cells in series to boost charging efficiency!&#10;Great for fast charging—just hope TSA doesn't mistake it for an IED.&#10;&#10;Set charging efficiency to 100%.&#10;One installed copy provides the full effect.&#10;This module cannot be upgraded.</MT_MakeBatteryEfficiencyModule.description>
+  <MT_MakeBatteryEfficiencyModule.jobString>Making battery charging-efficiency module.</MT_MakeBatteryEfficiencyModule.jobString>
+</LanguageData>

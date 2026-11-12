@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>ModularTurrets.Compat.Maru</AssemblyName>
+    <Version>0.1.1</Version>
+    <GameRoot Condition="'$(GameRoot)' == ''">F:/SteamLibrary/steamapps/common/RimWorld</GameRoot>
+    <HarmonyPath Condition="'$(HarmonyPath)' == ''">$(GameRoot)/../../workshop/content/294100/2009463077/1.7/Assemblies/0Harmony.dll</HarmonyPath>
+    <OutputPath>../Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../Shared/QuantumDamage.cs" Link="QuantumDamage.cs" />
+    <Compile Include="../../Shared/QuantumShieldAdapters.cs" Link="QuantumShieldAdapters.cs" />
+    <Reference Include="ModularTurrets" HintPath="../../../Assemblies/ModularTurrets.dll" Private="false" />
+    <Reference Include="Assembly-CSharp" HintPath="$(GameRoot)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityStubs" HintPath="$(GameRoot)/UnityStubs.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(HarmonyPath)" Private="false" />
+  </ItemGroup>
+</Project>

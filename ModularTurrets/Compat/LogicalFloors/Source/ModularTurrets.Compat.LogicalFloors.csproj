@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>ModularTurrets.Compat.LogicalFloors</AssemblyName>
+    <Version>0.1.1</Version>
+    <GameRoot Condition="'$(GameRoot)' == ''">F:\SteamLibrary\steamapps\common\RimWorld</GameRoot>
+    <LogicalFloorsPath Condition="'$(LogicalFloorsPath)' == ''">F:\SteamLibrary\steamapps\workshop\content\294100\3813239016\1.7\Assemblies\dd.LogicalFloors.dll</LogicalFloorsPath>
+    <OutputPath>../Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <Import Project="CompileOrder.props" />
+  <ItemGroup>
+    <Reference Include="ModularTurrets" HintPath="../../../Assemblies/ModularTurrets.dll" Private="false" />
+    <Reference Include="dd.LogicalFloors" HintPath="$(LogicalFloorsPath)" Private="false" />
+    <Reference Include="Assembly-CSharp" HintPath="$(GameRoot)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityStubs" HintPath="$(GameRoot)/UnityStubs.dll" Private="false" />
+    <Reference Include="Waylith" HintPath="$(GameRoot)/Waylith.dll" Private="false" />
+  </ItemGroup>
+</Project>

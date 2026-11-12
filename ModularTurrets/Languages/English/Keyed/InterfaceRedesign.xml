@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_UIR_Close>Close control panel</MT_UIR_Close>
+  <MT_UIR_PartsTab>Parts</MT_UIR_PartsTab>
+  <MT_UIR_BaseTab>Base upgrades</MT_UIR_BaseTab>
+  <MT_UIR_EmptySlot>Empty slot</MT_UIR_EmptySlot>
+  <MT_UIR_SlotPending>A job for this slot is waiting or in progress.</MT_UIR_SlotPending>
+  <MT_UIR_SelectedSlot>Selected: {0}</MT_UIR_SelectedSlot>
+  <MT_UIR_InstallQueued>Start installation</MT_UIR_InstallQueued>
+  <MT_UIR_Refresh>Refresh parts</MT_UIR_Refresh>
+  <MT_UIR_PartLocation>{0:0.0} cells away · ({1}, {2})</MT_UIR_PartLocation>
+  <MT_UIR_WorkProgress>Work completed: {0:N0} / {1:N0}</MT_UIR_WorkProgress>
+  <MT_UIR_MaterialsRemaining>Still needed: {0}</MT_UIR_MaterialsRemaining>
+  <MT_UIR_MaterialsReady>Materials ready</MT_UIR_MaterialsReady>
+  <MT_HeadScatterUnavailable>This game version does not support the head upgrade's forced scatter adjustment. Other accuracy bonuses remain active.</MT_HeadScatterUnavailable>
+  <MT_UIR_SupportSeconds>Main aim {0:0.00} s   Post-burst wait {1:0.00} s   Shield {2:0}/{3:0}   {4}</MT_UIR_SupportSeconds>
+  <MT_UIR_InstallPart>+ Install part</MT_UIR_InstallPart>
+  <MT_UIR_UpgradePart>Upgrade</MT_UIR_UpgradePart>
+  <MT_UIR_DetachPart>Detach</MT_UIR_DetachPart>
+  <MT_UIR_SelectTitle>Select a crafted part</MT_UIR_SelectTitle>
+  <MT_UIR_UpgradeTitle>Part upgrade</MT_UIR_UpgradeTitle>
+  <MT_UIR_EffectScope>Values describe this part alone, excluding the base and other parts.&#10;Range, shield, aiming and cooling modules combine 100% of the strongest module's upgrade-effect value with 35% of each additional module's value, including at tier 0.&#10;Tracking servos and fire controllers use only their highest installed tier.&#10;Auxiliary weapons fire independently.</MT_UIR_EffectScope>
+  <MT_UIR_EffectHead>Part damage ×{0:0.00}&#10;Armor penetration bonus +{1:P0}</MT_UIR_EffectHead>
+  <MT_UIR_EffectHeadAccuracy>No distance accuracy penalty within effective range; weapon accuracy is based on current maximum range. Head upgrades reduce weapon miss chance by {0:P0} (weather, smoke and target size still apply).</MT_UIR_EffectHeadAccuracy>
+  <MT_HeadDistanceAccuracyUnavailable>[ModularTurrets] Head in-range accuracy adjustment unavailable; native hit calculation retained: {0}</MT_HeadDistanceAccuracyUnavailable>
+  <MT_UIR_EffectScatter>Scatter radius reduced by {0:P0}</MT_UIR_EffectScatter>
+  <MT_UIR_EffectGuaranteed>Valid-target hit chance: 100%</MT_UIR_EffectGuaranteed>
+  <MT_UIR_EffectRange>Weapon range bonus {0:+0.0%;-0.0%;0%}</MT_UIR_EffectRange>
+  <MT_UIR_EffectShield>Shield capacity +{0:0}</MT_UIR_EffectShield>
+  <MT_UIR_EffectAiming>Aim time reduced by {0:P1}</MT_UIR_EffectAiming>
+  <MT_UIR_EffectCooling>Post-burst wait reduced by {0:P1}</MT_UIR_EffectCooling>
+  <MT_UIR_EffectAuxiliary>Auxiliary damage ×{0:0.00}&#10;{1} shots per burst · {2:0.000} s between shots</MT_UIR_EffectAuxiliary>
+  <MT_UIR_EffectServo>Tracking rotation speed ×{0:0.000}</MT_UIR_EffectServo>
+  <MT_UIR_EffectAccuracy>Weapon miss chance reduced by {0:P1}</MT_UIR_EffectAccuracy>
+  <MT_UIR_EffectFriendly>Non-hostile faction pawns protected (aggressive states excluded); mortar shells also protect same-faction buildings.</MT_UIR_EffectFriendly>
+  <MT_UIR_EffectRangeFlat>Additional range {0:+0.0;-0.0;0} cells</MT_UIR_EffectRangeFlat>
+  <MT_UIR_EffectDamage>Damage factor ×{0:0.00}</MT_UIR_EffectDamage>
+  <MT_UIR_EffectPenetration>Armor penetration bonus {0:+0.0%;-0.0%;0%}</MT_UIR_EffectPenetration>
+  <MT_UIR_EffectPower>Part power demand {0:0} W</MT_UIR_EffectPower>
+  <MT_UIR_BaseCounts>Completed: {0} · Waiting: {1}</MT_UIR_BaseCounts>
+  <MT_UIR_BaseDamage>Current base damage: ×{0:0.00}&#10;Next upgrade: ×{1:0.00}</MT_UIR_BaseDamage>
+  <MT_UIR_BaseArmor>Current incoming damage: {0:P1}&#10;Next upgrade: {1:P1}</MT_UIR_BaseArmor>
+  <MT_UIR_BaseRange>Current added range: {0:0.0} cells&#10;Next upgrade: {1:0.0} cells</MT_UIR_BaseRange>
+  <MT_UIR_BaseSingleCost>Upgrade cost&#10;{0} {1:N0} · {2} {3:N0}&#10;{4} {5:N0}&#10;Work {6:N0}</MT_UIR_BaseSingleCost>
+  <MT_UIR_CostStage>After waiting jobs · upgrade #{0}</MT_UIR_CostStage>
+  <MT_UIR_BaseQueueOne>Add 1</MT_UIR_BaseQueueOne>
+  <MT_UIR_BaseQueueFive>Add 5</MT_UIR_BaseQueueFive>
+  <MT_UIR_BaseQueueCost>{0}: add {1} upgrades&#10;Total after all waiting work completes: {2}&#10;Combined cost: {3} {4:N0}, {5} {6:N0}, {7} {8:N0}&#10;Total work {9:N0}</MT_UIR_BaseQueueCost>
+  <MT_UIR_ClosePopup>Close</MT_UIR_ClosePopup>
+  <MT_UIR_StageNext>Current {0}/5 → next {1}/5</MT_UIR_StageNext>
+  <MT_UIR_StageMax>Current {0}/5 · maximum tier</MT_UIR_StageMax>
+  <MT_UIR_CompareCurrent>Current tier · {0}</MT_UIR_CompareCurrent>
+  <MT_UIR_CompareNext>Next tier · {0}</MT_UIR_CompareNext>
+  <MT_UIR_RequiredMaterials>Required materials</MT_UIR_RequiredMaterials>
+  <MT_UIR_ResourceAmount>{0} ×{1:N0}</MT_UIR_ResourceAmount>
+  <MT_UIR_WorkAmount>Work {0:N0}</MT_UIR_WorkAmount>
+  <MT_UIR_PartIconInfo>{0} · current tier {1}/5&#10;&#10;Current effects (this part alone)&#10;{2}&#10;&#10;{3}</MT_UIR_PartIconInfo>
+  <MT_UIR_UpgradeInfo>{0}&#10;&#10;{1}&#10;&#10;Upgrade tiers stay with this part when it is removed and reinstalled.</MT_UIR_UpgradeInfo>
+  <MT_UIR_BackToTurret>Back</MT_UIR_BackToTurret>
+  <MT_UIR_CombatDamage>Main shot damage {0}   Incoming damage {1:P0}   Range {2:0.0} cells   Power demand {3:0} W</MT_UIR_CombatDamage>
+  <MT_UIR_MainDamageTip>Damage from one main-weapon shot to one target, including upgrades.&#10;Armor and explosion distance falloff apply on impact.</MT_UIR_MainDamageTip>
+  <MT_UIR_CancelBaseOne>Cancel only this upgrade task.&#10;Later base upgrades shift forward to fill its place.</MT_UIR_CancelBaseOne>
+  <MT_UIR_StartUpgrade>Start upgrade</MT_UIR_StartUpgrade>
+  <MT_UIR_FinishUpgrade>Complete the existing upgrade before starting another.</MT_UIR_FinishUpgrade>
+  <MT_UIR_UpgradeWorking>Upgrading to tier {0}</MT_UIR_UpgradeWorking>
+  <MT_UIR_UpgradeWaiting>Waiting for tier {0} upgrade</MT_UIR_UpgradeWaiting>
+  <MT_UIR_PartStageActive>Tier {0}/5 · {1}</MT_UIR_PartStageActive>
+  <MT_UIR_StageActive>Current tier {0}/5 · {1}</MT_UIR_StageActive>
+</LanguageData>

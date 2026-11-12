@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>MT_AssemblyHaul</defName>
+    <driverClass>ModularTurrets.JobDriver_ModularTurretHaul</driverClass>
+    <reportString>Hauling modular turret parts and materials.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>MT_AssemblyWork</defName>
+    <driverClass>ModularTurrets.JobDriver_ModularTurretWork</driverClass>
+    <reportString>Assembling or upgrading a modular turret.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <WorkGiverDef>
+    <defName>MT_Assembly</defName>
+    <label>assemble modular turrets</label>
+    <giverClass>ModularTurrets.WorkGiver_ModularTurretAssembly</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>105</priorityInType>
+    <verb>assemble</verb>
+    <gerund>assembling modular turrets</gerund>
+    <scanThings>true</scanThings>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>MT_FillTurrets</defName>
+    <label>deliver materials to turrets</label>
+    <giverClass>ModularTurrets.WorkGiver_ModularTurretHaul</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>105</priorityInType>
+    <verb>deliver materials to</verb>
+    <gerund>delivering turret parts and materials</gerund>
+    <scanThings>true</scanThings>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>MT_DoBillsAssemblyBench</defName>
+    <label>make turret parts</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>75</priorityInType>
+    <fixedBillGiverDefs>
+      <li>MT_AssemblyBench</li>
+    </fixedBillGiverDefs>
+    <verb>make parts at</verb>
+    <gerund>making parts at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_Assembly.label>모듈러 포탑 조립</MT_Assembly.label>
+  <MT_Assembly.verb>조립</MT_Assembly.verb>
+  <MT_Assembly.gerund>모듈러 포탑 조립</MT_Assembly.gerund>
+  <MT_FillTurrets.label>포탑에 재료 넣기</MT_FillTurrets.label>
+  <MT_FillTurrets.verb>재료 넣기</MT_FillTurrets.verb>
+  <MT_FillTurrets.gerund>포탑에 부품과 재료 운반 중</MT_FillTurrets.gerund>
+</LanguageData>

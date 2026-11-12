@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_WreckInspect>Damaged: weapons, shield and assembly are offline. Restore the turret to resume operation. At zero damaged-state hit points, or when deconstructed while damaged, the turret is completely lost with no parts or resources returned.</MT_WreckInspect>
+  <MT_WreckRestoreLabel>Restore turret</MT_WreckRestoreLabel>
+  <MT_WreckRestoreDesc>Complete {0:0} construction work to restore the turret to full health.&#10;Add the crafting costs of the installed head and modules to the resources spent upgrading them and the base.&#10;Restoration requires half of each resource total, rounded up.&#10;Installed parts, upgrades and queued work are retained.</MT_WreckRestoreDesc>
+  <MT_WreckRestoreQueued>Restoration is already in the work queue.</MT_WreckRestoreQueued>
+  <MT_WreckRestoreCosts>Restoration materials:</MT_WreckRestoreCosts>
+  <MT_WreckRestoreNoCost>This restoration requires no materials.</MT_WreckRestoreNoCost>
+  <MT_WreckRestoreEstimated>Older upgrade spending was not recorded; its share is estimated using the previous upgrade prices.</MT_WreckRestoreEstimated>
+  <MT_WreckRestoreOrder>Restore damaged turret</MT_WreckRestoreOrder>
+  <MT_WreckCannotAttack>Restore the damaged turret before firing.</MT_WreckCannotAttack>
+  <MT_WreckAssemblyStopped>Restore the damaged turret before assembly can continue.</MT_WreckAssemblyStopped>
+  <MT_WreckSupplyButton>Place repair materials</MT_WreckSupplyButton>
+  <MT_WreckSupplyTip>Place missing repair materials on the ground near this turret.&#10;Materials already delivered, being carried here, or available nearby count toward the cost.</MT_WreckSupplyTip>
+  <MT_DebugWreckMaterialsNone>No additional repair materials are needed nearby.</MT_DebugWreckMaterialsNone>
+  <MT_DebugWreckMaterialsDropped>Placed {0:N0} repair materials near the turret.</MT_DebugWreckMaterialsDropped>
+  <MT_DebugWreckMaterialsPartial>Placed {0:N0} repair materials. More space is needed for the remaining {1:N0}.</MT_DebugWreckMaterialsPartial>
+</LanguageData>

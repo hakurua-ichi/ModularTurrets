@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MarketValueBonus>장착 부품(100%)·완료한 강화(재료 가치의 5%): +{0}</MT_MarketValueBonus>
+  <MT_WealthTransferUnavailable>[모듈러 포탑] 장착 부품의 재산 이전을 적용하지 못해 기존 물건 집계를 유지합니다: {0}</MT_WealthTransferUnavailable>
+  <MT_WealthCoreShapeChanged>[모듈러 포탑] 기본 재산 집계 구조가 바뀌어 장착 부품 이전을 끄고 기존 집계를 유지합니다.</MT_WealthCoreShapeChanged>
+  <MT_WealthBreakdownUnavailable>[모듈러 포탑] VisibleWealth 연동을 적용하지 못해 기존 집계를 유지합니다: {0}</MT_WealthBreakdownUnavailable>
+  <MT_WealthBreakdownShapeChanged>[모듈러 포탑] VisibleWealth 집계 구조가 바뀌어 장착 부품 이전을 끄고 기존 집계를 유지합니다.</MT_WealthBreakdownShapeChanged>
+</LanguageData>

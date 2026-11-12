@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MainAttackShots>One attack (one burst): up to {0} main-weapon shots.&#10;Each shot can hit its primary target once. Misses, cover, lost targets or insufficient ammunition may reduce this count. Blast, area and secondary effects can affect additional targets; auxiliary weapons are counted separately.</MT_MainAttackShots>
+  <MT_MainAttackPulses>One attack: {0} field pulse(s).&#10;Each pulse hits every eligible target within range once. The number of targets varies. Auxiliary weapons are counted separately.</MT_MainAttackPulses>
+  <MT_MainAttackShotsCE>Configured main-weapon burst: up to {0} shots per attack.&#10;Combat Extended controls the actual shot count through its fire mode and available ammunition. Pellets, blast and secondary effects may add hits; this is not a guaranteed hit count. Auxiliary weapons are counted separately.</MT_MainAttackShotsCE>
+  <MT_BaseArmorLimit>Incoming damage has already reached the 5% minimum cap. Further defense upgrades provide no additional benefit and cannot be queued.</MT_BaseArmorLimit>
+</LanguageData>

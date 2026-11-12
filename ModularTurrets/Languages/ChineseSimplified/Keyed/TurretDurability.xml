@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_DurabilityInstalled>已安装主炮与模块：+{0} 生命值</MT_DurabilityInstalled>
+  <MT_DurabilityWreck>损毁状态额外生命值：+{0}</MT_DurabilityWreck>
+
+</LanguageData>

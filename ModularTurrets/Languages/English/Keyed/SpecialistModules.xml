@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_SpecialistFixedTier>Dedicated module · no upgrades</MT_SpecialistFixedTier>
+  <MT_SpecialistNoUpgrade>Dedicated modules are manufactured complete and cannot be upgraded.</MT_SpecialistNoUpgrade>
+  <MT_SpecialistInactive>This module is inactive because the current head or slot is incompatible.&#10;Remove it and install it on a compatible turret head.</MT_SpecialistInactive>
+  <MT_SpecialistDuplicate>The same dedicated module is already installed or queued for installation.&#10;Remove the installed module or cancel its pending installation first.</MT_SpecialistDuplicate>
+  <MT_SpecialistDuplicateInactive>Another copy of this dedicated module is already active, so this copy has no effect.&#10;This module can still be removed normally.</MT_SpecialistDuplicateInactive>
+  <MT_SpecialistIconInfo>{0}&#10;{1}</MT_SpecialistIconInfo>
+  <MT_SpecialistConfigMount>Specialist modules need valid compatible heads and slots.</MT_SpecialistConfigMount>
+  <MT_SpecialistConfigKind>Unknown specialist module effect.</MT_SpecialistConfigKind>
+  <MT_SpecialistConfigValues>Specialist module values must be finite and within valid positive/probability limits.</MT_SpecialistConfigValues>
+</LanguageData>

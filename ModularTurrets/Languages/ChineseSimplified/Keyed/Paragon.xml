@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ParagonLabel>典范模块</MT_ParagonLabel>
+  <MT_ParagonBadge>P</MT_ParagonBadge>
+  <MT_ParagonPartLabel>{0} [P]</MT_ParagonPartLabel>
+  <MT_ParagonInspect>典范模块 — 已完成终极升级。</MT_ParagonInspect>
+  <MT_ParagonUpgrade>典范模块</MT_ParagonUpgrade>
+  <MT_ParagonStart>开始典范升级</MT_ParagonStart>
+  <MT_ParagonMax>已完成终极升级</MT_ParagonMax>
+  <MT_ParagonMapConflict>当前地图已存在同类型的典范模块或正在进行的典范升级（包括库存中的部件）。</MT_ParagonMapConflict>
+  <MT_ParagonInactive>典范模块 — 由于当前地图已有同类型的激活典范模块（含库存部件），目前按 5 级性能运行。其典范状态仍会保留，冲突解除后将自动恢复典范性能。</MT_ParagonInactive>
+  <MT_ParagonRestrictedStage>典范模块（5 级性能）</MT_ParagonRestrictedStage>
+  <MT_ParagonCurrentRestricted>当前：5 级性能</MT_ParagonCurrentRestricted>
+  <MT_ParagonUnavailable>此部件不支持典范升级。</MT_ParagonUnavailable>
+  <MT_ParagonResearchRequired>所需研究：{0}</MT_ParagonResearchRequired>
+  <MT_ParagonOrder>{0}：典范升级</MT_ParagonOrder>
+  <MT_ParagonWorking>典范升级进行中</MT_ParagonWorking>
+  <MT_ParagonWaiting>等待进行典范升级</MT_ParagonWaiting>
+  <MT_ParagonStageActive>当前：{0}&#10;{1}</MT_ParagonStageActive>
+  <MT_ParagonStageNext>当前：{0} 级&#10;下一升级：典范模块</MT_ParagonStageNext>
+  <MT_ParagonCurrent>当前：典范模块</MT_ParagonCurrent>
+  <MT_ParagonNext>下一级：典范模块</MT_ParagonNext>
+  <MT_ParagonIconInfo>{0}&#10;典范模块&#10;&#10;{1}&#10;&#10;{2}</MT_ParagonIconInfo>
+  <MT_ParagonEffectRadar>此炮塔的目标重搜索间隔缩短为 {0:0.00} 秒（默认 0.25 秒）。</MT_ParagonEffectRadar>
+  <MT_ParagonEffectShield>护盾耗尽时紧急恢复最大护盾值的 {0:P0}。触发后，在未开火且未受击满 {1:0} 秒后重新就绪。&#10;EMP 不会触发此效果，且击破护盾那一击的溢出伤害仍会穿透。</MT_ParagonEffectShield>
+  <MT_ParagonEffectAuxiliary>辅助武器优先瞄准 {0:0.#} 格内可攻击的敌对目标，仍需满足射程与视线要求。</MT_ParagonEffectAuxiliary>
+  <MT_ParagonEffectAiming>主炮每次连射的第一发获得 +{0:0.#} 个百分点的护甲穿透。&#10;若量子炮已生效 100% 保底穿甲，则在此基础上额外叠加。</MT_ParagonEffectAiming>
+  <MT_ParagonEffectCooling>主炮连射单发间隔缩短 {0:P0}；向上取整至 1 刻（tick），最短 0.017 秒。</MT_ParagonEffectCooling>
+  <MT_ParagonEffectServo>当主炮目标死亡或倒地时，剩余连射会自动转向需要最小旋转角度的敌人继续射击。&#10;开始新一轮连射时，对下一个目标的瞄准时间缩短 {0:P0}。</MT_ParagonEffectServo>
+  <MT_ParagonEffectFireControl>主炮强制散布半径缩小 {0:P0}。&#10;保留防止友军误伤功能。</MT_ParagonEffectFireControl>
+  <MT_ParagonInfo>通用模块达到 5 级后仅可进行一次的终极升级。&#10;需要消耗巨量资源与建造工作量。&#10;每张地图每种类型的典范模块仅能生效一个（包含库存中的部件）。&#10;拆卸后重新安装仍保留其典范状态。&#10;主炮与专用模块不支持此升级。</MT_ParagonInfo>
+</LanguageData>

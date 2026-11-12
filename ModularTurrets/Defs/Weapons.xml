@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Autocannon</defName>
+    <label>autocannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <!-- BuildingProperties resolves this hidden reference directly as a texture. -->
+      <texPath>Things/Building/Security/TurretMini_Top</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>4.8</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Autocannon</defaultProjectile>
+        <range>28.9</range>
+        <warmupTime>1.4</warmupTime>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Autocannon</defName>
+    <label>autocannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Sniper</defName>
+    <label>sniper cannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/3</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ModularTurrets.HeadAccuracyExtension">
+        <missReductionPerTier>0.12</missReductionPerTier>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Sniper</defaultProjectile>
+        <range>48</range>
+        <warmupTime>2.4</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_TurretSniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Sniper</defName>
+    <label>sniper cannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>44</damageAmountBase>
+      <armorPenetrationBase>0.45</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_DualAutocannon</defName>
+    <label>dual autocannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/4</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_DualAutocannon</defaultProjectile>
+        <range>36</range>
+        <warmupTime>1.8</warmupTime>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_Autocannon</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>1.55</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_DualAutocannon</defName>
+    <label>dual autocannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>11</damageAmountBase>
+      <armorPenetrationBase>0.22</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_DualSniper</defName>
+    <label>dual sniper cannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/5</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ModularTurrets.HeadAccuracyExtension">
+        <missReductionPerTier>0.12</missReductionPerTier>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_DualSniper</defaultProjectile>
+        <range>54</range>
+        <warmupTime>2.8</warmupTime>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <soundCast>Shot_TurretSniper</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>1.45</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_DualSniper</defName>
+    <label>dual sniper cannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>44</damageAmountBase>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_DualMortar</defName>
+    <label>dual mortar</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/6</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>8</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularMortar</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_DualMortar</defaultProjectile>
+        <range>500</range>
+        <warmupTime>3.5</warmupTime>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+        <soundCast>Mortar_LaunchA</soundCast>
+        <muzzleFlashScale>1.85</muzzleFlashScale>
+        <minRange>29.9</minRange>
+        <requireLineOfSight>false</requireLineOfSight>
+        <forcedMissRadius>2.5</forcedMissRadius>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_DualMortar</defName>
+    <label>dual mortar projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularExplosive</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.4,0.6)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>65</speed>
+      <explosionRadius>3</explosionRadius>
+      <explosionDamageFalloff>true</explosionDamageFalloff>
+      <flyOverhead>true</flyOverhead>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Flamethrower</defName>
+    <label>flamethrower</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/7</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ModularTurrets.HeadAccuracyExtension">
+        <guaranteedFlame>true</guaranteedFlame>
+        <flameConeAngle>90</flameConeAngle>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Flamethrower</defaultProjectile>
+        <forcedMissRadius>1.1</forcedMissRadius>
+        <range>6</range>
+        <warmupTime>0.8</warmupTime>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_IncendiaryLauncher</soundCast>
+        <muzzleFlashScale>1</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Flamethrower</defName>
+    <label>flamethrower projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularExplosive</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.4,0.6)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <armorPenetrationBase>0.1</armorPenetrationBase>
+      <speed>150</speed>
+      <explosionRadius>1.2</explosionRadius>
+      <explosionDamageFalloff>true</explosionDamageFalloff>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Minigun</defName>
+    <label>minigun</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/8</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Minigun</defaultProjectile>
+        <range>34</range>
+        <warmupTime>1.8</warmupTime>
+        <burstShotCount>60</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Minigun</defName>
+    <label>minigun projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Laser</defName>
+    <label>laser cannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/9</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ModularTurrets.BeamVisualExtension">
+        <width>0.22</width>
+        <coreWidth>0.065</coreWidth>
+        <durationTicks>8</durationTicks>
+        <coreColor>(0.9,1,1,1)</coreColor>
+        <haloColor>(0.12,0.75,1,0.65)</haloColor>
+      </li>
+      <li Class="ModularTurrets.HeadAccuracyExtension">
+        <missReductionPerTier>0.15</missReductionPerTier>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_Instant</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Laser</defaultProjectile>
+        <range>50</range>
+        <warmupTime>1.8</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <muzzleFlashScale>0.3</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Laser</defName>
+    <label>laser cannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.22,0.55)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>MT_LaserDamage</damageDef>
+      <damageAmountBase>22</damageAmountBase>
+      <armorPenetrationBase>0.55</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Missile</defName>
+    <label>missile launcher</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/10</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Missile</defaultProjectile>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <range>58</range>
+        <warmupTime>2.5</warmupTime>
+        <burstShotCount>8</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>RocketswarmLauncher_Fire</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Missile</defName>
+    <label>missile launcher projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularMissile</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>ModularTurrets/Projectile-Missile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.26,0.78)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <damageAmountBase>6</damageAmountBase>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>55</speed>
+      <explosionRadius>2.4</explosionRadius>
+      <explosionDamageFalloff>true</explosionDamageFalloff>
+    </projectile>
+    <modExtensions>
+      <li Class="ModularTurrets.MissileFlightExtension">
+        <curveWidth>4.5</curveWidth>
+        <distanceWidthLimit>0.25</distanceWidthLimit>
+        <durationMultiplier>1.35</durationMultiplier>
+        <smokeInterval>2</smokeInterval>
+        <smokeSize>0.35</smokeSize>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Tesla</defName>
+    <label>Tesla coil</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/11</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_Tesla</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Tesla</defaultProjectile>
+        <requireLineOfSight>false</requireLineOfSight>
+        <range>5</range>
+        <warmupTime>0</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeBlaster</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Tesla</defName>
+    <label>Tesla coil projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.22,0.55)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>MT_TeslaDischarge</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <armorPenetrationBase>0.3</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Quantum</defName>
+    <label>quantum cannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/12</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
+      <AccuracyTouch>.98</AccuracyTouch>
+      <AccuracyShort>.98</AccuracyShort>
+      <AccuracyMedium>.97</AccuracyMedium>
+      <AccuracyLong>.96</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="ModularTurrets.HeadAccuracyExtension">
+        <missReductionPerTier>0.18</missReductionPerTier>
+      </li>
+    </modExtensions>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_Quantum</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Quantum</defaultProjectile>
+        <requireLineOfSight>false</requireLineOfSight>
+        <range>36</range>
+        <warmupTime>1.8</warmupTime>
+        <burstShotCount>120</burstShotCount>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Quantum</defName>
+    <label>quantum cannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.22,0.55)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>MT_QuantumDamage</damageDef>
+      <damageAmountBase>4</damageAmountBase>
+      <armorPenetrationBase>0.4</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>MT_Gun_Auxiliary</defName>
+    <label>auxiliary autocannon</label>
+    <description>An internal weapon operated by a modular turret.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Atlas/15</texPath>
+      <graphicClass>ModularTurrets.Graphic_PartAtlas</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <Mass>1</Mass>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.92</AccuracyShort>
+      <AccuracyMedium>0.88</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+    </statBases>
+    <comps Inherit="False">
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>ModularTurrets.Verb_ModularShoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>MT_Projectile_Auxiliary</defaultProjectile>
+        <range>24</range>
+        <warmupTime>0.7</warmupTime>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>Shot_Minigun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>4</muzzleFlashScale>
+        <targetParams>
+          <canTargetPawns>true</canTargetPawns>
+          <canTargetBuildings>true</canTargetBuildings>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>MT_Projectile_Auxiliary</defName>
+    <label>auxiliary autocannon projectile</label>
+    <thingClass>ModularTurrets.Projectile_ModularBullet</thingClass>
+    <bringAlongOnGravship>false</bringAlongOnGravship>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.22,0.55)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>5</damageAmountBase>
+      <armorPenetrationBase>0.16</armorPenetrationBase>
+      <speed>150</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

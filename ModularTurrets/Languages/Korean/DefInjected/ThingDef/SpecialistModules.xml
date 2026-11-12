@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<LanguageData>
+  <MT_Module_SpecialistAutocannon.label>기관포 전용 신관실 모듈</MT_Module_SpecialistAutocannon.label>
+  <MT_Module_SpecialistAutocannon.description>탄환을 반경 1.4칸의 폭발 피해로 바꿉니다.&#10;폭발 중심에서 최대 탄환 피해를 주고 외곽으로 갈수록 감소하며, 별도의 직격 피해를 더하지 않습니다.&#10;기관포·이중 기관포의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistAutocannon.description>
+  <MT_Module_SpecialistSniper.label>저격포 전용 관통 코어 모듈</MT_Module_SpecialistSniper.label>
+  <MT_Module_SpecialistSniper.description>탄환이 비행 방향을 따라 최대 3개 대상을 관통합니다.&#10;관통할 때마다 다음 피해가 이전의 70%로 줄어들며, 벽과 쉴드에 막힙니다.&#10;저격포·이중 저격포의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistSniper.description>
+  <MT_Module_SpecialistMinigun.label>미니건 전용 순환 구동기 모듈</MT_Module_SpecialistMinigun.label>
+  <MT_Module_SpecialistMinigun.description>조준 시간과 발사 후 대기를 기존의 25%(1/4)로 줄이는 대신 한 번의 연사 발수도 25%(1/4)로 줄입니다(최소 1발).&#10;연사 중 탄환 사이의 간격은 유지합니다.&#10;미니건의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistMinigun.description>
+  <MT_Module_SpecialistQuantum.label>양자포 전용 장 안정기 모듈</MT_Module_SpecialistQuantum.label>
+  <MT_Module_SpecialistQuantum.description>주포의 방어구 관통력을 최소 100%로 보장합니다.&#10;업그레이드로 그보다 높아진 관통력은 유지합니다.&#10;양자포의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistQuantum.description>
+  <MT_Module_SpecialistFlamethrower.label>화염방사기 전용 압력 조절기 모듈</MT_Module_SpecialistFlamethrower.label>
+  <MT_Module_SpecialistFlamethrower.description>화염에 맞은 살아 있는 생체 대상에게 20% 확률로 최대 6초간 도주를 유발합니다.&#10;안전한 위치에 도착하면 빠르게 정신 차릴 수 있습니다.&#10;이미 정신이상 상태인 대상, 메카노이드와 건물에는 도주 효과가 없습니다.&#10;화염방사기의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistFlamethrower.description>
+  <MT_Module_SpecialistLaser.label>레이저포 전용 파괴 광학계 모듈</MT_Module_SpecialistLaser.label>
+  <MT_Module_SpecialistLaser.description>실제 피해를 준 명중에 한해 20% 확률로 피격 부위에 기본 피해의 50%를 추가합니다.&#10;대상이 생존하면 유효한 몸통 또는 내부 장기에 기본 피해의 25%를 한 번 추가합니다.&#10;추가 타격에도 각각 방어 판정이 적용되며, 첫 타격이 완전히 흡수되면 추가 피해도 없습니다.&#10;신체 부위를 강제로 삭제하지 않습니다.&#10;레이저포의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistLaser.description>
+  <MT_Module_SpecialistTesla.label>테슬라 전용 펄스 축전기 모듈</MT_Module_SpecialistTesla.label>
+  <MT_Module_SpecialistTesla.description>실제 피해를 준 대상에게 최대 2초의 기절을 추가합니다.&#10;같은 대상에는 5초간 재적용되지 않습니다.&#10;테슬라의 좌·우 슬롯에만 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;같은 전용 모듈은 포탑 한 기에 하나만 장착할 수 있으며 장착 대기 중에도 추가 등록할 수 없습니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_Module_SpecialistTesla.description>
+</LanguageData>

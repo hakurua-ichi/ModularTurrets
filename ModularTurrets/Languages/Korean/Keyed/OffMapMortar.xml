@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_CombatAdapterUnavailable>CE 포탑 호환 기능을 초기화하지 못해 사격이 중지되었습니다. 호환 DLL과 CE 버전을 확인해 주세요.</MT_CombatAdapterUnavailable>
+  <MT_OffMapOrderLabel>월드 타일 포격</MT_OffMapOrderLabel>
+  <MT_OffMapOrderDesc>월드 타일을 고른 뒤 그 타일에 이미 불러온 지도의 지상층(0층) 목표 셀을 선택합니다.&#10;월드 최대 사거리는 연료를 가득 채운 일반 여객 왕복선 기준인 지상 환산 {0}타일이며, 일반 사거리 강화로 늘어나지 않습니다.&#10;기존 박격포의 탄약·조준·2발 연사·모듈 효과를 사용합니다.&#10;목표 지도를 새로 생성하지 않습니다.</MT_OffMapOrderDesc>
+  <MT_OffMapCancelLabel>원격 포격 취소</MT_OffMapCancelLabel>
+  <MT_OffMapCancelDesc>이 박격포의 원격 사격 명령을 취소합니다. 이미 발사된 포탄은 계속 비행합니다.</MT_OffMapCancelDesc>
+  <MT_OffMapNeedsMortar>플레이어 소유로 설치된 이중 박격포가 필요합니다.</MT_OffMapNeedsMortar>
+  <MT_OffMapNeedsLoadedMap>다른 월드 타일에 현재 불러온 지도의 유효한 목표 셀을 선택해야 합니다.</MT_OffMapNeedsLoadedMap>
+  <MT_OffMapUnavailable>박격포의 월드 이동 기능을 사용할 수 없습니다.</MT_OffMapUnavailable>
+  <MT_OffMapCannotLaunch>현재 지붕 또는 사거리 제한 때문에 포탄을 발사할 수 없습니다.</MT_OffMapCannotLaunch>
+  <MT_OffMapTargetGone>원격 박격포의 목표 지도가 더 이상 불러와져 있지 않아 도착한 포탄을 잃었습니다. 이미 사용한 탄약은 반환되지 않습니다.</MT_OffMapTargetGone>
+  <MT_OffMapFloorUnavailable>불러온 LogicalFloors API에서 지상층 목표를 보장할 수 없어 원격 포격을 사용할 수 없습니다.</MT_OffMapFloorUnavailable>
+  <MT_OffMapFloorFailed>도착한 박격포 포탄의 목표 지상층을 확인할 수 없어 포탄을 잃었습니다. 이미 사용한 탄약은 반환되지 않습니다.</MT_OffMapFloorFailed>
+  <MT_OffMapWorldSelect>월드 타일을 선택하세요. 최대 사거리: 지상 환산 {0}타일.</MT_OffMapWorldSelect>
+  <MT_OffMapWorldDistance>거리: {0} / 최대 {1}타일</MT_OffMapWorldDistance>
+  <MT_OffMapOutOfRange>이 타일은 현재 행성층의 박격포 월드 최대 사거리인 {0}타일을 벗어났습니다.</MT_OffMapOutOfRange>
+  <MT_OffMapSameTile>이 박격포와 다른 월드 타일을 선택하세요.</MT_OffMapSameTile>
+  <MT_OffMapNoLoadedMapAtTile>이 타일에는 현재 불러온 지도가 없습니다. 포격 기능은 지도를 생성하거나 불러오지 않습니다.</MT_OffMapNoLoadedMapAtTile>
+  <MT_OffMapWorldReady>클릭하면 불러온 지도에서 지상층 목표를 지정합니다.</MT_OffMapWorldReady>
+  <MT_OffMapConfigWorldRange>박격포 maxWorldRange는 1 이상이어야 합니다.</MT_OffMapConfigWorldRange>
+</LanguageData>

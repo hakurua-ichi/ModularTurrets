@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MortarAutoReloadDesc>弹药不足时自动请求运送所选类型的炮弹。&#10;在原版模式中，装填工作量为 0，每运达一发即可立即使用。&#10;速射支援模块还会自动装填附近可用的实体炮弹。&#10;在 CE 模式中遵循 CE 的装填规则。&#10;关闭此项将停止新的自动补给请求与无人自动装填；已分配的搬运工作仍会继续。</MT_MortarAutoReloadDesc>
+  <MT_MortarMixedAmmoReloadBlocked>当前已装填的炮弹与所选炮弹类型不同。请先清空剩余炮弹，或重新选择当前已装填的弹种。</MT_MortarMixedAmmoReloadBlocked>
+  <MT_MortarAmmoSelectValue>炮弹类型：{0}</MT_MortarAmmoSelectValue>
+  <MT_MortarAmmoSelectDesc>选择下次装填的炮弹类型。&#10;当前已装填的炮弹不会改变类型。&#10;若要立即更换弹种，请先使用“清空炮弹”。</MT_MortarAmmoSelectDesc>
+  <MT_MortarUnloadLabel>清空炮弹</MT_MortarUnloadLabel>
+  <MT_MortarUnloadDesc>将剩余炮弹作为实体物品退回，并取消待处理的重装请求。&#10;同时会关闭自动重装。&#10;选择新炮弹后可重新开启。</MT_MortarUnloadDesc>
+  <MT_MortarAmmoStock>已装填：{0} ×{1}</MT_MortarAmmoStock>
+  <MT_MortarAmmoActionFailed>当前无法更换或清空炮弹。请检查剩余弹药、正在进行的装填、预留状态以及退弹所需的地面空间。</MT_MortarAmmoActionFailed>
+  <MT_MortarNativeCEReloadTip>在 CE 中，可征召或选中殖民者并右键点击炮塔来下达重装指令，遵循 CE 的弹药与装填规则。</MT_MortarNativeCEReloadTip>
+</LanguageData>

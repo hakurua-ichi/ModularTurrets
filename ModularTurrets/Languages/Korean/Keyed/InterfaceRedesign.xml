@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_UIR_Close>관리창 닫기</MT_UIR_Close>
+  <MT_UIR_PartsTab>부품 구성</MT_UIR_PartsTab>
+  <MT_UIR_BaseTab>베이스 업그레이드</MT_UIR_BaseTab>
+  <MT_UIR_EmptySlot>비어 있음</MT_UIR_EmptySlot>
+  <MT_UIR_SlotPending>이 위치의 작업이 대기 중이거나 진행 중입니다.</MT_UIR_SlotPending>
+  <MT_UIR_SelectedSlot>선택한 위치: {0}</MT_UIR_SelectedSlot>
+  <MT_UIR_InstallQueued>장착 작업 시작</MT_UIR_InstallQueued>
+  <MT_UIR_Refresh>부품 목록 새로고침</MT_UIR_Refresh>
+  <MT_UIR_PartLocation>거리 {0:0.0}칸 · ({1}, {2})</MT_UIR_PartLocation>
+  <MT_UIR_WorkProgress>작업 진행: {0:N0} / {1:N0}</MT_UIR_WorkProgress>
+  <MT_UIR_MaterialsRemaining>더 필요한 자원: {0}</MT_UIR_MaterialsRemaining>
+  <MT_UIR_MaterialsReady>자원 준비 완료</MT_UIR_MaterialsReady>
+  <MT_HeadScatterUnavailable>현재 게임 버전에서는 주포 업그레이드의 산포 반경 보정을 적용하지 못했습니다. 다른 정확도 보정은 유지됩니다.</MT_HeadScatterUnavailable>
+  <MT_UIR_SupportSeconds>주포 조준 {0:0.00}초   발사 후 대기 {1:0.00}초   쉴드 {2:0}/{3:0}   {4}</MT_UIR_SupportSeconds>
+  <MT_UIR_InstallPart>+ 부품 장착</MT_UIR_InstallPart>
+  <MT_UIR_UpgradePart>업그레이드</MT_UIR_UpgradePart>
+  <MT_UIR_DetachPart>분리</MT_UIR_DetachPart>
+  <MT_UIR_SelectTitle>제작된 부품 선택</MT_UIR_SelectTitle>
+  <MT_UIR_UpgradeTitle>부품 업그레이드</MT_UIR_UpgradeTitle>
+  <MT_UIR_EffectScope>이 부품 하나의 효과이며 베이스와 다른 부품은 제외합니다.&#10;사거리·쉴드·조준 보조·냉각 모듈은 가장 강한 하나의 업그레이드 효과값을 100%, 나머지는 각각 35%로 반영하여 합산합니다.&#10;0단계에도 적용됩니다.&#10;추적 서보·사격 통제기는 최고 단계 하나만 적용하며, 보조무기는 각각 독립적으로 사격합니다.</MT_UIR_EffectScope>
+  <MT_UIR_EffectHead>부품 공격력 ×{0:0.00}&#10;방어구 관통력 보너스 +{1:P0}</MT_UIR_EffectHead>
+  <MT_UIR_EffectHeadAccuracy>유효 사거리 안에서는 거리 명중 감소 없음 · 현재 최대 사거리 기준 무기 정확도 적용 · 주포 강화로 무기 빗나감 {0:P0} 감소 (날씨·연막·표적 크기는 별도 적용)</MT_UIR_EffectHeadAccuracy>
+  <MT_HeadDistanceAccuracyUnavailable>[모듈러 포탑] 주포 사거리 내 명중 보정을 적용하지 못해 기존 명중 계산을 유지합니다: {0}</MT_HeadDistanceAccuracyUnavailable>
+  <MT_UIR_EffectScatter>산포 반경 {0:P0} 감소</MT_UIR_EffectScatter>
+  <MT_UIR_EffectGuaranteed>유효 표적 명중률 100%</MT_UIR_EffectGuaranteed>
+  <MT_UIR_EffectRange>무기 사거리 보너스 {0:+0.0%;-0.0%;0%}</MT_UIR_EffectRange>
+  <MT_UIR_EffectShield>쉴드 용량 +{0:0}</MT_UIR_EffectShield>
+  <MT_UIR_EffectAiming>조준 시간 {0:P1} 감소</MT_UIR_EffectAiming>
+  <MT_UIR_EffectCooling>발사 후 대기 시간 {0:P1} 감소</MT_UIR_EffectCooling>
+  <MT_UIR_EffectAuxiliary>보조무기 공격력 ×{0:0.00}&#10;연사 {1}발 · 발사 간격 {2:0.000}초</MT_UIR_EffectAuxiliary>
+  <MT_UIR_EffectServo>표적 추적 회전 속도 ×{0:0.000}</MT_UIR_EffectServo>
+  <MT_UIR_EffectAccuracy>무기 빗나감 확률 {0:P1} 감소</MT_UIR_EffectAccuracy>
+  <MT_UIR_EffectFriendly>비적대 진영의 사람·동물·메카노이드 보호(광란 등 제외). 박격포는 같은 진영의 건물도 보호</MT_UIR_EffectFriendly>
+  <MT_UIR_EffectRangeFlat>추가 사거리 {0:+0.0;-0.0;0}칸</MT_UIR_EffectRangeFlat>
+  <MT_UIR_EffectDamage>공격력 배율 ×{0:0.00}</MT_UIR_EffectDamage>
+  <MT_UIR_EffectPenetration>방어구 관통력 보너스 {0:+0.0%;-0.0%;0%}</MT_UIR_EffectPenetration>
+  <MT_UIR_EffectPower>이 부품의 소비 전력 {0:0} W</MT_UIR_EffectPower>
+  <MT_UIR_BaseCounts>완료 {0}회 · 대기 {1}회</MT_UIR_BaseCounts>
+  <MT_UIR_BaseDamage>현재 베이스 공격력: ×{0:0.00}&#10;다음 업그레이드: ×{1:0.00}</MT_UIR_BaseDamage>
+  <MT_UIR_BaseArmor>현재 베이스 받는 피해: {0:P1}&#10;다음 업그레이드: {1:P1}</MT_UIR_BaseArmor>
+  <MT_UIR_BaseRange>현재 베이스 추가 사거리: {0:0.0}칸&#10;다음 업그레이드: {1:0.0}칸</MT_UIR_BaseRange>
+  <MT_UIR_BaseSingleCost>업그레이드 비용&#10;{0} {1:N0} · {2} {3:N0}&#10;{4} {5:N0}&#10;작업량 {6:N0}</MT_UIR_BaseSingleCost>
+  <MT_UIR_CostStage>대기 작업 다음 · {0}회차 기준</MT_UIR_CostStage>
+  <MT_UIR_BaseQueueOne>1회 추가</MT_UIR_BaseQueueOne>
+  <MT_UIR_BaseQueueFive>5회 추가</MT_UIR_BaseQueueFive>
+  <MT_UIR_BaseQueueCost>{0} 업그레이드 {1}회 추가&#10;대기 작업 모두 완료 시 누적 {2}회&#10;합계 비용: {3} {4:N0}, {5} {6:N0}, {7} {8:N0}&#10;총 작업량 {9:N0}</MT_UIR_BaseQueueCost>
+  <MT_UIR_ClosePopup>닫기</MT_UIR_ClosePopup>
+  <MT_UIR_StageNext>현재 {0}/5단계 → 다음 {1}/5단계</MT_UIR_StageNext>
+  <MT_UIR_StageMax>현재 {0}/5단계 · 최대 단계</MT_UIR_StageMax>
+  <MT_UIR_CompareCurrent>현재 단계 · {0}</MT_UIR_CompareCurrent>
+  <MT_UIR_CompareNext>다음 단계 · {0}</MT_UIR_CompareNext>
+  <MT_UIR_RequiredMaterials>필요 재료</MT_UIR_RequiredMaterials>
+  <MT_UIR_ResourceAmount>{0} ×{1:N0}</MT_UIR_ResourceAmount>
+  <MT_UIR_WorkAmount>작업량 {0:N0}</MT_UIR_WorkAmount>
+  <MT_UIR_PartIconInfo>{0} · 현재 {1}/5단계&#10;&#10;현재 효과 (부품 단독)&#10;{2}&#10;&#10;{3}</MT_UIR_PartIconInfo>
+  <MT_UIR_UpgradeInfo>{0}&#10;&#10;{1}&#10;&#10;업그레이드 단계는 이 부품에 저장되며 분리·재장착 후에도 유지됩니다.</MT_UIR_UpgradeInfo>
+  <MT_UIR_BackToTurret>뒤로가기</MT_UIR_BackToTurret>
+  <MT_UIR_CombatDamage>주포 발당 피해 {0}   받는 피해 {1:P0}   사거리 {2:0.0}칸   소비 전력 {3:0} W</MT_UIR_CombatDamage>
+  <MT_UIR_MainDamageTip>업그레이드를 반영한 주포 한 발의 대상당 피해입니다.&#10;명중 후 방어구와 폭발 거리 감쇠에 따라 실제 피해가 달라집니다.</MT_UIR_MainDamageTip>
+  <MT_UIR_CancelBaseOne>이 업그레이드 작업 1건만 취소합니다.&#10;뒤에 있는 베이스 업그레이드 단계는 빈자리를 채우도록 앞당겨집니다.</MT_UIR_CancelBaseOne>
+  <MT_UIR_StartUpgrade>업그레이드 시작</MT_UIR_StartUpgrade>
+  <MT_UIR_FinishUpgrade>진행 중인 업그레이드를 완료해야 합니다.</MT_UIR_FinishUpgrade>
+  <MT_UIR_UpgradeWorking>{0}단계 업그레이드 진행 중</MT_UIR_UpgradeWorking>
+  <MT_UIR_UpgradeWaiting>{0}단계 업그레이드 대기 중</MT_UIR_UpgradeWaiting>
+  <MT_UIR_PartStageActive>{0}/5단계 · {1}</MT_UIR_PartStageActive>
+  <MT_UIR_StageActive>현재 {0}/5단계 · {1}</MT_UIR_StageActive>
+</LanguageData>

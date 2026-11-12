@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_HeadPartsGroup.label>主炮部件</MT_HeadPartsGroup.label>
+  <MT_HeadParts.label>主炮部件</MT_HeadParts.label>
+  <MT_ModulePartsGroup.label>模块</MT_ModulePartsGroup.label>
+  <MT_GeneralModules.label>通用模块</MT_GeneralModules.label>
+  <MT_SpecialistModules.label>专用模块</MT_SpecialistModules.label>
+  <MT_BatteryModules.label>蓄电池模块</MT_BatteryModules.label>
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CombatAdapterUnavailable>由于 CE 炮塔兼容适配器未能初始化，射击已停止。请检查兼容 DLL 与 CE 版本。</MT_CombatAdapterUnavailable>
+  <MT_OffMapOrderLabel>轰炸世界地图格</MT_OffMapOrderLabel>
+  <MT_OffMapOrderDesc>先选择一个世界地图格，然后在该格已加载的地图上选择地表层（0层）目标格。&#10;世界地图最大射程：折算地表距离 {0} 格（与满燃料可建造客运穿梭机相同），局部射程升级不会增加此上限。&#10;使用该迫击炮当前的弹药、瞄准时间、双联连射与模块效果。&#10;不会新生成目标地图。</MT_OffMapOrderDesc>
+  <MT_OffMapCancelLabel>取消远程轰炸</MT_OffMapCancelLabel>
+  <MT_OffMapCancelDesc>取消此迫击炮的远程轰炸任务。已发射升空的炮弹仍会继续飞行。</MT_OffMapCancelDesc>
+  <MT_OffMapNeedsMortar>请选择一座属于玩家派系且已安装的双联迫击炮。</MT_OffMapNeedsMortar>
+  <MT_OffMapNeedsLoadedMap>请在另一个世界地图格的已加载地图内选择有效目标格。</MT_OffMapNeedsLoadedMap>
+  <MT_OffMapUnavailable>迫击炮跨地图飞行功能不可用。</MT_OffMapUnavailable>
+  <MT_OffMapCannotLaunch>受当前屋顶或射程限制，迫击炮无法发射。</MT_OffMapCannotLaunch>
+  <MT_OffMapTargetGone>远程迫击炮的目标地图已不再处于加载状态，抵达的炮弹已丢失，已消耗的弹药不会退还。</MT_OffMapTargetGone>
+  <MT_OffMapFloorUnavailable>已加载的 LogicalFloors API 无法确保目标位于地表层，远程轰炸不可用。</MT_OffMapFloorUnavailable>
+  <MT_OffMapFloorFailed>无法确认抵达迫击炮弹的目标地表层，炮弹已丢失，已消耗的弹药不会退还。</MT_OffMapFloorFailed>
+  <MT_OffMapWorldSelect>请选择一个世界地图格。最大射程：折算地表距离 {0} 格。</MT_OffMapWorldSelect>
+  <MT_OffMapWorldDistance>距离：{0} / 最大 {1} 格</MT_OffMapWorldDistance>
+  <MT_OffMapOutOfRange>该地图格超出了当前星球层迫击炮的最大世界射程（{0} 格）。</MT_OffMapOutOfRange>
+  <MT_OffMapSameTile>请选择与此迫击炮不同的世界地图格。</MT_OffMapSameTile>
+  <MT_OffMapNoLoadedMapAtTile>该地图格当前没有已加载的地图。远程轰炸不会自动生成或加载地图。</MT_OffMapNoLoadedMapAtTile>
+  <MT_OffMapWorldReady>点击以在已加载的地图上选择地表层目标。</MT_OffMapWorldReady>
+  <MT_OffMapConfigWorldRange>迫击炮 maxWorldRange 必须至少为 1。</MT_OffMapConfigWorldRange>
+</LanguageData>

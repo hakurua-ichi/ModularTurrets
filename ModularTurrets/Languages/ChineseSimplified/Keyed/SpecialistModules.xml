@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_SpecialistFixedTier>专用模块 · 不可升级</MT_SpecialistFixedTier>
+  <MT_SpecialistNoUpgrade>专用模块制作完成后即为成品，无法升级。</MT_SpecialistNoUpgrade>
+  <MT_SpecialistInactive>由于当前主炮或安装槽位不兼容，此模块效果未激活。&#10;请将其拆下并安装到兼容的炮塔主炮上。</MT_SpecialistInactive>
+  <MT_SpecialistDuplicate>已安装或已排队安装相同的专用模块。&#10;请先拆下现有模块或取消待处理的安装工作。</MT_SpecialistDuplicate>
+  <MT_SpecialistDuplicateInactive>另一个相同的专用模块已处于激活状态，因此此模块不生效。&#10;仍可正常拆卸此模块。</MT_SpecialistDuplicateInactive>
+  <MT_SpecialistIconInfo>{0}&#10;{1}</MT_SpecialistIconInfo>
+  <MT_SpecialistConfigMount>专用模块需要配置有效的兼容主炮与槽位列表。</MT_SpecialistConfigMount>
+  <MT_SpecialistConfigKind>未知的专用模块效果类型。</MT_SpecialistConfigKind>
+  <MT_SpecialistConfigValues>专用模块数值必须为有限数值，且处于有效的正数/概率范围内。</MT_SpecialistConfigValues>
+
+</LanguageData>

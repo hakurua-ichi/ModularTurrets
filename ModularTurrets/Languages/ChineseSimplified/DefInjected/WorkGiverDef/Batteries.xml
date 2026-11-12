@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_BatteryAssembly.label>组装模块化蓄电池</MT_BatteryAssembly.label>
+  <MT_BatteryAssembly.verb>操作</MT_BatteryAssembly.verb>
+  <MT_BatteryAssembly.gerund>正在操作模块化蓄电池</MT_BatteryAssembly.gerund>
+  <MT_FillBatteries.label>向蓄电池运送材料</MT_FillBatteries.label>
+  <MT_FillBatteries.verb>运送材料至</MT_FillBatteries.verb>
+  <MT_FillBatteries.gerund>正在向蓄电池运送模块与材料</MT_FillBatteries.gerund>
+</LanguageData>

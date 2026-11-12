@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_BatteryAssembly.label>모듈러 배터리 조립</MT_BatteryAssembly.label>
+  <MT_BatteryAssembly.verb>작업</MT_BatteryAssembly.verb>
+  <MT_BatteryAssembly.gerund>모듈러 배터리 작업 중</MT_BatteryAssembly.gerund>
+  <MT_FillBatteries.label>배터리에 재료 넣기</MT_FillBatteries.label>
+  <MT_FillBatteries.verb>재료 넣기</MT_FillBatteries.verb>
+  <MT_FillBatteries.gerund>배터리에 모듈과 재료 운반 중</MT_FillBatteries.gerund>
+</LanguageData>

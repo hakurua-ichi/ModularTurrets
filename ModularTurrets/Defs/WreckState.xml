@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ModularTurrets.TurretWreckStateDef>
+    <defName>MT_TurretWreckState</defName>
+    <additionalHitPoints>1000</additionalHitPoints>
+    <restorationWork>2500</restorationWork>
+  </ModularTurrets.TurretWreckStateDef>
+</Defs>

@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_UnfinishedPatchFailed>Could not initialize unfinished-part crafting compatibility: {0}</MT_UnfinishedPatchFailed>
+  <MT_UnfinishedMigrationFailed>Stopped crafting because bill {0} could not be converted. The existing bill is preserved: {1}</MT_UnfinishedMigrationFailed>
+</LanguageData>

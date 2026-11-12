@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MainAttackShots>单次攻击（一次连射）：主炮最多发射 {0} 发。&#10;每发炮弹会对主要目标尝试命中一次。脱靶、掩体、丢失目标或弹药不足可能减少实际命中次数。爆炸、范围与附加效果可波及其他目标；辅助武器独立开火计算。</MT_MainAttackShots>
+  <MT_MainAttackPulses>单次攻击：范围脉冲 {0} 次。&#10;每次脉冲对射程内所有符合条件的目标各打击一次。目标数量视情况而定；辅助武器独立开火计算。</MT_MainAttackPulses>
+  <MT_MainAttackShotsCE>预设主炮连射：每次攻击最多发射 {0} 发。&#10;实际发射数由 Combat Extended 的射击模式与可用弹药量决定。霰弹弹丸、爆炸与附加效果可增加命中次数；此数值不代表保底命中数。辅助武器独立开火计算。</MT_MainAttackShotsCE>
+  <MT_BaseArmorLimit>承伤倍率已达到最低下限（5%）。继续升级防御不会带来额外收益，无法继续排队升级。</MT_BaseArmorLimit>
+</LanguageData>

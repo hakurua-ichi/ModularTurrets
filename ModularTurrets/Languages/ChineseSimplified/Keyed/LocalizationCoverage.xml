@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ConfigCurveWidth>curveWidth 必须为大于或等于 0 的有限数值</MT_ConfigCurveWidth>
+  <MT_ConfigDistanceWidthLimit>distanceWidthLimit 必须为大于或等于 0 的有限数值</MT_ConfigDistanceWidthLimit>
+  <MT_ConfigDurationMultiplier>durationMultiplier 必须为有限正数</MT_ConfigDurationMultiplier>
+  <MT_ConfigSmokeInterval>smokeInterval 必须为正数</MT_ConfigSmokeInterval>
+  <MT_ConfigSmokeSize>smokeSize 必须为大于或等于 0 的有限数值</MT_ConfigSmokeSize>
+  <MT_ConfigUpgradeCostTiers>通用模块升级费用需要提供对应 I 至 V 级的 5 个倍率。</MT_ConfigUpgradeCostTiers>
+  <MT_ConfigUpgradeCostBounds>通用模块升级费用倍率必须介于 1 到 4 之间。</MT_ConfigUpgradeCostBounds>
+  <MT_ConfigParagonCostBounds>典范模块升级费用倍率必须介于 1 到 4 之间。</MT_ConfigParagonCostBounds>
+  <MT_ConfigBeamStartAngle>光束起点与角度必须为有限数值</MT_ConfigBeamStartAngle>
+  <MT_ConfigBeamSize>光束长度与宽度必须为有限正数</MT_ConfigBeamSize>
+  <MT_ConfigBeamFadePower>光束 fadePower 必须为有限正数</MT_ConfigBeamFadePower>
+  <MT_ConfigBeamColor>光束颜色分量必须介于 0 到 1 之间</MT_ConfigBeamColor>
+  <MT_ConfigParagonMultipliers>典范倍率必须为受支持正数范围内的有限数值。</MT_ConfigParagonMultipliers>
+  <MT_ConfigParagonWork>典范工作量必须为有限正数。</MT_ConfigParagonWork>
+  <MT_ConfigParagonFeatures>典范功能设置超出了受支持的范围。</MT_ConfigParagonFeatures>
+  <MT_ConfigParagonResearch>典范研究必须指向已存在的研究项目。</MT_ConfigParagonResearch>
+  <MT_ConfigParagonCosts>典范升级费用不能为空。</MT_ConfigParagonCosts>
+  <MT_ConfigParagonCostItem>典范升级费用需要有效的物品与正数数量。</MT_ConfigParagonCostItem>
+  <MT_ConfigShieldModule>护盾容量必须引用护盾模块。</MT_ConfigShieldModule>
+  <MT_ConfigShieldTiers>护盾容量需要提供对应 0 至 V 级的 6 个数值。</MT_ConfigShieldTiers>
+  <MT_ConfigShieldCapacity>护盾容量必须为有限正数，且随等级提升不得递减。</MT_ConfigShieldCapacity>
+  <MT_ConfigParagonShield>典范护盾容量必须为有限数值，且不低于 V 级。</MT_ConfigParagonShield>
+  <MT_ConfigWreckHitPoints>additionalHitPoints 必须为正数</MT_ConfigWreckHitPoints>
+  <MT_ConfigRestorationWork>restorationWork 必须为有限正数</MT_ConfigRestorationWork>
+  <MT_CEAmmoSelectionMissing>未配置 CE 弹药类型：{0}</MT_CEAmmoSelectionMissing>
+  <MT_CEGizmoUnavailable>无法显示 {0} 的 CE 控制按钮（{1}：{2}）。</MT_CEGizmoUnavailable>
+  <MT_CEFeatureAmmo>弹药</MT_CEFeatureAmmo>
+  <MT_CEFeatureFireModes>射击模式</MT_CEFeatureFireModes>
+  <MT_CESettingsError>CE 配置错误</MT_CESettingsError>
+  <MT_EmptySlotMark>+</MT_EmptySlotMark>
+  <MT_InfoMark>i</MT_InfoMark>
+  <MT_ReloadDeliveryProgress>已运达炮弹：{0}/{1}</MT_ReloadDeliveryProgress>
+</LanguageData>

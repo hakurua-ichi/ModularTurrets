@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MakeModule_SelfPower.label>制作自供电模块</MT_MakeModule_SelfPower.label>
+  <MT_MakeModule_SelfPower.description>自行供应所安装炮塔所需的全部电力，包括已安装部件和基座升级增加的耗电量。&#10;无需连接外部电网即可运行。&#10;此固定模块无法升级。&#10;&#10;能量无穷！</MT_MakeModule_SelfPower.description>
+  <MT_MakeModule_SelfPower.jobString>正在制作自供电模块。</MT_MakeModule_SelfPower.jobString>
+</LanguageData>

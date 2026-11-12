@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_BatteryManage>Manage battery</MT_BatteryManage>
+  <MT_BatteryManageDesc>Manage side modules, base upgrades, and pending work.</MT_BatteryManageDesc>
+  <MT_BatteryTitle>Modular battery</MT_BatteryTitle>
+  <MT_BatteryBody>Battery body</MT_BatteryBody>
+  <MT_BatteryCapacityGain>Storage capacity {0:N0} Wd · Each upgrade adds {1:N0} Wd</MT_BatteryCapacityGain>
+  <MT_BatteryQueueCount>Assembly queue · {0}/64</MT_BatteryQueueCount>
+  <MT_BatteryStats>Stored: {0:0.##} / {1:0.##} Wd · Charging efficiency: {2:0.#}%</MT_BatteryStats>
+  <MT_BatteryLevel>Base upgrades: {0}</MT_BatteryLevel>
+  <MT_BatteryUpgrade>Upgrade capacity</MT_BatteryUpgrade>
+  <MT_BatteryUpgradeDesc>Haul steel and industrial components, then complete construction work.&#10;This increases storage capacity; it does not create stored energy.</MT_BatteryUpgradeDesc>
+  <MT_BatteryUpgradeCost>Steel {0}, components {1}, work {2}</MT_BatteryUpgradeCost>
+  <MT_BatteryLeft>Left slot</MT_BatteryLeft>
+  <MT_BatteryRight>Right slot</MT_BatteryRight>
+  <MT_BatteryEmpty>Empty</MT_BatteryEmpty>
+  <MT_BatteryInstall>Install</MT_BatteryInstall>
+  <MT_BatteryRemove>Remove</MT_BatteryRemove>
+  <MT_BatteryNoModules>No available battery modules.</MT_BatteryNoModules>
+  <MT_BatteryQueueTitle>Pending work</MT_BatteryQueueTitle>
+  <MT_BatteryOrderUpgrade>Base capacity upgrade</MT_BatteryOrderUpgrade>
+  <MT_BatteryOrderUpgradeModule>{0} · upgrade {1} to tier {2}</MT_BatteryOrderUpgradeModule>
+  <MT_BatteryInstalledPart>{0} · {1}</MT_BatteryInstalledPart>
+  <MT_BatteryModuleStage>Module tier {0} / {1}</MT_BatteryModuleStage>
+  <MT_BatteryCoilUpgradeEffect>Wireless radius of this coil: {0:0.#} → {1:0.#} cells</MT_BatteryCoilUpgradeEffect>
+  <MT_BatteryGenerationUpgradeEffect>Output of this generator: {0:0.##} → {1:0.##} W</MT_BatteryGenerationUpgradeEffect>
+  <MT_BatteryOrderInstall>{0}: install {1}</MT_BatteryOrderInstall>
+  <MT_BatteryOrderRemove>{0}: remove module</MT_BatteryOrderRemove>
+  <MT_BatteryWorkProgress>Work remaining: {0} / {1}</MT_BatteryWorkProgress>
+  <MT_BatteryMaterial>{0}: {1} needed</MT_BatteryMaterial>
+  <MT_BatteryCancel>Cancel work</MT_BatteryCancel>
+  <MT_BatteryRetry>Retry return</MT_BatteryRetry>
+  <MT_BatteryNoOrders>No pending work.</MT_BatteryNoOrders>
+  <MT_BatteryRequestFailed>Unable to queue this battery job.</MT_BatteryRequestFailed>
+  <MT_BatteryConstructionRequired>Construction skill {0} required.</MT_BatteryConstructionRequired>
+  <MT_BatteryClose>Close</MT_BatteryClose>
+  <MT_BatteryReserveStatus>Emergency reserve {0:0.##} / {1:0.##} Wd</MT_BatteryReserveStatus>
+  <MT_BatteryGenerationStatus>Self-generation {0:0.##} W</MT_BatteryGenerationStatus>
+  <MT_BatteryWirelessStatus>Wireless supply radius {0:0.#} cells</MT_BatteryWirelessStatus>
+  <MT_BatteryModuleItemLabel>{0} (upgrade {1})</MT_BatteryModuleItemLabel>
+  <MT_BatteryModuleItemLevel>Module upgrade {0} / {1}</MT_BatteryModuleItemLevel>
+</LanguageData>

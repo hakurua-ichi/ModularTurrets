@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/StatDef[defName="MaxHitPoints"]/parts</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MaxHitPoints"]/parts</xpath>
+      <value>
+        <li Class="ModularTurrets.StatPart_ModularTurretDurability">
+          <priority>-100</priority>
+          <headHitPoints>200</headHitPoints>
+          <moduleHitPoints>100</moduleHitPoints>
+          <moduleTierHitPoints>50</moduleTierHitPoints>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs/StatDef[defName="MaxHitPoints"]</xpath>
+      <value>
+        <parts>
+          <li Class="ModularTurrets.StatPart_ModularTurretDurability">
+            <priority>-100</priority>
+            <headHitPoints>200</headHitPoints>
+            <moduleHitPoints>100</moduleHitPoints>
+            <moduleTierHitPoints>50</moduleTierHitPoints>
+          </li>
+        </parts>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

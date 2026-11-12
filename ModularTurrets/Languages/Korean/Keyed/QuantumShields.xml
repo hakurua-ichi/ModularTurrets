@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_QuantumShieldAdapterFailed>모듈러 포탑: {0}의 양자포 보호막 관통 호환을 적용하지 못했습니다. 기존 보호 기능을 유지합니다. 상세: {1}</MT_QuantumShieldAdapterFailed>
+</LanguageData>

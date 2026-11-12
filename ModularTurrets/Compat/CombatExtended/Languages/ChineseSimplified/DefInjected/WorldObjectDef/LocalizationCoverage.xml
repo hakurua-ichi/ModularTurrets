@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_TravelingShell.label>模块化 CE 火炮炮弹</MT_CE_TravelingShell.label>
+  <MT_CE_TravelingShell.description>保留发射时模块化武器状态快照、使用 Combat Extended 世界地图飞行与落点机制的火炮炮弹。</MT_CE_TravelingShell.description>
+</LanguageData>

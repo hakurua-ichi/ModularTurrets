@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_FireControlEffect.label>precision fire control</MT_FireControlEffect.label>
+  <MT_FireControlEffect.description>Improves aiming and protects non-hostile faction pawns. Mounted effects follow the active combat system and turret head.</MT_FireControlEffect.description>
+  <MT_FanEffect.label>tracking servo</MT_FanEffect.label>
+  <MT_FanEffect.description>Increase turret target-tracking rotation speed. Duplicate copies of this effect use only the highest installed tier.</MT_FanEffect.description>
+</LanguageData>

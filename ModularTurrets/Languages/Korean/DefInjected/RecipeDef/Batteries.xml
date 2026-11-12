@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MakeBatteryGenerationModule.label>배터리 자가발전 모듈 제작</MT_MakeBatteryGenerationModule.label>
+  <MT_MakeBatteryGenerationModule.description>고양이의 호두만 한 뇌에서 나오는 발전량을 자가발전으로 속여 파는 오늘도 평화로운 변방계입니다.&#10;&#10;하루에 최종 저장 용량의 1/100Wd를 발전하며 최소 25W를 보장합니다.&#10;업그레이드마다 이 기본 발전량의 25%가 증가합니다.&#10;강화 단계는 실제 부품에 저장되어 분리하고 다시 장착해도 유지됩니다.</MT_MakeBatteryGenerationModule.description>
+  <MT_MakeBatteryGenerationModule.jobString>배터리 자가발전 모듈 제작 중</MT_MakeBatteryGenerationModule.jobString>
+  <MT_MakeBatteryStorageModule.label>배터리 대용량 저장 모듈 제작</MT_MakeBatteryStorageModule.label>
+  <MT_MakeBatteryStorageModule.description>외계인을 고문하여 말도 안 되는 에너지 보존 혁명을 개발하였습니다!&#10;&#10;저장 용량을 10,000Wd 늘리고 본체 업그레이드의 용량 증가분을 50% 높입니다.&#10;두 개를 장착하면 효과가 합산됩니다.</MT_MakeBatteryStorageModule.description>
+  <MT_MakeBatteryStorageModule.jobString>배터리 대용량 저장 모듈 제작 중</MT_MakeBatteryStorageModule.jobString>
+  <MT_MakeBatteryCoilModule.label>배터리 무선 코일 모듈 제작</MT_MakeBatteryCoilModule.label>
+  <MT_MakeBatteryCoilModule.description>강력한 전자파를 발산하여 전기를 공급합니다.&#10;근처 집값은 떨어지겠군요..&#10;&#10;배터리의 실제 전력망을 이용해 40칸 안의 전기 소비 건물에 전선 없이 공급합니다.&#10;업그레이드마다 범위가 5칸씩 증가합니다.&#10;강화 단계는 실제 부품에 저장되어 분리하고 다시 장착해도 유지됩니다.</MT_MakeBatteryCoilModule.description>
+  <MT_MakeBatteryCoilModule.jobString>배터리 무선 코일 모듈 제작 중</MT_MakeBatteryCoilModule.jobString>
+  <MT_MakeBatteryProtectionModule.label>배터리 통합 보호 모듈 제작</MT_MakeBatteryProtectionModule.label>
+  <MT_MakeBatteryProtectionModule.description>이 간단한 다이오드와 서지 보호 장치를 왜 이렇게 크게 만들었을까요?&#10;&#10;이 배터리의 저장 전력을 전력망 합선으로부터 보호하고 부품이 필요한 기계 고장을 방지합니다.</MT_MakeBatteryProtectionModule.description>
+  <MT_MakeBatteryProtectionModule.jobString>배터리 통합 보호 모듈 제작 중</MT_MakeBatteryProtectionModule.jobString>
+  <MT_MakeBatteryReserveModule.label>배터리 비상 예비 전력 모듈 제작</MT_MakeBatteryReserveModule.label>
+  <MT_MakeBatteryReserveModule.description>재빠른 CTRL + S가 필요한 순간이 언젠간 올 것입니다!&#10;&#10;일반 용량의 20%를 별도 비상 예비 전력으로 저장합니다.&#10;잉여 전력으로 충전하며 전력망이 부족할 때 사용합니다.&#10;두 개를 장착해도 예비 비율은 같습니다.</MT_MakeBatteryReserveModule.description>
+  <MT_MakeBatteryReserveModule.jobString>배터리 비상 예비 전력 모듈 제작 중</MT_MakeBatteryReserveModule.jobString>
+  <MT_MakeBatteryEfficiencyModule.label>배터리 충전 효율 모듈 제작</MT_MakeBatteryEfficiencyModule.label>
+  <MT_MakeBatteryEfficiencyModule.description>배터리를 직렬로 이어서 효율을 증가시켰습니다!&#10;고속 충전에 유리하겠지만 사제 폭탄 취급은 안 당했으면 좋겠군요.&#10;&#10;충전 효율을 100%로 만듭니다.&#10;한 개를 장착하면 전체 효과를 받으며 업그레이드할 수 없습니다.</MT_MakeBatteryEfficiencyModule.description>
+  <MT_MakeBatteryEfficiencyModule.jobString>배터리 충전 효율 모듈 제작 중</MT_MakeBatteryEfficiencyModule.jobString>
+</LanguageData>

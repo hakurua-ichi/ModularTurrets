@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_ConfigParagonMaterialFactor>paragonMaterialFactor 必须为大于 0 且不超过 1 的有限数值。</MT_ConfigParagonMaterialFactor>
+
+</LanguageData>

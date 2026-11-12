@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ModMetaData>
+  <name>Modular Turrets</name>
+  <author>Hakurua</author>
+  <packageId>local.modularturrets</packageId>
+  <modVersion>0.1.1</modVersion>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>moont.dd.logicalfloors</li>
+    <li>ceteam.combatextended</li>
+  </loadAfter>
+  <description>Modular turrets and upgradeable modular batteries for RimWorld 1.7/Waylith.
+Craft a base, choose one of eleven main heads, then install and upgrade interchangeable modules through assembly management. Batteries offer expandable storage and optional efficiency, generation, wireless-supply, protection and reserve modules.
+Standard Harmony is required and is not bundled. Optional compatibility assemblies load only with their matching mods; the core works independently.
+Created by Hakurua. Project-authored material is offered under MIT to the extent the author holds those rights. External rights and artwork-input provenance are recorded in the source documentation.
+Unofficial community content, not endorsed by Ludeon Studios. See NOTICE.txt for the publisher acknowledgement.</description>
+</ModMetaData>

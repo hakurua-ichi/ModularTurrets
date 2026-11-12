@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_PartDetailsButton>Info</MT_PartDetailsButton>
+  <MT_PartDetailsHint>Click to open the part description in a separate window.</MT_PartDetailsHint>
+  <MT_PartDetailsTitle>{0} — Part details</MT_PartDetailsTitle>
+</LanguageData>

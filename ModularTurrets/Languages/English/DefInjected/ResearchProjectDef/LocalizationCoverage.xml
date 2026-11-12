@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ModularTurrets.label>modular turrets</MT_ModularTurrets.label>
+  <MT_ModularTurrets.description>Unlock replaceable turret bases, the assembly bench, basic main heads and support modules. The initial platform is intended for vanilla-scale defenses.</MT_ModularTurrets.description>
+  <MT_AdvancedTurrets.label>advanced turret engineering</MT_AdvancedTurrets.label>
+  <MT_AdvancedTurrets.description>Unlock dual heads, miniguns, shell-fed mortars, missile launchers, shield modules, tracking servos and precision fire controllers. Also unlock tier I-III upgrades for installed heads and modules.</MT_AdvancedTurrets.description>
+  <MT_ExoticTurrets.label>exotic energy turrets</MT_ExoticTurrets.label>
+  <MT_ExoticTurrets.description>Unlock laser, Tesla and quantum heads, and tier IV-V upgrades for installed heads and modules.&#10;Quantum fire retains aiming and burst timing but applies immediate single-target damage without projectile travel or area damage.</MT_ExoticTurrets.description>
+  <MT_InfiniteEngineering.label>infinite turret engineering</MT_InfiniteEngineering.label>
+  <MT_InfiniteEngineering.description>Unlock repeatable damage, protection and range improvements for the turret base.&#10;Now the baseplate matters too.</MT_InfiniteEngineering.description>
+</LanguageData>

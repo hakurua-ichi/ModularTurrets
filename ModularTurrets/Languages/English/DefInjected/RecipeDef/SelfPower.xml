@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MakeModule_SelfPower.label>make self-power module</MT_MakeModule_SelfPower.label>
+  <MT_MakeModule_SelfPower.description>Provide all electricity required by the turret carrying this module, including its installed parts and base upgrades.&#10;The turret can operate without an external power network.&#10;This fixed module cannot be upgraded.&#10;&#10;Power overwhelming!</MT_MakeModule_SelfPower.description>
+  <MT_MakeModule_SelfPower.jobString>Making self-power module.</MT_MakeModule_SelfPower.jobString>
+</LanguageData>

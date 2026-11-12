@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_TravelingShell.label>modular CE artillery shell</MT_CE_TravelingShell.label>
+  <MT_CE_TravelingShell.description>An artillery shell using Combat Extended's world travel and arrival, with its modular weapon snapshot.</MT_CE_TravelingShell.description>
+</LanguageData>

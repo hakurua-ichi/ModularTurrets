@@ -1,0 +1,14 @@
+/MANIFEST.sha256
+/.work/
+/dist/
+**/bin/
+**/obj/
+**/Assemblies/
+**/__pycache__/
+.env
+.env.*
+!.env.example
+*.user
+*.suo
+*.rws
+*.pdb

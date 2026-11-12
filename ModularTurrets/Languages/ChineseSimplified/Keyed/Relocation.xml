@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_RelocateLabel>迁移空基座</MT_RelocateLabel>
+  <MT_RelocateDesc>将同一座空的 3×3 炮塔基座重新安装到其他位置。基座升级、投入记录与生命值均会保留。请先拆卸所有主炮与模块，并清空全部排队工作、暂存材料与弹药。</MT_RelocateDesc>
+  <MT_RelocateUnavailable>当前无法迁移基座。</MT_RelocateUnavailable>
+  <MT_RelocateWrecked>仅可迁移未损毁且正常运作的炮塔基座。</MT_RelocateWrecked>
+  <MT_RelocateRemoveParts>迁移基座前请先拆卸所有主炮与模块。</MT_RelocateRemoveParts>
+  <MT_RelocateClearOrders>迁移基座前请先完成或取消所有排队的组装工作。</MT_RelocateClearOrders>
+  <MT_RelocateClearStock>迁移基座前请先移走暂存材料并清空所有弹药。</MT_RelocateClearStock>
+  <MT_RelocateOwnedSpawned>请选择已放置在地图上且属于己方派系的炮塔基座。</MT_RelocateOwnedSpawned>
+  <MT_RelocateCurrentFloor>请先切换至基座所在楼层再规划迁移位置。</MT_RelocateCurrentFloor>
+  <MT_RelocateSelectOne>请仅选择一个基座来规划迁移。</MT_RelocateSelectOne>
+  <MT_RelocateOrderBlocked>请先取消待执行的迁移或卸载指定，再添加组装工作。</MT_RelocateOrderBlocked>
+  <MT_RelocateBackendFailed>[ModularTurrets] 原生重装保护不可用，已禁用空基座迁移功能：{0}</MT_RelocateBackendFailed>
+
+</LanguageData>

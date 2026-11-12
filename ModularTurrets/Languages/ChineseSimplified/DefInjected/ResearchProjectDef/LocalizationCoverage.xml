@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ModularTurrets.label>模块化炮塔</MT_ModularTurrets.label>
+  <MT_ModularTurrets.description>解锁可更换部件的炮塔基座、组装工作台、基础主炮组件以及辅助模块。初始平台适用于原版规模的防御。</MT_ModularTurrets.description>
+  <MT_AdvancedTurrets.label>高级炮塔工程</MT_AdvancedTurrets.label>
+  <MT_AdvancedTurrets.description>解锁双联主炮、加特林、发射实体炮弹的迫击炮、导弹发射器、护盾模块、追踪伺服模块以及精确火控模块。同时解锁已安装主炮与模块的I~III级升级。</MT_AdvancedTurrets.description>
+  <MT_ExoticTurrets.label>特殊能量炮塔</MT_ExoticTurrets.label>
+  <MT_ExoticTurrets.description>解锁激光炮、特斯拉与量子炮主炮组件，以及已安装主炮与模块的IV~V级升级。&#10;量子炮射击保留瞄准与连射间隔，但无需弹体飞行即可对单一目标造成瞬时伤害，且无范围伤害。</MT_ExoticTurrets.description>
+  <MT_InfiniteEngineering.label>无限炮塔工程</MT_InfiniteEngineering.label>
+  <MT_InfiniteEngineering.description>解锁炮塔基座可重复进行的伤害、防御与射程强化。&#10;后期强度基准约为累计1,000次基座升级，而非初始状态。&#10;现在连底座也至关重要了！</MT_InfiniteEngineering.description>
+</LanguageData>

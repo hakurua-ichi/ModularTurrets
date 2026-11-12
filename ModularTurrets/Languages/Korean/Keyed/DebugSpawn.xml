@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_DebugSpawnPart>등급을 지정해 부품 생성</MT_DebugSpawnPart>
+  <MT_DebugSpawnHeads>포탑 주포</MT_DebugSpawnHeads>
+  <MT_DebugSpawnModules>포탑 모듈</MT_DebugSpawnModules>
+  <MT_DebugSpawnBatteryModules>배터리 모듈</MT_DebugSpawnBatteryModules>
+  <MT_DebugSpawnTier>{0}단계</MT_DebugSpawnTier>
+  <MT_DebugSpawnLevel>강화 {0}단계</MT_DebugSpawnLevel>
+  <MT_DebugSpawnParagon>파라곤 (V단계)</MT_DebugSpawnParagon>
+  <MT_DebugSpawnChoice>{0} · {1}</MT_DebugSpawnChoice>
+  <MT_DebugSpawnOutsideMap>현재 지도 안의 칸을 선택해 주세요.</MT_DebugSpawnOutsideMap>
+  <MT_DebugSpawnFloorUnavailable>현재 층을 사용할 수 없어 부품을 배치하지 않았습니다.</MT_DebugSpawnFloorUnavailable>
+  <MT_DebugSpawnNoSpace>부품을 놓을 수 있는 안전한 주변 칸이 없습니다.</MT_DebugSpawnNoSpace>
+  <MT_DebugSpawnFailed>선택한 부품을 생성하지 못했습니다: {0}</MT_DebugSpawnFailed>
+</LanguageData>

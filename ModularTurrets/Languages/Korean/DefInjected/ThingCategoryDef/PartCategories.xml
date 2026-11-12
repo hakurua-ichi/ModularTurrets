@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_HeadPartsGroup.label>주포 부품</MT_HeadPartsGroup.label>
+  <MT_HeadParts.label>주포 부품</MT_HeadParts.label>
+  <MT_ModulePartsGroup.label>모듈</MT_ModulePartsGroup.label>
+  <MT_GeneralModules.label>일반 모듈</MT_GeneralModules.label>
+  <MT_SpecialistModules.label>전용 모듈</MT_SpecialistModules.label>
+  <MT_BatteryModules.label>배터리 모듈</MT_BatteryModules.label>
+</LanguageData>

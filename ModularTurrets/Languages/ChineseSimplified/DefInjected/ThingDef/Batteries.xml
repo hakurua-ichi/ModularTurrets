@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ModularBattery.label>模块化蓄电池</MT_ModularBattery.label>
+  <MT_ModularBattery.description>可升级的3×3防水蓄电池，由中央1×3本体与左右两个1×3模块槽组成。&#10;基础储能容量为1,200 Wd，充电效率为80%。&#10;每次本体升级消耗80钢铁与2个零部件，在计算存储模块加成前增加1,200 Wd容量。</MT_ModularBattery.description>
+  <MT_BatteryGenerationModule.label>蓄电池自发电模块</MT_BatteryGenerationModule.label>
+  <MT_BatteryGenerationModule.description>每天产生相当于有效储能容量1/100（Wd）的电力，每个模块保底发电25 W。&#10;每次升级增加该基础发电量的25%，最高可升至V级。&#10;升级等级保存在实体部件上，拆卸后重新安装仍会保留。</MT_BatteryGenerationModule.description>
+  <MT_BatteryStorageModule.label>蓄电池大容量存储模块</MT_BatteryStorageModule.label>
+  <MT_BatteryStorageModule.description>增加10,000 Wd储能容量，并使每次本体升级获得的容量提升50%。安装两个时效果叠加。可安装在蓄电池左右任意槽位，此模块无升级。</MT_BatteryStorageModule.description>
+  <MT_BatteryCoilModule.label>蓄电池无线供电模块</MT_BatteryCoilModule.label>
+  <MT_BatteryCoilModule.description>通过蓄电池所在的电网，无需电线即可为40格内的用电设施供电。&#10;每次升级增加5格范围，V级时可达65格。&#10;升级等级保存在实体部件上，拆卸后重新安装仍会保留。</MT_BatteryCoilModule.description>
+  <MT_BatteryProtectionModule.label>蓄电池浪涌保护模块</MT_BatteryProtectionModule.label>
+  <MT_BatteryProtectionModule.description>保护该蓄电池存储的电力免受电网短路影响，并防止机械故障。&#10;无法抵御太阳耀斑。&#10;可安装在蓄电池左右任意槽位。&#10;此模块无升级。</MT_BatteryProtectionModule.description>
+  <MT_BatteryReserveModule.label>蓄电池应急备用电源模块</MT_BatteryReserveModule.label>
+  <MT_BatteryReserveModule.description>额外储存相当于常规容量20%的应急备用电力。&#10;利用富余电力充电，并在电网供电不足时释放。&#10;安装两个时备用比例保持不变。&#10;可安装在蓄电池左右任意槽位。&#10;此模块无升级。</MT_BatteryReserveModule.description>
+  <MT_BatteryEfficiencyModule.label>蓄电池充电效率模块</MT_BatteryEfficiencyModule.label>
+  <MT_BatteryEfficiencyModule.description>将充电效率提升至100%。安装一个即可获得全部效果。可安装在蓄电池左右任意槽位，此模块无升级。</MT_BatteryEfficiencyModule.description>
+</LanguageData>

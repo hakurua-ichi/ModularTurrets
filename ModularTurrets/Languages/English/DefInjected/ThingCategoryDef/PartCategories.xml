@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_HeadPartsGroup.label>main head parts</MT_HeadPartsGroup.label>
+  <MT_HeadParts.label>main head parts</MT_HeadParts.label>
+  <MT_ModulePartsGroup.label>modules</MT_ModulePartsGroup.label>
+  <MT_GeneralModules.label>general modules</MT_GeneralModules.label>
+  <MT_SpecialistModules.label>specialist modules</MT_SpecialistModules.label>
+  <MT_BatteryModules.label>battery modules</MT_BatteryModules.label>
+</LanguageData>

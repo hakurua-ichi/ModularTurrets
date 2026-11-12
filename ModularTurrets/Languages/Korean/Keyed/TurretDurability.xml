@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_DurabilityInstalled>장착된 주포와 모듈: +{0} 체력</MT_DurabilityInstalled>
+  <MT_DurabilityWreck>손상 상태 추가 체력: +{0}</MT_DurabilityWreck>
+</LanguageData>

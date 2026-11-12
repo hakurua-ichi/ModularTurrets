@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_DurabilityInstalled>Installed main head and modules: +{0} hit points</MT_DurabilityInstalled>
+  <MT_DurabilityWreck>Additional wreck hit points: +{0}</MT_DurabilityWreck>
+</LanguageData>

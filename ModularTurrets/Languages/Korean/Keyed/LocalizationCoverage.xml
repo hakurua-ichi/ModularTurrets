@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ConfigCurveWidth>curveWidth는 유한한 0 이상의 값이어야 합니다.</MT_ConfigCurveWidth>
+  <MT_ConfigDistanceWidthLimit>distanceWidthLimit는 유한한 0 이상의 값이어야 합니다.</MT_ConfigDistanceWidthLimit>
+  <MT_ConfigDurationMultiplier>durationMultiplier는 유한한 양수여야 합니다.</MT_ConfigDurationMultiplier>
+  <MT_ConfigSmokeInterval>smokeInterval은 양수여야 합니다.</MT_ConfigSmokeInterval>
+  <MT_ConfigSmokeSize>smokeSize는 유한한 0 이상의 값이어야 합니다.</MT_ConfigSmokeSize>
+  <MT_ConfigUpgradeCostTiers>일반 모듈 업그레이드 비용에는 I~V단계의 배율 5개가 필요합니다.</MT_ConfigUpgradeCostTiers>
+  <MT_ConfigUpgradeCostBounds>일반 모듈 업그레이드 비용 배율은 1~4여야 합니다.</MT_ConfigUpgradeCostBounds>
+  <MT_ConfigParagonCostBounds>파라곤 업그레이드 비용 배율은 1~4여야 합니다.</MT_ConfigParagonCostBounds>
+  <MT_ConfigBeamStartAngle>빔의 시작 위치와 각도는 유한한 값이어야 합니다.</MT_ConfigBeamStartAngle>
+  <MT_ConfigBeamSize>빔의 길이와 폭은 유한한 양수여야 합니다.</MT_ConfigBeamSize>
+  <MT_ConfigBeamFadePower>빔의 fadePower는 유한한 양수여야 합니다.</MT_ConfigBeamFadePower>
+  <MT_ConfigBeamColor>빔의 색상 성분은 0~1이어야 합니다.</MT_ConfigBeamColor>
+  <MT_ConfigParagonMultipliers>파라곤 배율은 지원하는 양수 범위 안의 유한한 값이어야 합니다.</MT_ConfigParagonMultipliers>
+  <MT_ConfigParagonWork>파라곤 작업량은 유한한 양수여야 합니다.</MT_ConfigParagonWork>
+  <MT_ConfigParagonFeatures>파라곤 기능 설정이 지원 범위를 벗어났습니다.</MT_ConfigParagonFeatures>
+  <MT_ConfigParagonResearch>파라곤 연구는 존재하는 연구 항목을 지정해야 합니다.</MT_ConfigParagonResearch>
+  <MT_ConfigParagonCosts>파라곤 비용은 비어 있을 수 없습니다.</MT_ConfigParagonCosts>
+  <MT_ConfigParagonCostItem>파라곤 비용에는 유효한 물품과 양수 수량이 필요합니다.</MT_ConfigParagonCostItem>
+  <MT_ConfigShieldModule>쉴드 용량은 쉴드 모듈을 참조해야 합니다.</MT_ConfigShieldModule>
+  <MT_ConfigShieldTiers>쉴드 용량에는 0~V단계의 값 6개가 필요합니다.</MT_ConfigShieldTiers>
+  <MT_ConfigShieldCapacity>쉴드 용량은 유한한 양수이며 단계가 높아질수록 줄어들지 않아야 합니다.</MT_ConfigShieldCapacity>
+  <MT_ConfigParagonShield>파라곤 쉴드 용량은 유한하며 V단계 이상이어야 합니다.</MT_ConfigParagonShield>
+  <MT_ConfigWreckHitPoints>additionalHitPoints는 양수여야 합니다.</MT_ConfigWreckHitPoints>
+  <MT_ConfigRestorationWork>restorationWork는 유한한 양수여야 합니다.</MT_ConfigRestorationWork>
+  <MT_CEAmmoSelectionMissing>CE 탄약 종류가 설정되지 않았습니다: {0}</MT_CEAmmoSelectionMissing>
+  <MT_CEGizmoUnavailable>{0}의 CE 조작 UI를 표시할 수 없습니다 ({1}: {2}).</MT_CEGizmoUnavailable>
+  <MT_CEFeatureAmmo>탄약</MT_CEFeatureAmmo>
+  <MT_CEFeatureFireModes>사격 방식</MT_CEFeatureFireModes>
+  <MT_CESettingsError>CE 설정 오류</MT_CESettingsError>
+  <MT_EmptySlotMark>+</MT_EmptySlotMark>
+  <MT_InfoMark>i</MT_InfoMark>
+  <MT_ReloadDeliveryProgress>포탄 입고: {0}/{1}</MT_ReloadDeliveryProgress>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_InstallBaseGrade>基础型（0级）</MT_InstallBaseGrade>
+  <MT_InstallGrade>{0}级</MT_InstallGrade>
+  <MT_InstallStock>当前地图：{0} · 可选：{1} · 其他地图：{2}</MT_InstallStock>
+  <MT_InstallCraftNeeded>需先制作</MT_InstallCraftNeeded>
+  <MT_InstallLocalUnavailable>当前地图有库存，但因禁用、预留或所在楼层路径受阻而暂时无法选择。</MT_InstallLocalUnavailable>
+  <MT_InstallOtherMapOnly>库存位于其他地图。请先将其运入当前地图，然后刷新列表。</MT_InstallOtherMapOnly>
+  <MT_InstallOtherMaps>其他地图：{0}</MT_InstallOtherMaps>
+  <MT_InstallCatalogRefresh>基础型部件始终显示在列表中。&#10;其他已加载地图上的强化等级与库存会在打开或刷新此窗口时更新。&#10;也可选择当前地图其他楼层的部件，当殖民者能通过连通的楼梯或梯子搬运时即可开始安装。</MT_InstallCatalogRefresh>
+</LanguageData>

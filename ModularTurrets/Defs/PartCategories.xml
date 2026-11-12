@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>MT_HeadPartsGroup</defName>
+    <label>main head parts</label>
+    <parent>MT_Parts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MT_HeadParts</defName>
+    <label>main head parts</label>
+    <parent>MT_HeadPartsGroup</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MT_ModulePartsGroup</defName>
+    <label>modules</label>
+    <parent>MT_Parts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MT_GeneralModules</defName>
+    <label>general modules</label>
+    <parent>MT_ModulePartsGroup</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MT_SpecialistModules</defName>
+    <label>specialist modules</label>
+    <parent>MT_ModulePartsGroup</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MT_BatteryModules</defName>
+    <label>battery modules</label>
+    <parent>MT_ModulePartsGroup</parent>
+  </ThingCategoryDef>
+</Defs>

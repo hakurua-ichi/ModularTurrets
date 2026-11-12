@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ShieldStatusTitle>Turret shield</MT_ShieldStatusTitle>
+  <MT_ShieldStatusEnergy>{0:N0} / {1:N0}</MT_ShieldStatusEnergy>
+  <MT_ShieldStatusFull>Fully charged</MT_ShieldStatusFull>
+  <MT_ShieldStatusNoPower>Power off</MT_ShieldStatusNoPower>
+  <MT_ShieldStatusDelay>Recharges in {0:0} s</MT_ShieldStatusDelay>
+  <MT_ShieldStatusRecharging>Recharging</MT_ShieldStatusRecharging>
+  <MT_ShieldStatusEmergencyReady>Paragon emergency recharge: ready</MT_ShieldStatusEmergencyReady>
+  <MT_ShieldStatusEmergencyDelay>Paragon emergency recharge: {0:0} s</MT_ShieldStatusEmergencyDelay>
+  <MT_ShieldStatusEmergencyNoPower>Paragon emergency recharge: needs power</MT_ShieldStatusEmergencyNoPower>
+  <MT_ShieldStatusTip>Current shield energy / maximum capacity.&#10;This shield protects only this turret.&#10;Power is required for protection and recharging.</MT_ShieldStatusTip>
+  <MT_ShieldStatusEmergencyTip>Paragon emergency recharge triggers when the shield is depleted.&#10;EMP does not trigger it, and it does not absorb the remaining damage of the hit that depleted the shield.</MT_ShieldStatusEmergencyTip>
+  <MT_ShieldRechargeRules>Each absorbed hit resets the recharge delay to 5 seconds.&#10;Depletion or EMP sets a 20-second delay.&#10;After the delay, a powered turret restores 1/120 of its maximum shield per second.</MT_ShieldRechargeRules>
+</LanguageData>

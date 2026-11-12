@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MortarAutoReloadDesc>Request delivery of the selected shell when ammunition runs low.&#10;In Core, reload work is 0 and each delivered round is immediately usable.&#10;A mortar support module also loads available physical shells nearby.&#10;CE uses its own reload rules.&#10;Disabling this stops new automatic supply requests and unattended loading.&#10;Already assigned delivery jobs continue.</MT_MortarAutoReloadDesc>
+  <MT_MortarMixedAmmoReloadBlocked>The loaded and selected shell types differ. Unload the remaining rounds first, or select their current type again.</MT_MortarMixedAmmoReloadBlocked>
+  <MT_MortarAmmoSelectValue>Shell type: {0}</MT_MortarAmmoSelectValue>
+  <MT_MortarAmmoSelectDesc>Select the next shell to load.&#10;Loaded rounds keep their original type.&#10;Use Unload shells first to change the loaded ammunition immediately.</MT_MortarAmmoSelectDesc>
+  <MT_MortarUnloadLabel>Unload shells</MT_MortarUnloadLabel>
+  <MT_MortarUnloadDesc>Return remaining ammunition as physical items and cancel pending reload requests.&#10;Automatic reload is also disabled.&#10;Select a new shell and enable it again when ready.</MT_MortarUnloadDesc>
+  <MT_MortarAmmoStock>Loaded: {0} ×{1}</MT_MortarAmmoStock>
+  <MT_MortarAmmoActionFailed>Cannot change or unload shells now. Check remaining rounds, active reloading, reservations and space for the unloaded ammunition.</MT_MortarAmmoActionFailed>
+  <MT_MortarNativeCEReloadTip>In CE, select a colonist and right-click to order reloading. CE ammunition and reload rules apply.</MT_MortarNativeCEReloadTip>
+</LanguageData>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MarketValueBonus>已安装部件（100%）与已完成强化（材料价值的5%）：+{0}</MT_MarketValueBonus>
+  <MT_WealthTransferUnavailable>[模块化炮塔] 已安装部件的财富转移功能不可用，将保留原有物品财富统计：{0}</MT_WealthTransferUnavailable>
+  <MT_WealthCoreShapeChanged>[模块化炮塔] 原版财富统计结构已变更，已禁用已安装部件财富转移并保留原有统计。</MT_WealthCoreShapeChanged>
+  <MT_WealthBreakdownUnavailable>[模块化炮塔] VisibleWealth 兼容不可用，将保留原有财富统计：{0}</MT_WealthBreakdownUnavailable>
+  <MT_WealthBreakdownShapeChanged>[模块化炮塔] VisibleWealth 统计结构已变更，已禁用已安装部件财富转移并保留原有统计。</MT_WealthBreakdownShapeChanged>
+</LanguageData>

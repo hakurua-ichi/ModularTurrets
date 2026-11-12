@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_PhotothermalBurn.label>photothermal burn</MT_PhotothermalBurn.label>
+  <MT_PhotothermalBurn.labelNoun>a photothermal burn</MT_PhotothermalBurn.labelNoun>
+  <MT_PhotothermalBurn.description>A laser beam has seared this tissue.</MT_PhotothermalBurn.description>
+  <MT_PhotothermalBurn.injuryProps.destroyedLabel>Burned off</MT_PhotothermalBurn.injuryProps.destroyedLabel>
+  <MT_PhotothermalBurn.injuryProps.destroyedOutLabel>Burned out</MT_PhotothermalBurn.injuryProps.destroyedOutLabel>
+  <MT_PhotothermalBurn.comps.HediffComp_GetsPermanent.permanentLabel>laser burn scar</MT_PhotothermalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <MT_QuantumRupture.label>quantum rupture</MT_QuantumRupture.label>
+  <MT_QuantumRupture.labelNoun>a quantum rupture</MT_QuantumRupture.labelNoun>
+  <MT_QuantumRupture.description>A focused quantum impact has ruptured tissue at the point of impact.</MT_QuantumRupture.description>
+  <MT_QuantumRupture.injuryProps.destroyedLabel>Ruptured</MT_QuantumRupture.injuryProps.destroyedLabel>
+  <MT_QuantumRupture.injuryProps.destroyedOutLabel>Ruptured</MT_QuantumRupture.injuryProps.destroyedOutLabel>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWell>bandaged</MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWell>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWellInner>sutured</MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>set</MT_QuantumRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <MT_QuantumRupture.comps.HediffComp_GetsPermanent.permanentLabel>quantum rupture scar</MT_QuantumRupture.comps.HediffComp_GetsPermanent.permanentLabel>
+  <MT_QuantumRupture.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>permanent quantum rupture</MT_QuantumRupture.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <MT_SpecialistPulseRecovery.label>pulse recovery</MT_SpecialistPulseRecovery.label>
+  <MT_SpecialistPulseRecovery.description>Temporary protection against another dedicated Tesla pulse stun.</MT_SpecialistPulseRecovery.description>
+</LanguageData>

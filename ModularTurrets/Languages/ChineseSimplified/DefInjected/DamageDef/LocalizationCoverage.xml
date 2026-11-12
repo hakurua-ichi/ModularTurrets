@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_LaserDamage.label>激光</MT_LaserDamage.label>
+  <MT_LaserDamage.deathMessage>{0}被激光射杀。</MT_LaserDamage.deathMessage>
+  <MT_QuantumDamage.label>量子冲击</MT_QuantumDamage.label>
+  <MT_QuantumDamage.deathMessage>{0}死于量子冲击。</MT_QuantumDamage.deathMessage>
+  <MT_TeslaDischarge.label>特斯拉放电</MT_TeslaDischarge.label>
+  <MT_TeslaDischarge.deathMessage>{0}被特斯拉放电电击身亡。</MT_TeslaDischarge.deathMessage>
+</LanguageData>

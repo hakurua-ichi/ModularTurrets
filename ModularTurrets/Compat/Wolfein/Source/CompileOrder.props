@@ -1,0 +1,10 @@
+<Project>
+  <!-- Preserve declaration and partial-field initialization order; register new files explicitly. -->
+  <ItemGroup>
+    <Compile Include="WolfeinCompatibility.cs" />
+    <Compile Include="PrototypeShield.cs" />
+    <Compile Include="../../Shared/QuantumDamage.cs" Link="QuantumDamage.cs" />
+    <Compile Include="../../Shared/QuantumShieldAdapters.cs" Link="QuantumShieldAdapters.cs" />
+    <Compile Include="../../Shared/QuantumDamageScope.cs" Link="QuantumDamageScope.cs" />
+  </ItemGroup>
+</Project>

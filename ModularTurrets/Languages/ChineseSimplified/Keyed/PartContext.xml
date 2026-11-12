@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_ContextScatterConfig>迫击炮散布缩减值必须为大于或等于 0 的有限数值，且在 V 级时低于 100%。</MT_ContextScatterConfig>
+  <MT_ContextHeader>{0} · {1}</MT_ContextHeader>
+  <MT_ContextCE>CE 弹道</MT_ContextCE>
+  <MT_ContextCore>标准弹道</MT_ContextCore>
+  <MT_ContextUnavailable>战斗兼容未就绪</MT_ContextUnavailable>
+  <MT_ContextUnfitted>未指定安装目标</MT_ContextUnfitted>
+  <MT_ContextFireControlIntro>辅助瞄准并保护非敌对派系单位。&#10;所显示的效果取决于当前炮塔与战斗系统。&#10;狂暴等攻击性精神崩溃状态、火焰蔓延与坍塌不在保护范围内。</MT_ContextFireControlIntro>
+  <MT_ContextMortarCE>使用 CE 的迫击炮弹道、弹药与观测信标射击系统。所显示的效果适用于此主炮。</MT_ContextMortarCE>
+  <MT_ContextMortarCore>发射实体炮弹的标准弹道迫击炮。主炮升级可提升炮弹伤害、穿甲与散布精度。</MT_ContextMortarCore>
+  <MT_ContextSupportCE>缩短迫击炮的瞄准与射击恢复时间，并通过 CE 弹药系统自动装填附近的炮弹。</MT_ContextSupportCE>
+  <MT_ContextSupportCore>缩短迫击炮的瞄准与射击恢复时间，加快炮弹飞行速度，并自动装填附近的实体炮弹。</MT_ContextSupportCore>
+  <MT_ContextPayload>强化迫击炮弹的伤害与爆炸半径。</MT_ContextPayload>
+  <MT_ContextHeadSway>主炮瞄准晃动降低 {0:P0}</MT_ContextHeadSway>
+  <MT_ContextSway>CE 瞄准晃动降低 {0:P0}</MT_ContextSway>
+  <MT_ContextMortarScatter>迫击炮散布半径缩小 {0:P0}</MT_ContextMortarScatter>
+  <MT_ContextFriendlyPawns>保护非敌对派系的人类、动物与机械族（攻击性精神崩溃除外）</MT_ContextFriendlyPawns>
+  <MT_ContextFriendlyBuildings>迫击炮弹还会保护与该炮塔同一派系的建筑</MT_ContextFriendlyBuildings>
+  <MT_ContextPayloadDamage>炮弹伤害 ×{0:0.##}</MT_ContextPayloadDamage>
+  <MT_ContextPayloadRadius>爆炸半径 ×{0:0.##}</MT_ContextPayloadRadius>
+  <MT_ContextSupportTiming>瞄准时间 −{0:P0} · 射击冷却 −{1:P0}</MT_ContextSupportTiming>
+  <MT_ContextSupportSupply>自动装填基座占地边缘 {0:0.#} 格内可用的炮弹</MT_ContextSupportSupply>
+  <MT_ContextRapidSpeed>地图内炮弹飞行速度 +25%</MT_ContextRapidSpeed>
+
+</LanguageData>

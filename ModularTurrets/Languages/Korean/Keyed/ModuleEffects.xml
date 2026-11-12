@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_ConfigWorkerType>workerClass는 생성 가능한 ModuleEffectWorker 형식이어야 합니다.</MT_ConfigWorkerType>
+  <MT_ConfigBranches>사격 갈래 수는 1에서 9 사이여야 합니다.</MT_ConfigBranches>
+  <MT_ConfigDamage>사격 피해 배율은 음수일 수 없습니다.</MT_ConfigDamage>
+  <MT_ConfigAccuracy>빗나감 확률 감소 값은 유한한 0 이상의 값이어야 합니다.</MT_ConfigAccuracy>
+  <MT_ConfigMuzzle>포구 UV 좌표는 유한한 값이어야 합니다.</MT_ConfigMuzzle>
+</LanguageData>

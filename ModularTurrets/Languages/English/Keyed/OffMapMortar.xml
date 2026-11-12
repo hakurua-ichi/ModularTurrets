@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_CombatAdapterUnavailable>Firing stopped because the CE turret adapter did not initialize. Check the compatibility DLL and CE version.</MT_CombatAdapterUnavailable>
+  <MT_OffMapOrderLabel>Bombard a world tile</MT_OffMapOrderLabel>
+  <MT_OffMapOrderDesc>Select a world tile, then a ground-floor cell on its already loaded map.&#10;Maximum world range: {0} surface-equivalent tiles, matching a full-fuel buildable passenger shuttle.&#10;Local range upgrades do not increase this limit.&#10;Uses the mortar's normal shells, warmup, dual burst and effects.&#10;No target maps are generated.</MT_OffMapOrderDesc>
+  <MT_OffMapCancelLabel>Cancel remote bombardment</MT_OffMapCancelLabel>
+  <MT_OffMapCancelDesc>Stop this mortar's remote fire mission. Shells already in flight continue.</MT_OffMapCancelDesc>
+  <MT_OffMapNeedsMortar>Select a player-owned, installed dual mortar.</MT_OffMapNeedsMortar>
+  <MT_OffMapNeedsLoadedMap>Select an in-bounds cell on another loaded map at a different world tile.</MT_OffMapNeedsLoadedMap>
+  <MT_OffMapUnavailable>Mortar world transit is unavailable.</MT_OffMapUnavailable>
+  <MT_OffMapCannotLaunch>The mortar cannot launch under its current roof or range restrictions.</MT_OffMapCannotLaunch>
+  <MT_OffMapTargetGone>The remote mortar target map is no longer loaded. Its arriving shells were lost; spent ammunition is not returned.</MT_OffMapTargetGone>
+  <MT_OffMapFloorUnavailable>The loaded LogicalFloors API cannot guarantee a ground-floor target. Remote bombardment is unavailable.</MT_OffMapFloorUnavailable>
+  <MT_OffMapFloorFailed>The arriving mortar shell was lost because its target ground floor could not be confirmed. Spent ammunition is not returned.</MT_OffMapFloorFailed>
+  <MT_OffMapWorldSelect>Select a world tile. Maximum range: {0} surface-equivalent tiles.</MT_OffMapWorldSelect>
+  <MT_OffMapWorldDistance>Distance: {0} / maximum {1} tiles</MT_OffMapWorldDistance>
+  <MT_OffMapOutOfRange>This tile is beyond the maximum mortar world range of {0} tiles on this layer.</MT_OffMapOutOfRange>
+  <MT_OffMapSameTile>Choose a different world tile from this mortar.</MT_OffMapSameTile>
+  <MT_OffMapNoLoadedMapAtTile>This tile has no currently loaded map. Bombardment does not generate or load maps.</MT_OffMapNoLoadedMapAtTile>
+  <MT_OffMapWorldReady>Click to choose a ground-floor target on the loaded map.</MT_OffMapWorldReady>
+  <MT_OffMapConfigWorldRange>Mortar maxWorldRange must be at least 1.</MT_OffMapConfigWorldRange>
+</LanguageData>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_PhotothermalBurn.label>光热烧伤</MT_PhotothermalBurn.label>
+  <MT_PhotothermalBurn.labelNoun>光热烧伤</MT_PhotothermalBurn.labelNoun>
+  <MT_PhotothermalBurn.description>聚焦的激光束灼伤了该部位的组织。</MT_PhotothermalBurn.description>
+  <MT_PhotothermalBurn.injuryProps.destroyedLabel>被激光烧毁</MT_PhotothermalBurn.injuryProps.destroyedLabel>
+  <MT_PhotothermalBurn.injuryProps.destroyedOutLabel>被激光烧穿</MT_PhotothermalBurn.injuryProps.destroyedOutLabel>
+  <MT_PhotothermalBurn.comps.HediffComp_GetsPermanent.permanentLabel>光热烧伤疤痕</MT_PhotothermalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <MT_QuantumRupture.label>量子撕裂</MT_QuantumRupture.label>
+  <MT_QuantumRupture.labelNoun>量子撕裂</MT_QuantumRupture.labelNoun>
+  <MT_QuantumRupture.description>聚焦的量子冲击在命中点撕裂了组织。</MT_QuantumRupture.description>
+  <MT_QuantumRupture.injuryProps.destroyedLabel>被量子冲击撕裂</MT_QuantumRupture.injuryProps.destroyedLabel>
+  <MT_QuantumRupture.injuryProps.destroyedOutLabel>被量子冲击撕裂</MT_QuantumRupture.injuryProps.destroyedOutLabel>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWell>已包扎</MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWell>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWellInner>已缝合</MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>已复位</MT_QuantumRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <MT_QuantumRupture.comps.HediffComp_GetsPermanent.permanentLabel>量子撕裂疤痕</MT_QuantumRupture.comps.HediffComp_GetsPermanent.permanentLabel>
+  <MT_QuantumRupture.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>永久性量子撕裂</MT_QuantumRupture.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <MT_SpecialistPulseRecovery.label>脉冲适应</MT_SpecialistPulseRecovery.label>
+  <MT_SpecialistPulseRecovery.description>暂时免疫专用特斯拉脉冲造成的眩晕。</MT_SpecialistPulseRecovery.description>
+</LanguageData>

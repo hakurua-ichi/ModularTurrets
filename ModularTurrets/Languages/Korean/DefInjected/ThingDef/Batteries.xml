@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_ModularBattery.label>모듈러 배터리</MT_ModularBattery.label>
+  <MT_ModularBattery.description>3×3칸을 차지하는 독립 배터리입니다.&#10;기본 저장 용량은 바닐라 축전지의 두 배인 1,200Wd이며 충전 효율은 80%입니다.&#10;매회 강철 80개와 부품 2개로 본체를 업그레이드해 기본 용량을 1,200Wd 늘릴 수 있습니다.&#10;기본 방수이며 여섯 종류의 전용 모듈을 좌우에 장착합니다.</MT_ModularBattery.description>
+  <MT_BatteryGenerationModule.label>배터리 자가발전 모듈</MT_BatteryGenerationModule.label>
+  <MT_BatteryGenerationModule.description>하루에 최종 저장 용량의 1/100Wd를 발전하며 모듈당 최소 25W를 보장합니다.&#10;업그레이드마다 이 기본 발전량의 25%가 추가되며 V단계까지 강화할 수 있습니다.&#10;강화 단계는 실제 부품에 저장되어 분리하고 다시 장착해도 유지됩니다.</MT_BatteryGenerationModule.description>
+  <MT_BatteryStorageModule.label>배터리 대용량 저장 모듈</MT_BatteryStorageModule.label>
+  <MT_BatteryStorageModule.description>저장 용량을 10,000Wd 늘리고 본체 업그레이드의 용량 증가분을 50% 높입니다. 두 개를 장착하면 효과가 합산됩니다. 배터리의 좌우 슬롯에 장착하며 모듈 업그레이드는 없습니다.</MT_BatteryStorageModule.description>
+  <MT_BatteryCoilModule.label>배터리 무선 코일 모듈</MT_BatteryCoilModule.label>
+  <MT_BatteryCoilModule.description>배터리의 실제 전력망을 이용해 40칸 안의 전기 소비 건물에 전선 없이 공급합니다.&#10;업그레이드마다 범위가 5칸 늘어나며 V단계에서는 65칸이 됩니다.&#10;강화 단계는 실제 부품에 저장되어 분리하고 다시 장착해도 유지됩니다.</MT_BatteryCoilModule.description>
+  <MT_BatteryProtectionModule.label>배터리 통합 보호 모듈</MT_BatteryProtectionModule.label>
+  <MT_BatteryProtectionModule.description>이 배터리의 저장 전력을 전력망 합선으로부터 보호하고 기계 고장을 방지합니다. 단, 흑점폭발은 방어하지 못합니다. 배터리의 좌우 슬롯에 장착하며 모듈 업그레이드는 없습니다.</MT_BatteryProtectionModule.description>
+  <MT_BatteryReserveModule.label>배터리 비상 예비 전력 모듈</MT_BatteryReserveModule.label>
+  <MT_BatteryReserveModule.description>일반 용량의 20%를 별도 비상 예비 전력으로 저장합니다. 잉여 전력으로 충전하며 전력망이 부족할 때 사용합니다. 두 개를 장착해도 예비 비율은 같습니다. 배터리의 좌우 슬롯에 장착하며 모듈 업그레이드는 없습니다.</MT_BatteryReserveModule.description>
+  <MT_BatteryEfficiencyModule.label>배터리 충전 효율 모듈</MT_BatteryEfficiencyModule.label>
+  <MT_BatteryEfficiencyModule.description>충전 효율을 100%로 만듭니다. 한 개를 장착하면 전체 효과를 받으며 업그레이드할 수 없습니다. 배터리의 좌우 슬롯에 장착하며 모듈 업그레이드는 없습니다.</MT_BatteryEfficiencyModule.description>
+</LanguageData>

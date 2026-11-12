@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MakeModule_SpecialistMortarPayload.label>制作双联迫击炮专用装药强化模块</MT_MakeModule_SpecialistMortarPayload.label>
+  <MT_MakeModule_SpecialistMortarPayload.description>看来是在里面多塞了不少炸药。&#10;&#10;使迫击炮主炮的炮弹伤害提高25%，爆炸半径扩大50%，同时保留炮弹类型及其原有效果。&#10;仅可安装在双联迫击炮的左、右、上槽位。&#10;每种专用模块在同一座炮塔上只能安装或排队安装一个；装药强化模块与速射支援模块可以同时安装。&#10;制作完成后即为成品，无法升级。&#10;固定消耗100 W电力。&#10;启用 Combat Extended 时，遵循现有的 CE 弹药系统与当前所选实体炮弹类型。&#10;不影响辅助武器。&#10;安装与拆卸各需100点建造工作量，拆卸有常规的1%失败率。</MT_MakeModule_SpecialistMortarPayload.description>
+  <MT_MakeModule_SpecialistMortarPayload.jobString>正在制作双联迫击炮专用装药强化模块。</MT_MakeModule_SpecialistMortarPayload.jobString>
+  <MT_MakeModule_SpecialistMortarSupport.label>制作双联迫击炮专用速射支援模块</MT_MakeModule_SpecialistMortarSupport.label>
+  <MT_MakeModule_SpecialistMortarSupport.description>给自动装弹机加压超频了！&#10;&#10;将瞄准时间与射击后冷却时间各缩短25%。&#10;自动装填基座占地边缘6格内的兼容实体炮弹，无需殖民者搬运或额外装填工作。&#10;已禁用、已预留、搬运中或位于其他楼层（Logical Floors）的炮弹除外。&#10;使用实体炮弹进行自动装填，并按装填发数消耗对应库存。&#10;关闭自动重装也会停止此就近供弹功能。&#10;仅可安装在双联迫击炮的左、右、上槽位。&#10;每种专用模块在同一座炮塔上只能安装或排队安装一个；装药强化模块与速射支援模块可以同时安装。&#10;制作完成后即为成品，无法升级。&#10;固定消耗100 W电力。&#10;启用 Combat Extended 时，遵循现有的 CE 弹药系统与当前所选实体炮弹类型。&#10;不影响辅助武器。&#10;安装与拆卸各需100点建造工作量，拆卸有常规的1%失败率。</MT_MakeModule_SpecialistMortarSupport.description>
+  <MT_MakeModule_SpecialistMortarSupport.jobString>正在制作双联迫击炮专用速射支援模块。</MT_MakeModule_SpecialistMortarSupport.jobString>
+</LanguageData>

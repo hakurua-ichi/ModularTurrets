@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ItemOutlineUnavailable>[Modular Turrets] An item outline is unavailable, not file-backed, or too large for the static atlas: {0}. The original graphic will be used.</MT_ItemOutlineUnavailable>
+  <MT_ItemOutlineInitializationFailed>[Modular Turrets] Could not prepare the item outline for {0}: {1}. The original graphic will be used.</MT_ItemOutlineInitializationFailed>
+</LanguageData>

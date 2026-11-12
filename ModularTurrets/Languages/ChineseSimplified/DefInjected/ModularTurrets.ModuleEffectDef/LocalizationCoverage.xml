@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_FireControlEffect.label>精确火控模块</MT_FireControlEffect.label>
+  <MT_FireControlEffect.description>辅助瞄准并保护非敌对派系单位。安装后的具体效果将根据当前战斗系统与所装主炮显示。</MT_FireControlEffect.description>
+  <MT_FanEffect.label>追踪伺服模块</MT_FanEffect.label>
+  <MT_FanEffect.description>提高炮塔追踪目标时的旋转速度。安装多个相同模块时仅最高等级生效。</MT_FanEffect.description>
+</LanguageData>

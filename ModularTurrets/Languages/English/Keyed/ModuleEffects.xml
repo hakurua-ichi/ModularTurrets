@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_ConfigWorkerType>workerClass must be a concrete ModuleEffectWorker.</MT_ConfigWorkerType>
+  <MT_ConfigBranches>The number of shot branches must be between 1 and 9.</MT_ConfigBranches>
+  <MT_ConfigDamage>Shot damage factors cannot be negative.</MT_ConfigDamage>
+  <MT_ConfigAccuracy>Miss chance reduction must be finite and non-negative.</MT_ConfigAccuracy>
+  <MT_ConfigMuzzle>Muzzle UV coordinates must be finite.</MT_ConfigMuzzle>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ShieldStatusTitle>포탑 쉴드</MT_ShieldStatusTitle>
+  <MT_ShieldStatusEnergy>{0:N0} / {1:N0}</MT_ShieldStatusEnergy>
+  <MT_ShieldStatusFull>충전 완료</MT_ShieldStatusFull>
+  <MT_ShieldStatusNoPower>전력 차단</MT_ShieldStatusNoPower>
+  <MT_ShieldStatusDelay>충전 대기 {0:0}초</MT_ShieldStatusDelay>
+  <MT_ShieldStatusRecharging>재충전 중</MT_ShieldStatusRecharging>
+  <MT_ShieldStatusEmergencyReady>파라곤 비상 충전: 사용 가능</MT_ShieldStatusEmergencyReady>
+  <MT_ShieldStatusEmergencyDelay>파라곤 비상 충전: {0:0}초</MT_ShieldStatusEmergencyDelay>
+  <MT_ShieldStatusEmergencyNoPower>파라곤 비상 충전: 전력 필요</MT_ShieldStatusEmergencyNoPower>
+  <MT_ShieldStatusTip>현재 쉴드 에너지 / 최대량입니다.&#10;이 포탑만 보호하며, 피해를 막거나 충전하려면 전력이 필요합니다.</MT_ShieldStatusTip>
+  <MT_ShieldStatusEmergencyTip>파라곤 비상 충전은 쉴드가 소진되면 작동합니다.&#10;EMP로는 발동하지 않으며, 쉴드를 소진시킨 타격의 남은 피해는 막지 않습니다.</MT_ShieldStatusEmergencyTip>
+  <MT_ShieldRechargeRules>피해를 흡수할 때마다 충전 대기가 5초로 갱신됩니다.&#10;쉴드 소진 또는 EMP 피격 시에는 20초 대기합니다.&#10;대기 종료 후 전력이 공급되면 초당 최대 쉴드의 1/120을 회복합니다.</MT_ShieldRechargeRules>
+</LanguageData>

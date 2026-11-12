@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SettingsCategory>Modular Turrets</MT_SettingsCategory>
+  <MT_SettingsTitle>모듈러 포탑 설정</MT_SettingsTitle>
+  <MT_SettingsLanguage>화면 언어</MT_SettingsLanguage>
+  <MT_SettingsLanguageHint>기본값은 게임 언어를 따릅니다.&#10;이 모드의 화면 언어를 따로 선택할 수 있습니다.&#10;언어 목록과 번역은 XML 파일로 추가할 수 있으며, 같은 언어를 다시 선택하면 문구를 다시 읽습니다.</MT_SettingsLanguageHint>
+  <MT_LanguageAutomatic>게임 언어 따르기 ({0})</MT_LanguageAutomatic>
+  <MT_LanguageGameDefault>게임 기본값</MT_LanguageGameDefault>
+  <MT_LanguageUnavailable>선택한 언어가 없습니다. 다시 선택해 주세요.</MT_LanguageUnavailable>
+  <MT_ManageLabel>포탑 조립 관리</MT_ManageLabel>
+  <MT_ManageDesc>부품을 장착·분리하고 상단·모듈·베이스를 업그레이드합니다.</MT_ManageDesc>
+  <MT_AttackLabel>공격 목표 지정</MT_AttackLabel>
+  <MT_AttackDesc>주포의 공격 목표를 지정합니다. 보조무기는 별도로 목표를 찾습니다.</MT_AttackDesc>
+  <MT_HoldFireLabel>사격 금지</MT_HoldFireLabel>
+  <MT_HoldFireDesc>주포와 보조무기의 사격을 중지합니다.</MT_HoldFireDesc>
+  <MT_ClearTargetLabel>목표 지정 해제</MT_ClearTargetLabel>
+  <MT_ClearTargetDesc>주포가 자동으로 적을 찾도록 합니다.</MT_ClearTargetDesc>
+  <MT_AutoReloadLabel>자동 재장전</MT_AutoReloadLabel>
+  <MT_AutoReloadDesc>남은 포탄이 6발 이하가 되면 20발까지 채우는 건설 작업을 등록합니다.</MT_AutoReloadDesc>
+  <MT_TurretReconnectPowerDesc>가까운 유선 전력망을 다시 찾습니다.&#10;연결할 전선이 없으면 같은 층에서 사거리가 닿는 무선 코일을 찾습니다.</MT_TurretReconnectPowerDesc>
+  <MT_InspectNoHead>상단 부품이 없습니다. 조립 관리에서 장착해 주세요.</MT_InspectNoHead>
+  <MT_InspectHead>상단: {0}</MT_InspectHead>
+  <MT_InspectBase>베이스 업그레이드: 공격 {0} / 방어 {1} / 사거리 {2}</MT_InspectBase>
+  <MT_InspectCombat>공격력 ×{0:0.00} / 사거리 {1:0.0}칸</MT_InspectCombat>
+  <MT_InspectShield>쉴드: {0:0} / {1:0}</MT_InspectShield>
+  <MT_InspectShells>박격포탄: {0}/20</MT_InspectShells>
+  <MT_InspectHoldFire>사격 금지 중</MT_InspectHoldFire>
+  <MT_InspectQueue>{0}: {1}개 / {2}</MT_InspectQueue>
+  <MT_QueuePausedName>조립 일시 정지</MT_QueuePausedName>
+  <MT_QueueName>조립 대기열</MT_QueueName>
+  <MT_SlotHead>상단 부품</MT_SlotHead>
+  <MT_SlotLeft>왼쪽 모듈</MT_SlotLeft>
+  <MT_SlotRight>오른쪽 모듈</MT_SlotRight>
+  <MT_SlotTop>위쪽 모듈</MT_SlotTop>
+  <MT_SlotRear>뒤쪽 모듈</MT_SlotRear>
+  <MT_OperationDamage>공격력</MT_OperationDamage>
+  <MT_OperationArmor>방어력</MT_OperationArmor>
+  <MT_OperationRange>사거리</MT_OperationRange>
+  <MT_OperationUnknown>업그레이드</MT_OperationUnknown>
+  <MT_OrderInstall>{0} 장착: {1}</MT_OrderInstall>
+  <MT_OrderRemove>{0} 분리</MT_OrderRemove>
+  <MT_OrderPartUpgrade>{0} 업그레이드 → {1}단계</MT_OrderPartUpgrade>
+  <MT_OrderReload>박격포 재장전</MT_OrderReload>
+  <MT_OrderBaseUpgrade>베이스 {0} 업그레이드 → {1}회</MT_OrderBaseUpgrade>
+  <MT_WindowTitle>모듈러 포탑 · 조립 관리</MT_WindowTitle>
+  <MT_CombatSummary>공격 ×{0:0.00}   받는 피해 {1:P0}   사거리 {2:0.0}칸   소비 전력 {3:0} W</MT_CombatSummary>
+  <MT_SupportSummary>준비 시간 ×{0:0.00}   대기 시간 ×{1:0.00}   쉴드 {2:0}/{3:0}   {4}</MT_SupportSummary>
+  <MT_PowerOn>전원 켜짐</MT_PowerOn>
+  <MT_PowerOff>전원 꺼짐</MT_PowerOff>
+  <MT_AssemblyNoHead>조립 작업대에서 상단 부품을 제작한 뒤 장착해 주세요. 사용할 수 있는 모듈 슬롯은 상단 종류에 따라 달라집니다.</MT_AssemblyNoHead>
+  <MT_AssemblyRules>부품 장착·분리 작업량 100 · 분리 시 부품별 실패 확률 1% · 상단·모듈의 업그레이드 단계는 분리 후에도 유지됩니다.</MT_AssemblyRules>
+  <MT_PauseAssembly>조립 일시 정지</MT_PauseAssembly>
+  <MT_ShellCount>박격포탄 {0}/20</MT_ShellCount>
+  <MT_ReloadButton>포탄 운반·재장전</MT_ReloadButton>
+  <MT_ReloadReject>포탄이 가득 찼거나 재장전 작업이 이미 등록되어 있습니다.</MT_ReloadReject>
+  <MT_ReloadTip>{1} {0}발의 운반을 요청합니다.&#10;별도 장전 작업량은 0이며, 도착한 포탄은 한 발부터 즉시 장전됩니다.&#10;탄창을 모두 채울 때까지 기다리지 않습니다.</MT_ReloadTip>
+  <MT_InstallPending>장착 작업 대기 중</MT_InstallPending>
+  <MT_SelectPart>부품 선택·장착</MT_SelectPart>
+  <MT_NeedCraftedPart>제작된 실제 부품이 필요합니다.</MT_NeedCraftedPart>
+  <MT_TierLabel>업그레이드 {0}/5단계</MT_TierLabel>
+  <MT_MainTierLabel>주무장 · 업그레이드 {0}/5단계</MT_MainTierLabel>
+  <MT_RemoveButton>분리</MT_RemoveButton>
+  <MT_RemoveHeadFirst>상단 부품을 분리하려면 부착된 모듈을 먼저 분리해 주세요.</MT_RemoveHeadFirst>
+  <MT_SlotHasOrder>이 슬롯에 등록된 작업을 먼저 완료하거나 취소해 주세요.</MT_SlotHasOrder>
+  <MT_RemoveTip>작업량 100. 분리 완료 시 1% 확률로 해당 부품이 철제 광재 덩어리가 됩니다.</MT_RemoveTip>
+  <MT_UpgradeNext>업그레이드 → {0}</MT_UpgradeNext>
+  <MT_MaxTier>최고 단계</MT_MaxTier>
+  <MT_PartUpgradeReject>필요 연구가 완료되지 않았거나 이 슬롯에 다른 작업이 등록되어 있습니다.</MT_PartUpgradeReject>
+  <MT_PartUpgradeTip>{0}단계 업그레이드&#10;강철 {1}, 플라스틸 {2}, 우라늄 {3}, 고급 부품 {4}&#10;작업량 {5:N0}&#10;필요 연구: {6}&#10;업그레이드 상태는 이 부품에 저장되어 분리·재장착 후에도 유지됩니다.</MT_PartUpgradeTip>
+  <MT_NoParts>이 지도에 현재 선택할 수 있는 부품이 없습니다.&#10;조립 작업대에서 제작하고 금지·예약 상태를 확인해 주세요.</MT_NoParts>
+  <MT_PartChoice>{0} · 업그레이드 {1}/5 · 위치 {2},{3}</MT_PartChoice>
+  <MT_PartMoved>부품이 이동했거나 해당 슬롯에 작업이 이미 등록되어 있습니다.</MT_PartMoved>
+  <MT_BaseTitle>베이스 영구 업그레이드 · 상단을 교체해도 유지됩니다</MT_BaseTitle>
+  <MT_EffectDamage>+5% 기본 공격력</MT_EffectDamage>
+  <MT_EffectArmor>방어 계수 +0.05</MT_EffectArmor>
+  <MT_EffectRange>+0.1칸</MT_EffectRange>
+  <MT_BaseStatus>{0} {1}회 · {2}</MT_BaseStatus>
+  <MT_BaseAddOne>+1회 등록</MT_BaseAddOne>
+  <MT_BaseAddFive>+5회 등록</MT_BaseAddFive>
+  <MT_BaseTip>{0} {1}~{2}회 등록&#10;강철 {3:N0}, 플라스틸 {4:N0}, 부품 {5:N0}&#10;총 작업량 {6:N0}&#10;필요 연구: {7}&#10;작업은 대기열 순서대로 한 번씩 완료됩니다.</MT_BaseTip>
+  <MT_NeedResearch>{0} 연구를 먼저 완료해 주세요.</MT_NeedResearch>
+  <MT_QueueFull>대기열에는 최대 100개까지 등록할 수 있습니다.</MT_QueueFull>
+  <MT_BaseQueueReject>업그레이드 작업을 등록할 수 없습니다.</MT_BaseQueueReject>
+  <MT_QueueTitle>조립 대기열 · {0}/100</MT_QueueTitle>
+  <MT_QueueEmpty>등록된 작업이 없습니다. 부품 장착이나 업그레이드 작업을 등록해 주세요.</MT_QueueEmpty>
+  <MT_StatusWaiting>대기</MT_StatusWaiting>
+  <MT_StatusPaused>일시 정지</MT_StatusPaused>
+  <MT_StatusInvalid>진행 조건 확인 필요</MT_StatusInvalid>
+  <MT_StatusWorking>건설 작업 대기/진행</MT_StatusWorking>
+  <MT_StatusHauling>부품·자재 운반 대기</MT_StatusHauling>
+  <MT_QueueRow>{0}. {1} · {2}</MT_QueueRow>
+  <MT_CostPart>부품 1개 · {0}</MT_CostPart>
+  <MT_CostResource>{0} {1}</MT_CostResource>
+  <MT_NoCosts>추가 자재 없음</MT_NoCosts>
+  <MT_PartMissing>부품 미운반</MT_PartMissing>
+  <MT_PartDelivered>부품 운반 완료</MT_PartDelivered>
+  <MT_ResourceMissing>{0} {1} 부족</MT_ResourceMissing>
+  <MT_JoinDetails>{0} · {1}</MT_JoinDetails>
+  <MT_QueueTip>작업량 {0:N0}/{1:N0}&#10;{2}&#10;취소한 작업에 운반된 자재는 반환됩니다.</MT_QueueTip>
+  <MT_CancelButton>취소</MT_CancelButton>
+  <MT_NoDropSpace>운반된 자재를 내려놓을 공간이 필요합니다.</MT_NoDropSpace>
+  <MT_RemovalFailure>부품 분리에 실패하여 철제 광재 덩어리가 남았습니다.</MT_RemovalFailure>
+  <MT_CannotAttack>이 목표를 공격할 수 없습니다.</MT_CannotAttack>
+  <MT_TierInspect>업그레이드 단계: {0}/5</MT_TierInspect>
+  <MT_Resource_Steel>강철</MT_Resource_Steel>
+  <MT_Resource_Plasteel>플라스틸</MT_Resource_Plasteel>
+  <MT_Resource_Uranium>우라늄</MT_Resource_Uranium>
+  <MT_Resource_ComponentSpacer>고급 부품</MT_Resource_ComponentSpacer>
+  <MT_Resource_ComponentIndustrial>부품</MT_Resource_ComponentIndustrial>
+  <MT_Resource_Shell_HighExplosive>고폭탄</MT_Resource_Shell_HighExplosive>
+  <MT_Resource_ChunkSlagSteel>철제 광재 덩어리</MT_Resource_ChunkSlagSteel>
+  <MT_ConstructionRequired>건설 기술 {0} 필요</MT_ConstructionRequired>
+  <MT_IconCenteringFailed>{0}의 모듈러 포탑 아이콘을 중앙 정렬하지 못했습니다: {1}. 기존 아이콘을 유지합니다.</MT_IconCenteringFailed>
+  <MT_IconCenteringMaterialUnsupported>{0}의 모듈러 포탑 아이콘이 사용자 지정 UI 머티리얼을 사용하므로 기존 아이콘과 머티리얼을 유지합니다.</MT_IconCenteringMaterialUnsupported>
+  <MT_BurstCacheUnavailable>현재 게임 버전의 연발 캐시를 갱신하지 못했습니다. 사격은 계속되지만 업그레이드된 보조무기의 연발 수나 발사 간격은 저장 후 다시 불러올 때까지 이전 값으로 유지될 수 있습니다.</MT_BurstCacheUnavailable>
+  <MT_MigrationTitle>모듈러 포탑 점유 변환</MT_MigrationTitle>
+  <MT_MigrationSuccess>기존 포탑 베이스와 건설 객체를 3×3 점유로 변환했습니다. 부품·업그레이드·작업 진행·탄약은 원래 개체에 유지됩니다. 이동·제거 명세는 아래와 같으며 전체 명세는 이 맵의 변환 기록에 보관합니다.&#10;&#10;{0}</MT_MigrationSuccess>
+  <MT_MigrationFailure>포탑 변환 또는 제거 정리를 완료하지 못했습니다. 포탑·건설 객체 {0}개를 맵 밖 보관함에 보존하고 있습니다. 사유: {1}&#10;&#10;배치할 공간이 생기면 이 맵의 왼쪽 위 재배치 버튼을 사용하십시오. 자동 재시도는 하지 않으며, 재시도는 기존 건물을 제거하지 않고 비어 있는 3×3 공간을 찾습니다. 지원 엔진 계약이나 최종 생성에 실패한 경우에는 변환 성공으로 취급하지 말고 백업을 복원하십시오.&#10;&#10;{2}</MT_MigrationFailure>
+  <MT_MigrationInvalidTargets>저장된 포탑 객체에 중복 식별자, 잘못된 상태 또는 예상과 다른 크기가 있습니다.</MT_MigrationInvalidTargets>
+  <MT_MigrationNoPlacement>정해진 순서의 배치 계획으로 모든 대상의 3×3 위치를 예약하지 못했습니다. 가능한 모든 배치가 불가능함을 증명한 것은 아닙니다.</MT_MigrationNoPlacement>
+  <MT_MigrationUnknownFloor>저장된 개체의 층을 안전하게 확인하지 못했습니다. 기존 건물과 암석은 유지하고 포탑 개체를 검수용으로 보관했습니다.</MT_MigrationUnknownFloor>
+  <MT_MigrationOccupiedContainer>{1}에 있는 충돌 건물에 보관 내용물이 있어 보호했습니다: {0}. 재시도하기 전에 해당 건물을 옮기거나 비워 주십시오.</MT_MigrationOccupiedContainer>
+  <MT_MigrationUnknownCompressed>{1}의 압축 객체 해시 {0}을 식별하지 못했습니다. 압축 자료는 제거하지 않았습니다.</MT_MigrationUnknownCompressed>
+  <MT_MigrationUnsupportedEngine>현재 게임 버전에서 생성 전 자료 필드를 찾을 수 없습니다. 보존 성공이 확인되지 않았습니다. 이 변환은 검증된 Core 1.7.4998 계약을 지원합니다. 백업을 복원하고 지원되는 빌드를 사용하십시오.</MT_MigrationUnsupportedEngine>
+  <MT_MigrationInternalFailure>작업 중 오류({0})가 발생했습니다. 원래 로드 목록·위치·압축 자료를 복원한 뒤 관련 포탑 객체를 보관했습니다.</MT_MigrationInternalFailure>
+  <MT_MigrationErrorLog>모듈러 포탑 점유 변환 오류: {0}</MT_MigrationErrorLog>
+  <MT_MigrationHoldingFailed>객체 {0}을 변환 보관함에 넣지 못했습니다. 보존이 확인되지 않았으므로 백업을 복원하십시오.</MT_MigrationHoldingFailed>
+  <MT_MigrationSpawnIncomplete>계획된 객체 일부가 맵 생성을 완료하지 못했습니다. 변환 성공이 확인되지 않았습니다. 백업을 복원하고 로그를 확인하십시오.</MT_MigrationSpawnIncomplete>
+  <MT_MigrationCleanupFailure>제거 대상 건물 {0}의 파괴 처리를 끝내지 못했습니다. 확인을 위해 저장되는 보관함에 유지합니다.</MT_MigrationCleanupFailure>
+  <MT_MigrationMoved>3×3 예약에 맞게 이동</MT_MigrationMoved>
+  <MT_MigrationRemovedBuilding>충돌한 빈 건물 또는 청사진 제거</MT_MigrationRemovedBuilding>
+  <MT_MigrationRemovedCompressed>충돌한 압축 건물 또는 암석 제거</MT_MigrationRemovedCompressed>
+  <MT_MigrationQuarantined>배치 계획 실패 후 맵 밖에 보관</MT_MigrationQuarantined>
+  <MT_MigrationRestored>명시적 재배치 시도로 보관함에서 복귀</MT_MigrationRestored>
+  <MT_MigrationEventLine>{0} [{1}]: {2} → {3}; {4}</MT_MigrationEventLine>
+  <MT_MigrationCompressedId>압축 객체·저장된 ThingID 없음</MT_MigrationCompressedId>
+  <MT_MigrationLog>모듈러 포탑 점유 변환: {0}</MT_MigrationLog>
+  <MT_MigrationPendingCount>보관 중인 포탑·건설 객체: {0}개</MT_MigrationPendingCount>
+  <MT_MigrationRetry>빈 3×3 공간에 재배치 시도</MT_MigrationRetry>
+  <MT_MigrationPendingRemain>보관 중인 포탑 객체 또는 제거 대상 건물의 재배치·정리가 남아 있습니다. 변환이 완료된 상태가 아닙니다.</MT_MigrationPendingRemain>
+  <MT_MigrationCleanupRetry>제거 대상 빈 건물 {0}개 정리 완료</MT_MigrationCleanupRetry>
+  <MT_IffPatchFailed>모듈러 포탑의 아군 보호용 탄체 판정 보완을 적용하지 못했습니다. 표준 Harmony 모드를 모듈러 포탑보다 먼저 활성화하고 게임 버전을 확인해 주세요. 피해 제외 처리는 유지되지만, 발사원이 사라진 탄체의 아군 통과나 공격적 정신이상 상태 대상의 피격 판정이 정상적으로 동작하지 않을 수 있습니다. 상세: {0}</MT_IffPatchFailed>
+  <MT_IffInterceptShapeSkipped>모듈러 포탑이 지원하지 않는 탄체 요격 코드 형식을 발견하여 현재 판정 코드를 그대로 유지했습니다. 공격적 정신이상 상태 대상에 대한 요격 보완만 생략합니다. 상세: {0}</MT_IffInterceptShapeSkipped>
+  <MT_UnknownLauncher>알 수 없는 발사원</MT_UnknownLauncher>
+  <MT_UnknownLauncherPossessive>해당 발사원의</MT_UnknownLauncherPossessive>
+  <MT_ImpactGrammarPatchFailed>모듈러 포탑이 발사원 참조가 사라진 탄체의 전투 로그에 표시할 대체 이름을 활성화하지 못했습니다. Harmony 로드 순서와 게임 버전을 확인해 주세요. 피해와 충돌 처리는 바뀌지 않지만 전투 로그 문장을 생성하지 못할 수 있습니다. 상세: {0}</MT_ImpactGrammarPatchFailed>
+  <MT_WreckRestoreDiscount>장착 주포에 따른 복구 재료 할인: {0}.</MT_WreckRestoreDiscount>
+</LanguageData>
+

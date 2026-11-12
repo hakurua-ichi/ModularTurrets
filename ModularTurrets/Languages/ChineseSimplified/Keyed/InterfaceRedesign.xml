@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_UIR_Close>关闭控制面板</MT_UIR_Close>
+  <MT_UIR_PartsTab>部件配置</MT_UIR_PartsTab>
+  <MT_UIR_BaseTab>基座升级</MT_UIR_BaseTab>
+  <MT_UIR_EmptySlot>空槽位</MT_UIR_EmptySlot>
+  <MT_UIR_SlotPending>此槽位已有工作正在等待或进行中。</MT_UIR_SlotPending>
+  <MT_UIR_SelectedSlot>已选槽位：{0}</MT_UIR_SelectedSlot>
+  <MT_UIR_InstallQueued>开始安装</MT_UIR_InstallQueued>
+  <MT_UIR_Refresh>刷新部件列表</MT_UIR_Refresh>
+  <MT_UIR_PartLocation>距离 {0:0.0} 格 · ({1}, {2})</MT_UIR_PartLocation>
+  <MT_UIR_WorkProgress>工作进度：{0:N0} / {1:N0}</MT_UIR_WorkProgress>
+  <MT_UIR_MaterialsRemaining>尚需材料：{0}</MT_UIR_MaterialsRemaining>
+  <MT_UIR_MaterialsReady>材料已就绪</MT_UIR_MaterialsReady>
+  <MT_HeadScatterUnavailable>当前游戏版本不支持主炮升级的强制散布修正，其他精度加成仍正常生效。</MT_HeadScatterUnavailable>
+  <MT_UIR_SupportSeconds>主炮瞄准 {0:0.00} 秒   连射冷却 {1:0.00} 秒   护盾 {2:0}/{3:0}   {4}</MT_UIR_SupportSeconds>
+  <MT_UIR_InstallPart>+ 安装部件</MT_UIR_InstallPart>
+  <MT_UIR_UpgradePart>升级</MT_UIR_UpgradePart>
+  <MT_UIR_DetachPart>拆卸</MT_UIR_DetachPart>
+  <MT_UIR_SelectTitle>选择已制作的部件</MT_UIR_SelectTitle>
+  <MT_UIR_UpgradeTitle>部件升级</MT_UIR_UpgradeTitle>
+  <MT_UIR_EffectScope>此处仅显示该部件自身的效果，不含基座与其他部件。&#10;射程、护盾、辅助瞄准与冷却模块按最强模块的100%升级效果值与其余每个模块的35%效果值合计计算，0级同样适用。&#10;追踪伺服与精确火控模块仅最高等级生效；辅助武器各自独立射击。</MT_UIR_EffectScope>
+  <MT_UIR_EffectHead>部件伤害 ×{0:0.00}&#10;护甲穿透加成 +{1:P0}</MT_UIR_EffectHead>
+  <MT_UIR_EffectHeadAccuracy>有效射程内无距离命中衰减 · 按当前最大射程计算武器精度 · 主炮强化使武器脱靶率降低 {0:P0}（天气、烟雾与目标体型仍照常计算）</MT_UIR_EffectHeadAccuracy>
+  <MT_HeadDistanceAccuracyUnavailable>[模块化炮塔] 主炮射程内精度修正不可用，将保留原版命中计算：{0}</MT_HeadDistanceAccuracyUnavailable>
+  <MT_UIR_EffectScatter>散布半径缩小 {0:P0}</MT_UIR_EffectScatter>
+  <MT_UIR_EffectGuaranteed>有效目标命中率：100%</MT_UIR_EffectGuaranteed>
+  <MT_UIR_EffectRange>武器射程加成 {0:+0.0%;-0.0%;0%}</MT_UIR_EffectRange>
+  <MT_UIR_EffectShield>护盾容量 +{0:0}</MT_UIR_EffectShield>
+  <MT_UIR_EffectAiming>瞄准时间缩短 {0:P1}</MT_UIR_EffectAiming>
+  <MT_UIR_EffectCooling>连射后冷却缩短 {0:P1}</MT_UIR_EffectCooling>
+  <MT_UIR_EffectAuxiliary>辅助武器伤害 ×{0:0.00}&#10;连射 {1} 发 · 射击间隔 {2:0.000} 秒</MT_UIR_EffectAuxiliary>
+  <MT_UIR_EffectServo>追踪旋转速度 ×{0:0.000}</MT_UIR_EffectServo>
+  <MT_UIR_EffectAccuracy>武器脱靶率降低 {0:P1}</MT_UIR_EffectAccuracy>
+  <MT_UIR_EffectFriendly>保护非敌对派系的人类、动物与机械族（攻击性精神崩溃除外）；迫击炮弹还会保护同派系建筑。</MT_UIR_EffectFriendly>
+  <MT_UIR_EffectRangeFlat>额外射程 {0:+0.0;-0.0;0} 格</MT_UIR_EffectRangeFlat>
+  <MT_UIR_EffectDamage>伤害倍率 ×{0:0.00}</MT_UIR_EffectDamage>
+  <MT_UIR_EffectPenetration>护甲穿透加成 {0:+0.0%;-0.0%;0%}</MT_UIR_EffectPenetration>
+  <MT_UIR_EffectPower>此部件耗电 {0:0} W</MT_UIR_EffectPower>
+  <MT_UIR_BaseCounts>已完成：{0} · 排队中：{1}</MT_UIR_BaseCounts>
+  <MT_UIR_BaseDamage>当前基座伤害：×{0:0.00}&#10;下次升级：×{1:0.00}</MT_UIR_BaseDamage>
+  <MT_UIR_BaseArmor>当前基座承伤：{0:P1}&#10;下次升级：{1:P1}</MT_UIR_BaseArmor>
+  <MT_UIR_BaseRange>当前基座额外射程：{0:0.0} 格&#10;下次升级：{1:0.0} 格</MT_UIR_BaseRange>
+  <MT_UIR_BaseSingleCost>升级费用&#10;{0} {1:N0} · {2} {3:N0}&#10;{4} {5:N0}&#10;工作量 {6:N0}</MT_UIR_BaseSingleCost>
+  <MT_UIR_CostStage>排队工作之后 · 第 {0} 次升级</MT_UIR_CostStage>
+  <MT_UIR_BaseQueueOne>追加 1 次</MT_UIR_BaseQueueOne>
+  <MT_UIR_BaseQueueFive>追加 5 次</MT_UIR_BaseQueueFive>
+  <MT_UIR_BaseQueueCost>{0}：追加 {1} 次升级&#10;当前队列全部完成后累计：{2} 次&#10;合计费用：{3} {4:N0}，{5} {6:N0}，{7} {8:N0}&#10;总工作量 {9:N0}</MT_UIR_BaseQueueCost>
+  <MT_UIR_ClosePopup>关闭</MT_UIR_ClosePopup>
+  <MT_UIR_StageNext>当前 {0}/5 级 → 下一级 {1}/5 级</MT_UIR_StageNext>
+  <MT_UIR_StageMax>当前 {0}/5 级 · 已达最高级</MT_UIR_StageMax>
+  <MT_UIR_CompareCurrent>当前等级 · {0}</MT_UIR_CompareCurrent>
+  <MT_UIR_CompareNext>下一等级 · {0}</MT_UIR_CompareNext>
+  <MT_UIR_RequiredMaterials>所需材料</MT_UIR_RequiredMaterials>
+  <MT_UIR_ResourceAmount>{0} ×{1:N0}</MT_UIR_ResourceAmount>
+  <MT_UIR_WorkAmount>工作量 {0:N0}</MT_UIR_WorkAmount>
+  <MT_UIR_PartIconInfo>{0} · 当前 {1}/5 级&#10;&#10;当前效果（仅该部件）&#10;{2}&#10;&#10;{3}</MT_UIR_PartIconInfo>
+  <MT_UIR_UpgradeInfo>{0}&#10;&#10;{1}&#10;&#10;升级等级保存在该部件上，拆卸并重新安装后仍会保留。</MT_UIR_UpgradeInfo>
+  <MT_UIR_BackToTurret>返回</MT_UIR_BackToTurret>
+  <MT_UIR_CombatDamage>主炮单发伤害 {0}   承伤比例 {1:P0}   射程 {2:0.0} 格   耗电量 {3:0} W</MT_UIR_CombatDamage>
+  <MT_UIR_MainDamageTip>计入升级后主炮单发对单个目标造成的伤害。&#10;命中后仍受护甲减免与爆炸距离衰减影响。</MT_UIR_MainDamageTip>
+  <MT_UIR_CancelBaseOne>仅取消这一项升级任务。&#10;排在后面的基座升级会自动前移填补空位。</MT_UIR_CancelBaseOne>
+  <MT_UIR_StartUpgrade>开始升级</MT_UIR_StartUpgrade>
+  <MT_UIR_FinishUpgrade>请先完成正在进行的升级。</MT_UIR_FinishUpgrade>
+  <MT_UIR_UpgradeWorking>正在升至 {0} 级</MT_UIR_UpgradeWorking>
+  <MT_UIR_UpgradeWaiting>等待升至 {0} 级</MT_UIR_UpgradeWaiting>
+  <MT_UIR_PartStageActive>{0}/5 级 · {1}</MT_UIR_PartStageActive>
+  <MT_UIR_StageActive>当前 {0}/5 级 · {1}</MT_UIR_StageActive>
+</LanguageData>

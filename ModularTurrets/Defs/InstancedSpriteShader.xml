@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Installed stages only. The private API candidate supplies the transform layout explicitly. -->
+  <ShaderDef>
+    <defName>MT_InstancedSpriteCutout</defName>
+    <shaderProgram>
+      <vertexShaderFileName>Transparent.vert.glsl</vertexShaderFileName>
+      <fragmentShaderFileName>Cutout.frag.glsl</fragmentShaderFileName>
+      <useTexture>true</useTexture>
+      <flipTextureST>true</flipTextureST>
+      <transparent>true</transparent>
+      <depthTest>true</depthTest>
+      <depthWrite>true</depthWrite>
+      <cullMode>Back</cullMode>
+      <blendMode>Alpha</blendMode>
+      <renderQueue>2900</renderQueue>
+    </shaderProgram>
+  </ShaderDef>
+</Defs>

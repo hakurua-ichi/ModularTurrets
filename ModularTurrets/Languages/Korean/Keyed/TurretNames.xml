@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_TurretNameAutocannon>기관포 포탑</MT_TurretNameAutocannon>
+  <MT_TurretNameSniper>저격포 포탑</MT_TurretNameSniper>
+  <MT_TurretNameDualAutocannon>이중 기관포 포탑</MT_TurretNameDualAutocannon>
+  <MT_TurretNameDualSniper>이중 저격포 포탑</MT_TurretNameDualSniper>
+  <MT_TurretNameDualMortar>이중 박격포 포탑</MT_TurretNameDualMortar>
+  <MT_TurretNameFlamethrower>화염방사기 포탑</MT_TurretNameFlamethrower>
+  <MT_TurretNameMinigun>미니건 포탑</MT_TurretNameMinigun>
+  <MT_TurretNameLaser>레이저포 포탑</MT_TurretNameLaser>
+  <MT_TurretNameMissile>미사일포 포탑</MT_TurretNameMissile>
+  <MT_TurretNameTesla>테슬라 포탑</MT_TurretNameTesla>
+  <MT_TurretNameQuantum>양자포 포탑</MT_TurretNameQuantum>
+  <MT_TurretNameGeneric>{0} 포탑</MT_TurretNameGeneric>
+</LanguageData>

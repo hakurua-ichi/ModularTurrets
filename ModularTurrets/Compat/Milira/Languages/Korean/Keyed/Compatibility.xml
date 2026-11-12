@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MiliraShieldCompatibilityFailed>모듈러 포탑: 밀리라 방패 호환을 적용하지 못해 기존 방어 동작을 유지합니다. 상세: {0}</MT_MiliraShieldCompatibilityFailed>
+</LanguageData>

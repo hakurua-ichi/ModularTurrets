@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ConfigCurveWidth>curveWidth must be finite and nonnegative</MT_ConfigCurveWidth>
+  <MT_ConfigDistanceWidthLimit>distanceWidthLimit must be finite and nonnegative</MT_ConfigDistanceWidthLimit>
+  <MT_ConfigDurationMultiplier>durationMultiplier must be finite and positive</MT_ConfigDurationMultiplier>
+  <MT_ConfigSmokeInterval>smokeInterval must be positive</MT_ConfigSmokeInterval>
+  <MT_ConfigSmokeSize>smokeSize must be finite and nonnegative</MT_ConfigSmokeSize>
+  <MT_ConfigUpgradeCostTiers>Module upgrade costs require five multipliers for tiers I through V.</MT_ConfigUpgradeCostTiers>
+  <MT_ConfigUpgradeCostBounds>Module upgrade cost multipliers must be between 1 and 4.</MT_ConfigUpgradeCostBounds>
+  <MT_ConfigParagonCostBounds>Paragon upgrade cost multiplier must be between 1 and 4.</MT_ConfigParagonCostBounds>
+  <MT_ConfigBeamStartAngle>beam start/angle must be finite</MT_ConfigBeamStartAngle>
+  <MT_ConfigBeamSize>beam length/width must be finite and positive</MT_ConfigBeamSize>
+  <MT_ConfigBeamFadePower>beam fadePower must be finite and positive</MT_ConfigBeamFadePower>
+  <MT_ConfigBeamColor>beam color components must be between 0 and 1</MT_ConfigBeamColor>
+  <MT_ConfigParagonMultipliers>Paragon multipliers must be finite and within their supported positive bounds.</MT_ConfigParagonMultipliers>
+  <MT_ConfigParagonWork>Paragon work must be finite and positive.</MT_ConfigParagonWork>
+  <MT_ConfigParagonFeatures>Paragon feature settings are outside their supported bounds.</MT_ConfigParagonFeatures>
+  <MT_ConfigParagonResearch>Paragon research must identify an existing research project.</MT_ConfigParagonResearch>
+  <MT_ConfigParagonCosts>Paragon costs must not be empty.</MT_ConfigParagonCosts>
+  <MT_ConfigParagonCostItem>Paragon costs require a valid item and positive amount.</MT_ConfigParagonCostItem>
+  <MT_ConfigShieldModule>Shield capacity must reference a shield module.</MT_ConfigShieldModule>
+  <MT_ConfigShieldTiers>Shield capacity requires six entries for tiers 0 through V.</MT_ConfigShieldTiers>
+  <MT_ConfigShieldCapacity>Shield capacities must be finite, positive and nondecreasing.</MT_ConfigShieldCapacity>
+  <MT_ConfigParagonShield>Paragon shield capacity must be finite and at least tier V.</MT_ConfigParagonShield>
+  <MT_ConfigWreckHitPoints>additionalHitPoints must be positive</MT_ConfigWreckHitPoints>
+  <MT_ConfigRestorationWork>restorationWork must be finite and positive</MT_ConfigRestorationWork>
+  <MT_CEAmmoSelectionMissing>CE ammunition type is not configured: {0}</MT_CEAmmoSelectionMissing>
+  <MT_CEGizmoUnavailable>Cannot show CE controls for {0} ({1}: {2}).</MT_CEGizmoUnavailable>
+  <MT_CEFeatureAmmo>ammunition</MT_CEFeatureAmmo>
+  <MT_CEFeatureFireModes>fire modes</MT_CEFeatureFireModes>
+  <MT_CESettingsError>CE configuration error</MT_CESettingsError>
+  <MT_EmptySlotMark>+</MT_EmptySlotMark>
+  <MT_InfoMark>i</MT_InfoMark>
+  <MT_ReloadDeliveryProgress>Shells received: {0}/{1}</MT_ReloadDeliveryProgress>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ItemOutlineUnavailable>[Modular Turrets] 地面物品轮廓贴图不可用、非文件资源或过大而无法放入静态图集：{0}。将使用原始贴图。</MT_ItemOutlineUnavailable>
+  <MT_ItemOutlineInitializationFailed>[Modular Turrets] 未能为 {0} 准备地面物品轮廓：{1}。将使用原始贴图。</MT_ItemOutlineInitializationFailed>
+</LanguageData>

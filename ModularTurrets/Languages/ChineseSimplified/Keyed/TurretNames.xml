@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_TurretNameAutocannon>机炮炮塔</MT_TurretNameAutocannon>
+  <MT_TurretNameSniper>狙击炮炮塔</MT_TurretNameSniper>
+  <MT_TurretNameDualAutocannon>双联机炮炮塔</MT_TurretNameDualAutocannon>
+  <MT_TurretNameDualSniper>双联狙击炮炮塔</MT_TurretNameDualSniper>
+  <MT_TurretNameDualMortar>双联迫击炮炮塔</MT_TurretNameDualMortar>
+  <MT_TurretNameFlamethrower>火焰喷射器炮塔</MT_TurretNameFlamethrower>
+  <MT_TurretNameMinigun>加特林炮塔</MT_TurretNameMinigun>
+  <MT_TurretNameLaser>激光炮炮塔</MT_TurretNameLaser>
+  <MT_TurretNameMissile>导弹炮塔</MT_TurretNameMissile>
+  <MT_TurretNameTesla>特斯拉炮塔</MT_TurretNameTesla>
+  <MT_TurretNameQuantum>量子炮炮塔</MT_TurretNameQuantum>
+  <MT_TurretNameGeneric>{0}炮塔</MT_TurretNameGeneric>
+
+</LanguageData>

@@ -1,0 +1,34 @@
+<Project>
+  <!-- Preserve declaration and partial-field initialization order; register new files explicitly. -->
+  <ItemGroup>
+    <Compile Include="CompProperties_MountedCE.cs" />
+    <Compile Include="CompMountedCE.cs" />
+    <Compile Include="CombatExtendedBoot.cs" />
+    <Compile Include="CombatAdapter.cs" />
+    <Compile Include="DesignatorCompatibility.cs" />
+    <Compile Include="MortarAmmunition.cs" />
+    <Compile Include="MortarAutoload.cs" />
+    <Compile Include="IMountedAiming.cs" />
+    <Compile Include="MountedAimState.cs" />
+    <Compile Include="MountedWarmup.cs" />
+    <Compile Include="MountedHeightExtension.cs" />
+    <Compile Include="MountedGeometry.cs" />
+    <Compile Include="Verb_MountedShootCE.cs" />
+    <Compile Include="Verb_MountedMortarCE.cs" />
+    <Compile Include="RemoteMortarBackend.cs" />
+    <Compile Include="Verb_MountedMortarCE.RemoteMortarBackend.cs" />
+    <Compile Include="MountedShotSnapshot.cs" />
+    <Compile Include="ShotSnapshots.cs" />
+    <Compile Include="MountedTravelingShellCE.cs" />
+    <Compile Include="Verb_MountedPhaseCE.cs" />
+    <Compile Include="Verb_MountedTeslaCE.cs" />
+    <Compile Include="SpecialWeapons.cs" />
+    <Compile Include="Projectile_MountedLaserCE.cs" />
+    <Compile Include="Projectile_MountedFieldCE.cs" />
+    <Compile Include="Projectile_MountedQuantumCE.cs" />
+    <Compile Include="Projectile_MountedTeslaCE.cs" />
+    <Compile Include="Projectile_MountedPulseHitCE.cs" />
+    <Compile Include="Projectile_MountedMissileCE.cs" />
+    <Compile Include="MountedMissileTrajectoryCE.cs" />
+  </ItemGroup>
+</Project>

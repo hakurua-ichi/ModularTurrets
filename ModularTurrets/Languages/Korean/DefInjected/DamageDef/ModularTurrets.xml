@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_LaserDamage.label>레이저</MT_LaserDamage.label>
+  <MT_LaserDamage.deathMessage>{0}이(가) 레이저에 맞아 사망했습니다.</MT_LaserDamage.deathMessage>
+  <MT_QuantumDamage.label>양자 충격</MT_QuantumDamage.label>
+  <MT_QuantumDamage.deathMessage>{0}이(가) 양자 충격으로 사망했습니다.</MT_QuantumDamage.deathMessage>
+  <MT_TeslaDischarge.label>테슬라 방전</MT_TeslaDischarge.label>
+  <MT_TeslaDischarge.deathMessage>{0}이(가) 테슬라 방전에 감전되어 사망했습니다.</MT_TeslaDischarge.deathMessage>
+</LanguageData>

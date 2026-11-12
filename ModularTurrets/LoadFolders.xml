@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+  <v1.7>
+    <li>/</li>
+    <li IfModActive="moont.dd.logicalfloors">Compat/LogicalFloors</li>
+    <li IfModActive="ceteam.combatextended">Compat/CombatExtended</li>
+    <li IfModActive="visiblewealth.1trickPwnyta">Compat/VisibleWealth</li>
+    <li IfModActive="Ancot.MiliraRace">Compat/Milira</li>
+    <li IfModActive="Ariandel.MiliraImperium">Compat/MiliraImperium</li>
+    <li IfModActive="ASEL.MonolynRace">Compat/Monolyn</li>
+    <li IfModActive="VAMV.MaruRaceMod">Compat/Maru</li>
+    <li IfModActive="MelonDove.WolfeinRace">Compat/Wolfein</li>
+    <li IfModActive="adaptive.storage.framework">Compat/AdaptiveStorage</li>
+  </v1.7>
+</loadFolders>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ConfigParagonMaterialFactor>paragonMaterialFactor must be finite, greater than zero and no greater than one.</MT_ConfigParagonMaterialFactor>
+</LanguageData>

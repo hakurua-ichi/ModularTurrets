@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_RenderInstancingLabel>Turret GPU instancing</MT_RenderInstancingLabel>
+  <MT_RenderInstancingHint>Default: on. Groups compatible turret sprites to reduce CPU rendering submissions.&#10;Unsupported conditions use individual draws. Turn this off if you see flickering or other visual issues.</MT_RenderInstancingHint>
+</LanguageData>

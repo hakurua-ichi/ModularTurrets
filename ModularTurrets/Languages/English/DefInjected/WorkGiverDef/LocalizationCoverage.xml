@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_Assembly.label>assemble modular turrets</MT_Assembly.label>
+  <MT_Assembly.verb>assemble</MT_Assembly.verb>
+  <MT_Assembly.gerund>assembling modular turrets</MT_Assembly.gerund>
+  <MT_FillTurrets.label>deliver materials to turrets</MT_FillTurrets.label>
+  <MT_FillTurrets.verb>deliver materials to</MT_FillTurrets.verb>
+  <MT_FillTurrets.gerund>delivering turret parts and materials</MT_FillTurrets.gerund>
+  <MT_DoBillsAssemblyBench.label>make turret parts</MT_DoBillsAssemblyBench.label>
+  <MT_DoBillsAssemblyBench.verb>make parts at</MT_DoBillsAssemblyBench.verb>
+  <MT_DoBillsAssemblyBench.gerund>making parts at</MT_DoBillsAssemblyBench.gerund>
+</LanguageData>

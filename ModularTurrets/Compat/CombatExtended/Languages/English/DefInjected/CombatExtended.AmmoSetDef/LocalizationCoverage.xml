@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_AmmoSet_Laser.label>mounted laser charged ammunition</MT_CE_AmmoSet_Laser.label>
+  <MT_CE_AmmoSet_Tesla.label>mounted Tesla charged ammunition</MT_CE_AmmoSet_Tesla.label>
+  <MT_CE_AmmoSet_Quantum.label>mounted quantum charged ammunition</MT_CE_AmmoSet_Quantum.label>
+  <MT_CE_AmmoSet_Missile.label>mounted miniature HE ammunition</MT_CE_AmmoSet_Missile.label>
+</LanguageData>

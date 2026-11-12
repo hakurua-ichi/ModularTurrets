@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_SoundTrialLabel>使用测试射击音效</MT_SoundTrialLabel>
+  <MT_SoundTrialHint>启用新制作的测试版射击音效。&#10;关闭此项将使用原有的 0.1.9 版射击音效，更改将在下次开火时生效。&#10;这些音效为尚待试听评估的测试版本。</MT_SoundTrialHint>
+
+</LanguageData>

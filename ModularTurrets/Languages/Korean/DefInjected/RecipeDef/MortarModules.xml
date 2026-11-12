@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MakeModule_SpecialistMortarPayload.label>이중 박격포 전용 포격 강화 모듈 제작</MT_MakeModule_SpecialistMortarPayload.label>
+  <MT_MakeModule_SpecialistMortarPayload.description>아무래도 내부에 폭약을 더 넣었나 봅니다.&#10;&#10;박격포 주포의 포탄 피해를 25%, 폭발 반경을 50% 증가시킵니다.&#10;포탄 종류와 원래 효과는 유지합니다.&#10;이중 박격포의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;포탑 한 기에 종류별로 하나만 장착하거나 장착 대기열에 등록할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;고정 전력 100W를 사용합니다.&#10;Combat Extended가 있으면 기존 CE 탄약 체계와 현재 선택한 실물 포탄 종류를 따릅니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_MakeModule_SpecialistMortarPayload.description>
+  <MT_MakeModule_SpecialistMortarPayload.jobString>이중 박격포 전용 포격 강화 모듈 제작 중</MT_MakeModule_SpecialistMortarPayload.jobString>
+  <MT_MakeModule_SpecialistMortarSupport.label>이중 박격포 전용 속사 지원 모듈 제작</MT_MakeModule_SpecialistMortarSupport.label>
+  <MT_MakeModule_SpecialistMortarSupport.description>장전 모듈에 전압을 추가로 가했습니다!&#10;&#10;조준 시간과 발사 후 대기를 각각 25% 줄입니다.&#10;베이스 점유 영역 바깥 6칸 이내의 호환되는 실물 포탄을 주민 운반이나 추가 장전 작업 없이 자동으로 공급합니다.&#10;금지·예약·운반 중이거나 다른 층(Logical Floors)에 있는 포탄은 제외합니다.&#10;실제 포탄으로 자동 장전하며 장전한 발수만큼 재고를 소모합니다.&#10;자동 재장전을 끄면 이 주변 공급도 중지됩니다.&#10;이중 박격포의 좌·우·상단 슬롯에만 장착할 수 있습니다.&#10;포탑 한 기에 종류별로 하나만 장착하거나 장착 대기열에 등록할 수 있으며, 포격 강화와 속사 지원 모듈은 함께 장착할 수 있습니다.&#10;완성품으로 제작되며 업그레이드할 수 없습니다.&#10;고정 전력 100W를 사용합니다.&#10;Combat Extended가 있으면 기존 CE 탄약 체계와 현재 선택한 실물 포탄 종류를 따릅니다.&#10;보조무기에는 적용되지 않습니다.&#10;장착·분리 작업량은 각각 100이며, 분리 시 기존과 같은 1% 실패 확률이 적용됩니다.</MT_MakeModule_SpecialistMortarSupport.description>
+  <MT_MakeModule_SpecialistMortarSupport.jobString>이중 박격포 전용 속사 지원 모듈 제작 중</MT_MakeModule_SpecialistMortarSupport.jobString>
+</LanguageData>

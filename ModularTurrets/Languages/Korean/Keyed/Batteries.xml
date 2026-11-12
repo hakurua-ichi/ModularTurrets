@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_BatteryManage>배터리 관리</MT_BatteryManage>
+  <MT_BatteryManageDesc>좌우 모듈, 본체 업그레이드와 대기 작업을 관리합니다.</MT_BatteryManageDesc>
+  <MT_BatteryTitle>모듈러 배터리</MT_BatteryTitle>
+  <MT_BatteryBody>배터리 본체</MT_BatteryBody>
+  <MT_BatteryCapacityGain>저장 용량 {0:N0} Wd · 증설 1회당 {1:N0} Wd 증가</MT_BatteryCapacityGain>
+  <MT_BatteryQueueCount>조립 대기열 · {0}/64</MT_BatteryQueueCount>
+  <MT_BatteryStats>저장 전력: {0:0.##} / {1:0.##} Wd · 충전 효율: {2:0.#}%</MT_BatteryStats>
+  <MT_BatteryLevel>본체 업그레이드: {0}회</MT_BatteryLevel>
+  <MT_BatteryUpgrade>본체 용량 업그레이드</MT_BatteryUpgrade>
+  <MT_BatteryUpgradeDesc>강철과 일반 부품을 운반한 뒤 건설 작업으로 저장 용량을 늘립니다.&#10;저장 전력이 즉시 생성되지는 않습니다.</MT_BatteryUpgradeDesc>
+  <MT_BatteryUpgradeCost>강철 {0}개 · 부품 {1}개 · 작업량 {2}</MT_BatteryUpgradeCost>
+  <MT_BatteryLeft>왼쪽 슬롯</MT_BatteryLeft>
+  <MT_BatteryRight>오른쪽 슬롯</MT_BatteryRight>
+  <MT_BatteryEmpty>비어 있음</MT_BatteryEmpty>
+  <MT_BatteryInstall>장착</MT_BatteryInstall>
+  <MT_BatteryRemove>분리</MT_BatteryRemove>
+  <MT_BatteryNoModules>사용할 수 있는 배터리 모듈이 없습니다.</MT_BatteryNoModules>
+  <MT_BatteryQueueTitle>대기 작업</MT_BatteryQueueTitle>
+  <MT_BatteryOrderUpgrade>본체 용량 업그레이드</MT_BatteryOrderUpgrade>
+  <MT_BatteryOrderUpgradeModule>{0} · {1} {2}단계 업그레이드</MT_BatteryOrderUpgradeModule>
+  <MT_BatteryInstalledPart>{0} · {1}</MT_BatteryInstalledPart>
+  <MT_BatteryModuleStage>모듈 단계 {0} / {1}</MT_BatteryModuleStage>
+  <MT_BatteryCoilUpgradeEffect>이 코일의 무선 공급 반경 {0:0.#} → {1:0.#}칸</MT_BatteryCoilUpgradeEffect>
+  <MT_BatteryGenerationUpgradeEffect>이 모듈의 발전 출력 {0:0.##} → {1:0.##} W</MT_BatteryGenerationUpgradeEffect>
+  <MT_BatteryOrderInstall>{0}: {1} 장착</MT_BatteryOrderInstall>
+  <MT_BatteryOrderRemove>{0}: 모듈 제거</MT_BatteryOrderRemove>
+  <MT_BatteryWorkProgress>남은 작업량: {0} / {1}</MT_BatteryWorkProgress>
+  <MT_BatteryMaterial>{0}: {1}개 필요</MT_BatteryMaterial>
+  <MT_BatteryCancel>작업 취소</MT_BatteryCancel>
+  <MT_BatteryRetry>다시 반환 시도</MT_BatteryRetry>
+  <MT_BatteryNoOrders>대기 작업이 없습니다.</MT_BatteryNoOrders>
+  <MT_BatteryRequestFailed>배터리 작업을 예약할 수 없습니다.</MT_BatteryRequestFailed>
+  <MT_BatteryConstructionRequired>건설 기술 {0} 필요.</MT_BatteryConstructionRequired>
+  <MT_BatteryClose>닫기</MT_BatteryClose>
+  <MT_BatteryReserveStatus>비상 예비 전력 {0:0.##} / {1:0.##} Wd</MT_BatteryReserveStatus>
+  <MT_BatteryGenerationStatus>자가발전 {0:0.##} W</MT_BatteryGenerationStatus>
+  <MT_BatteryWirelessStatus>무선 공급 반경 {0:0.#}칸</MT_BatteryWirelessStatus>
+  <MT_BatteryModuleItemLabel>{0} (강화 {1}단계)</MT_BatteryModuleItemLabel>
+  <MT_BatteryModuleItemLevel>모듈 강화 {0} / {1}단계</MT_BatteryModuleItemLevel>
+</LanguageData>

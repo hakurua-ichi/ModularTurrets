@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MiliraImperiumShieldCompatibilityFailed>Modular Turrets: {0} compatibility could not be applied; existing defense behavior is retained. Details: {1}</MT_MiliraImperiumShieldCompatibilityFailed>
+</LanguageData>

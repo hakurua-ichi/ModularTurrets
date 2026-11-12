@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ContextScatterConfig>박격포 산포 감소는 유한한 0 이상의 수치이며 V단계에서도 100% 미만이어야 합니다.</MT_ContextScatterConfig>
+  <MT_ContextHeader>{0} · {1}</MT_ContextHeader>
+  <MT_ContextCE>CE 탄도</MT_ContextCE>
+  <MT_ContextCore>기본 탄도</MT_ContextCore>
+  <MT_ContextUnavailable>전투 연동 준비 안 됨</MT_ContextUnavailable>
+  <MT_ContextUnfitted>장착 대상 미정</MT_ContextUnfitted>
+  <MT_ContextFireControlIntro>조준을 보조하고 비적대 진영의 주민을 보호합니다.&#10;표시된 효과는 현재 포탑과 전투 방식에 맞춰집니다.&#10;광란 등 공격적인 정신이상·화재 확산·붕괴는 보호 대상에서 제외됩니다.</MT_ContextFireControlIntro>
+  <MT_ContextMortarCE>CE의 박격포 탄도·탄약·관측 표식 사격 체계를 사용합니다. 표시된 효과는 이 주포에 적용됩니다.</MT_ContextMortarCE>
+  <MT_ContextMortarCore>실물 포탄을 사용하는 기본 탄도 박격포입니다. 주포 강화로 포격 피해·관통·집탄이 향상됩니다.</MT_ContextMortarCore>
+  <MT_ContextSupportCE>박격포의 조준·재사격 대기 시간을 줄이고 CE 탄약 체계를 통해 주변 포탄을 자동 장전합니다.</MT_ContextSupportCE>
+  <MT_ContextSupportCore>박격포의 조준·재사격 대기 시간을 줄이고 포탄 비행 속도를 높이며 주변 실물 포탄을 자동 장전합니다.</MT_ContextSupportCore>
+  <MT_ContextPayload>박격포탄의 피해와 폭발 반경을 강화합니다.</MT_ContextPayload>
+  <MT_ContextHeadSway>주포 조준 흔들림 {0:P0} 감소</MT_ContextHeadSway>
+  <MT_ContextSway>CE 조준 흔들림 {0:P0} 감소</MT_ContextSway>
+  <MT_ContextMortarScatter>박격포 산포 반경 {0:P0} 감소</MT_ContextMortarScatter>
+  <MT_ContextFriendlyPawns>비적대 진영의 사람·동물·메카노이드 보호(광란 등 공격적인 정신이상 제외)</MT_ContextFriendlyPawns>
+  <MT_ContextFriendlyBuildings>박격포탄은 포탑과 같은 진영의 건물도 보호</MT_ContextFriendlyBuildings>
+  <MT_ContextPayloadDamage>포탄 피해 ×{0:0.##}</MT_ContextPayloadDamage>
+  <MT_ContextPayloadRadius>폭발 반경 ×{0:0.##}</MT_ContextPayloadRadius>
+  <MT_ContextSupportTiming>조준 시간 −{0:P0} · 재사격 대기 −{1:P0}</MT_ContextSupportTiming>
+  <MT_ContextSupportSupply>베이스 점유 영역으로부터 {0:0.#}칸 이내의 사용 가능한 포탄 자동 장전</MT_ContextSupportSupply>
+  <MT_ContextRapidSpeed>맵 내 포탄 비행 속도 +25%</MT_ContextRapidSpeed>
+</LanguageData>

@@ -1,0 +1,7 @@
+<Project>
+  <!-- Preserve declaration and partial-field initialization order; register new files explicitly. -->
+  <ItemGroup>
+    <Compile Include="VisibleWealthCompatibility.cs" />
+    <Compile Include="VisibleWealthTranspiler.cs" />
+  </ItemGroup>
+</Project>

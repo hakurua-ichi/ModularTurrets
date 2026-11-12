@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ParagonVisualFallback>[Modular Turrets] Paragon housing rendering is unavailable; using the original appearance: {0}</MT_ParagonVisualFallback>
+  <MT_ParagonIconPatchFailed>[Modular Turrets] Paragon item icon integration is unavailable; using the original icon: {0}</MT_ParagonIconPatchFailed>
+</LanguageData>

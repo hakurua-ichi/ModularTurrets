@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_RelocateLabel>Relocate empty base</MT_RelocateLabel>
+  <MT_RelocateDesc>Reinstall this same empty 3×3 turret base elsewhere. Its base upgrades, investment history and hit points are retained. Remove every head/module and clear all queued work, staged materials and ammunition first.</MT_RelocateDesc>
+  <MT_RelocateUnavailable>Base relocation is unavailable.</MT_RelocateUnavailable>
+  <MT_RelocateWrecked>Only a surviving, operational turret base can be relocated.</MT_RelocateWrecked>
+  <MT_RelocateRemoveParts>Remove every head and module before relocating the base.</MT_RelocateRemoveParts>
+  <MT_RelocateClearOrders>Complete or cancel all queued assembly work before relocating the base.</MT_RelocateClearOrders>
+  <MT_RelocateClearStock>Remove staged materials and unload all ammunition before relocating the base.</MT_RelocateClearStock>
+  <MT_RelocateOwnedSpawned>Select a placed turret base owned by your faction.</MT_RelocateOwnedSpawned>
+  <MT_RelocateCurrentFloor>View the base's current floor before planning its relocation.</MT_RelocateCurrentFloor>
+  <MT_RelocateSelectOne>Select only this base to plan its relocation.</MT_RelocateSelectOne>
+  <MT_RelocateOrderBlocked>Cancel the pending relocation or uninstall designation before adding assembly work.</MT_RelocateOrderBlocked>
+  <MT_RelocateBackendFailed>[ModularTurrets] Empty-base relocation disabled because native protection is unavailable: {0}</MT_RelocateBackendFailed>
+</LanguageData>

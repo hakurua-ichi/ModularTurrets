@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ParagonLabel>Paragon module</MT_ParagonLabel>
+  <MT_ParagonBadge>P</MT_ParagonBadge>
+  <MT_ParagonPartLabel>{0} [P]</MT_ParagonPartLabel>
+  <MT_ParagonInspect>Paragon module — final upgrade completed.</MT_ParagonInspect>
+  <MT_ParagonUpgrade>Paragon module</MT_ParagonUpgrade>
+  <MT_ParagonStart>Start Paragon upgrade</MT_ParagonStart>
+  <MT_ParagonMax>Final upgrade completed</MT_ParagonMax>
+  <MT_ParagonMapConflict>This map already contains a Paragon of this module type or an upgrade in progress. Stored parts also count.</MT_ParagonMapConflict>
+  <MT_ParagonInactive>Paragon module — operating at level-5 strength because this map already has an active Paragon of the same type. Stored parts also count. Its Paragon state is retained and will reactivate when the conflict ends.</MT_ParagonInactive>
+  <MT_ParagonRestrictedStage>Paragon module (level-5 strength)</MT_ParagonRestrictedStage>
+  <MT_ParagonCurrentRestricted>Current: level-5 strength</MT_ParagonCurrentRestricted>
+  <MT_ParagonUnavailable>This part cannot receive a Paragon upgrade.</MT_ParagonUnavailable>
+  <MT_ParagonResearchRequired>Research required: {0}</MT_ParagonResearchRequired>
+  <MT_ParagonOrder>{0}: Paragon upgrade</MT_ParagonOrder>
+  <MT_ParagonWorking>Paragon upgrade in progress</MT_ParagonWorking>
+  <MT_ParagonWaiting>Paragon upgrade waiting for work</MT_ParagonWaiting>
+  <MT_ParagonStageActive>Current: {0}&#10;{1}</MT_ParagonStageActive>
+  <MT_ParagonStageNext>Current: level {0}&#10;Next upgrade: Paragon module</MT_ParagonStageNext>
+  <MT_ParagonCurrent>Current: Paragon module</MT_ParagonCurrent>
+  <MT_ParagonNext>Next: Paragon module</MT_ParagonNext>
+  <MT_ParagonIconInfo>{0}&#10;Paragon module&#10;&#10;{1}&#10;&#10;{2}</MT_ParagonIconInfo>
+  <MT_ParagonEffectRadar>This turret searches for targets every {0:0.00} s (normally 0.25 s).</MT_ParagonEffectRadar>
+  <MT_ParagonEffectShield>Restores {0:P0} of maximum shield energy on depletion. After use, it rearms after {1:0} s without firing or taking a hit.&#10;EMP cannot trigger it. Excess damage from the triggering hit passes through.</MT_ParagonEffectShield>
+  <MT_ParagonEffectAuxiliary>Auxiliary weapon prioritizes valid hostile targets within {0:0.#} cells, retaining its range and line-of-sight requirements.</MT_ParagonEffectAuxiliary>
+  <MT_ParagonEffectAiming>The first main-weapon shot of each burst gains {0:0.#} percentage points of armor penetration.&#10;If the quantum cannon's 100% minimum penetration applies, this bonus is added afterward.</MT_ParagonEffectAiming>
+  <MT_ParagonEffectCooling>Main-weapon interval between burst shots reduced by {0:P0}; rounded up to a whole tick, with a minimum of 0.017 s.</MT_ParagonEffectCooling>
+  <MT_ParagonEffectServo>If the main weapon’s target dies or is downed, remaining shots continue against the enemy that requires the least rotation.&#10;For a new burst, aim time against the next target is reduced by {0:P0}.</MT_ParagonEffectServo>
+  <MT_ParagonEffectFireControl>Main-weapon forced-miss radius reduced by {0:P0}.&#10;Friendly-fire protection is retained.</MT_ParagonEffectFireControl>
+  <MT_ParagonInfo>A one-time final upgrade for an ordinary level-5 module.&#10;Requires exceptional resources and construction work.&#10;Each map supports one Paragon per module type, including stored parts.&#10;The module retains its Paragon state when detached and reinstalled.&#10;Heads and dedicated modules are excluded.</MT_ParagonInfo>
+</LanguageData>

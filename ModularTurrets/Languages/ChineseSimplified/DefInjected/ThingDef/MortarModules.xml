@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_Module_SpecialistMortarPayload.label>双联迫击炮专用装药强化模块</MT_Module_SpecialistMortarPayload.label>
+  <MT_Module_SpecialistMortarPayload.description>提升炮弹伤害与爆炸半径的双联迫击炮专用固定模块。&#10;当前倍率显示在安装信息中。&#10;安装在左、右或上槽位，消耗100 W电力。&#10;安装与拆卸各需100点工作量，拆卸失败率与常规模块相同。</MT_Module_SpecialistMortarPayload.description>
+  <MT_Module_SpecialistMortarSupport.label>双联迫击炮专用速射支援模块</MT_Module_SpecialistMortarSupport.label>
+  <MT_Module_SpecialistMortarSupport.description>缩短射击间隔并支持自动装填附近炮弹的双联迫击炮专用固定模块。&#10;适用于当前战斗系统的具体效果显示在安装信息中。&#10;安装在左、右或上槽位，消耗100 W电力。&#10;安装与拆卸各需100点工作量，拆卸失败率与常规模块相同。</MT_Module_SpecialistMortarSupport.description>
+</LanguageData>

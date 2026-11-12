@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_AssemblyReturnBlocked>No room to return part</MT_AssemblyReturnBlocked>
+  <MT_RetryAssemblyReturn>Retry return</MT_RetryAssemblyReturn>
+  <MT_AssemblyReturnBlockedDesc>There is no room near the turret for the returned part or slag. Clear some space, then retry the return. Completed work and the dismantling result are preserved.</MT_AssemblyReturnBlockedDesc>
+  <MT_RemovalReturnCannotCancel>The dismantling result has already been decided, so this order cannot be canceled. Clear space for the returned item and retry.</MT_RemovalReturnCannotCancel>
+</LanguageData>

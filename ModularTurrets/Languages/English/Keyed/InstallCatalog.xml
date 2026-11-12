@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_InstallBaseGrade>Base (tier 0)</MT_InstallBaseGrade>
+  <MT_InstallGrade>Tier {0}</MT_InstallGrade>
+  <MT_InstallStock>This map: {0} · Selectable: {1} · Other maps: {2}</MT_InstallStock>
+  <MT_InstallCraftNeeded>Craft first</MT_InstallCraftNeeded>
+  <MT_InstallLocalUnavailable>Stock is present on this map but is currently unavailable because of forbidden status, reservations or access on its floor.</MT_InstallLocalUnavailable>
+  <MT_InstallOtherMapOnly>Stock is on another map. Bring it to this map, then refresh the list.</MT_InstallOtherMapOnly>
+  <MT_InstallOtherMaps>Other maps: {0}</MT_InstallOtherMaps>
+  <MT_InstallCatalogRefresh>Base items are always listed.&#10;Grades and stock on other loaded maps update when opening or refreshing this list.&#10;Parts on another floor of this map can be selected; installation waits until a worker can haul them through connected stairs or ladders.</MT_InstallCatalogRefresh>
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_WreckInspect>손상 상태: 무기·쉴드·조립 작업 정지. 복구하면 다시 사용할 수 있습니다. 손상 체력이 0이 되거나 손상 상태에서 철거하면 완전히 파괴되며, 부품·자원을 회수할 수 없습니다.</MT_WreckInspect>
+  <MT_WreckRestoreLabel>포탑 복구</MT_WreckRestoreLabel>
+  <MT_WreckRestoreDesc>건설 작업 {0:0}을 완료하면 포탑이 최대 체력으로 복구됩니다.&#10;장착 중인 주포와 모듈의 기본 제작비에 베이스와 장착 부품의 완료된 업그레이드 비용을 더한 뒤, 각 자원의 절반을 올림해 청구합니다.&#10;장착 부품과 업그레이드, 기존 대기열은 보존됩니다.</MT_WreckRestoreDesc>
+  <MT_WreckRestoreQueued>이미 복구 작업이 대기열에 있습니다.</MT_WreckRestoreQueued>
+  <MT_WreckRestoreCosts>복구에 필요한 자원:</MT_WreckRestoreCosts>
+  <MT_WreckRestoreNoCost>이 복구 작업에는 자재가 필요하지 않습니다.</MT_WreckRestoreNoCost>
+  <MT_WreckRestoreEstimated>과거 업그레이드의 지출 기록이 없어 해당 비용은 이전 업그레이드 가격으로 추정합니다.</MT_WreckRestoreEstimated>
+  <MT_WreckRestoreOrder>손상 포탑 복구</MT_WreckRestoreOrder>
+  <MT_WreckCannotAttack>손상된 포탑을 복구해야 사격할 수 있습니다.</MT_WreckCannotAttack>
+  <MT_WreckAssemblyStopped>손상된 포탑을 복구해야 조립 작업을 계속할 수 있습니다.</MT_WreckAssemblyStopped>
+  <MT_WreckSupplyButton>남은 복구 자재 배치</MT_WreckSupplyButton>
+  <MT_WreckSupplyTip>포탑 주변 바닥에 부족한 복구 자재를 놓습니다.&#10;이미 반입했거나 이 포탑으로 운반 중인 자재, 주변에서 가져올 수 있는 자재는 수량에서 뺍니다.</MT_WreckSupplyTip>
+  <MT_DebugWreckMaterialsNone>추가로 배치할 복구 자재가 없습니다.</MT_DebugWreckMaterialsNone>
+  <MT_DebugWreckMaterialsDropped>포탑 주변에 복구 자재 {0:N0}개를 배치했습니다.</MT_DebugWreckMaterialsDropped>
+  <MT_DebugWreckMaterialsPartial>복구 자재 {0:N0}개를 배치했습니다. {1:N0}개를 더 놓을 공간이 필요합니다.</MT_DebugWreckMaterialsPartial>
+</LanguageData>

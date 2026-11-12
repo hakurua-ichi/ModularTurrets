@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <DamageDef ParentName="Bullet">
+    <defName>MT_LaserDamage</defName>
+    <label>laser</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <hediff>MT_PhotothermalBurn</hediff>
+    <deathMessage>{0} has been killed by a laser.</deathMessage>
+  </DamageDef>
+  <DamageDef ParentName="Bullet">
+    <defName>MT_QuantumDamage</defName>
+    <label>quantum impact</label>
+    <ignoreShields>true</ignoreShields>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <hediff>MT_QuantumRupture</hediff>
+    <deathMessage>{0} has been killed by a quantum impact.</deathMessage>
+  </DamageDef>
+  <DamageDef ParentName="Bullet">
+    <defName>MT_TeslaDischarge</defName>
+    <label>Tesla discharge</label>
+    <hediff>ElectricalBurn</hediff>
+    <deathMessage>{0} has been killed by a Tesla discharge.</deathMessage>
+  </DamageDef>
+  <HediffDef ParentName="BurnBase">
+    <defName>MT_PhotothermalBurn</defName>
+    <label>photothermal burn</label>
+    <labelNoun>a photothermal burn</labelNoun>
+    <description>A laser beam has seared this tissue.</description>
+    <comps>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>laser burn scar</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <destroyedLabel>Burned off</destroyedLabel>
+      <destroyedOutLabel>Burned out</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+  <HediffDef ParentName="InjuryBase">
+    <defName>MT_QuantumRupture</defName>
+    <label>quantum rupture</label>
+    <labelNoun>a quantum rupture</labelNoun>
+    <description>A focused quantum impact has ruptured tissue at the point of impact.</description>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.15</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>quantum rupture scar</permanentLabel>
+        <instantlyPermanentLabel>permanent quantum rupture</instantlyPermanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.0125</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
+      <bleedRate>0.06</bleedRate>
+      <canMerge>false</canMerge>
+      <destroyedLabel>Ruptured</destroyedLabel>
+      <destroyedOutLabel>Ruptured</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+</Defs>

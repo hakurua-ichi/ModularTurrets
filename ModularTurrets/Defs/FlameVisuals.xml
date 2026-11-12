@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase_RandomGraphic_Thrown">
+    <defName>MT_FlameJet</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <solidTime>0.06</solidTime>
+    <fadeOutTime>0.14</fadeOutTime>
+    <randomGraphics>
+      <li>
+        <texPath>Things/Special/Fire/FireA</texPath>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <shaderType>MoteGlow</shaderType>
+        <renderInstanced>true</renderInstanced>
+      </li>
+      <li>
+        <texPath>Things/Special/Fire/FireB</texPath>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <shaderType>MoteGlow</shaderType>
+        <renderInstanced>true</renderInstanced>
+      </li>
+      <li>
+        <texPath>Things/Special/Fire/FireC</texPath>
+        <graphicClass>Graphic_Fleck</graphicClass>
+        <shaderType>MoteGlow</shaderType>
+        <renderInstanced>true</renderInstanced>
+      </li>
+    </randomGraphics>
+  </FleckDef>
+</Defs>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SoundTrialLabel>시험 발사음 사용</MT_SoundTrialLabel>
+  <MT_SoundTrialHint>새로 만든 시험 발사음을 사용합니다.&#10;끄면 기존 0.1.9 발사음을 사용하며, 변경은 다음 발사부터 적용됩니다.&#10;아직 청취 확인을 마치지 않은 시험 음원입니다.</MT_SoundTrialHint>
+</LanguageData>

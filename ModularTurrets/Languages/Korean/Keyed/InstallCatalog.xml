@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_InstallBaseGrade>기본형 (0단계)</MT_InstallBaseGrade>
+  <MT_InstallGrade>강화 {0}</MT_InstallGrade>
+  <MT_InstallStock>이 지도: {0}개 · 선택 가능: {1}개 · 다른 지도: {2}개</MT_InstallStock>
+  <MT_InstallCraftNeeded>제작 필요</MT_InstallCraftNeeded>
+  <MT_InstallLocalUnavailable>이 지도에 있지만 금지·예약 또는 해당 층의 접근 경로 때문에 현재 선택할 수 없습니다.</MT_InstallLocalUnavailable>
+  <MT_InstallOtherMapOnly>다른 지도에 있는 재고입니다. 이 지도로 반입한 뒤 목록을 새로고침하세요.</MT_InstallOtherMapOnly>
+  <MT_InstallOtherMaps>다른 지도: {0}</MT_InstallOtherMaps>
+  <MT_InstallCatalogRefresh>기본형은 항상 표시됩니다.&#10;불러온 다른 지도의 강화 등급과 재고는 창을 열거나 새로고침할 때 갱신됩니다.&#10;이 지도의 다른 층에 있는 부품도 선택할 수 있으며, 작업자가 연결된 계단·사다리로 운반할 수 있을 때 설치가 진행됩니다.</MT_InstallCatalogRefresh>
+</LanguageData>

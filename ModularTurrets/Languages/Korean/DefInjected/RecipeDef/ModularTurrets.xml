@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MakeHead_Autocannon.label>기관포 메인 부품 제작</MT_MakeHead_Autocannon.label>
+  <MT_MakeHead_Autocannon.description>기관포 메인 부품 제작 작업입니다.&#10;가장 기본적인 포탑이며 대부분의 포탑 상부 부품의 토대가 되었습니다.&#10;Mother...F..(먼지가 되며)</MT_MakeHead_Autocannon.description>
+  <MT_MakeHead_Autocannon.jobString>기관포 메인 부품 제작 작업 중</MT_MakeHead_Autocannon.jobString>
+  <MT_MakeHead_Sniper.label>저격포 메인 부품 제작</MT_MakeHead_Sniper.label>
+  <MT_MakeHead_Sniper.description>저격포 메인 부품 제작 작업입니다.&#10;기관포의 화력을 극대화한 대신 발사속도를 희생하였습니다.</MT_MakeHead_Sniper.description>
+  <MT_MakeHead_Sniper.jobString>저격포 메인 부품 제작 작업 중</MT_MakeHead_Sniper.jobString>
+  <MT_MakeHead_DualAutocannon.label>이중 기관포 메인 부품 제작</MT_MakeHead_DualAutocannon.label>
+  <MT_MakeHead_DualAutocannon.description>이중 기관포 메인 부품 제작 작업입니다.&#10;뭐든지 두개면 좋습니다.&#10;워크래프트에서는 칼 하나를 두개로 쪼개면 안좋지만요.</MT_MakeHead_DualAutocannon.description>
+  <MT_MakeHead_DualAutocannon.jobString>이중 기관포 메인 부품 제작 작업 중</MT_MakeHead_DualAutocannon.jobString>
+  <MT_MakeHead_DualSniper.label>이중 저격포 메인 부품 제작</MT_MakeHead_DualSniper.label>
+  <MT_MakeHead_DualSniper.description>이중 저격포 메인 부품 제작 작업입니다.&#10;생긴 것은 CIWS같이 생겼지만 그런 역할은 수행할 수 없습니다.</MT_MakeHead_DualSniper.description>
+  <MT_MakeHead_DualSniper.jobString>이중 저격포 메인 부품 제작 작업 중</MT_MakeHead_DualSniper.jobString>
+  <MT_MakeHead_DualMortar.label>이중 박격포 메인 부품 제작</MT_MakeHead_DualMortar.label>
+  <MT_MakeHead_DualMortar.description>이중 박격포 메인 부품 제작 작업입니다.&#10;기존 박격포의 단점은 다 제거한 포탑입니다.</MT_MakeHead_DualMortar.description>
+  <MT_MakeHead_DualMortar.jobString>이중 박격포 메인 부품 제작 작업 중</MT_MakeHead_DualMortar.jobString>
+  <MT_MakeHead_Flamethrower.label>화염방사기 메인 부품 제작</MT_MakeHead_Flamethrower.label>
+  <MT_MakeHead_Flamethrower.description>화염방사기 메인 부품 제작 작업입니다.&#10;저글링들을 구워 삶기 좋겠군요.</MT_MakeHead_Flamethrower.description>
+  <MT_MakeHead_Flamethrower.jobString>화염방사기 메인 부품 제작 작업 중</MT_MakeHead_Flamethrower.jobString>
+  <MT_MakeHead_Minigun.label>미니건 메인 부품 제작</MT_MakeHead_Minigun.label>
+  <MT_MakeHead_Minigun.description>미니건 메인 부품 제작 작업입니다.&#10;빠른 발사 속도를 자랑하는 포탑 상부 부품입니다.</MT_MakeHead_Minigun.description>
+  <MT_MakeHead_Minigun.jobString>미니건 메인 부품 제작 작업 중</MT_MakeHead_Minigun.jobString>
+  <MT_MakeHead_Laser.label>레이저포 메인 부품 제작</MT_MakeHead_Laser.label>
+  <MT_MakeHead_Laser.description>레이저포 메인 부품 제작 작업입니다.&#10;강력한 레이저로 상대를 지져버립니다.&#10;필요하다면 아군도요.</MT_MakeHead_Laser.description>
+  <MT_MakeHead_Laser.jobString>레이저포 메인 부품 제작 작업 중</MT_MakeHead_Laser.jobString>
+  <MT_MakeHead_Missile.label>미사일포 메인 부품 제작</MT_MakeHead_Missile.label>
+  <MT_MakeHead_Missile.description>미사일포 메인 부품 제작 작업입니다.&#10;무수한 미사일을 발사하는 포탑 상부 부품입니다.&#10;앞에 벽을 두른 채로 사용하지 마십시오.</MT_MakeHead_Missile.description>
+  <MT_MakeHead_Missile.jobString>미사일포 메인 부품 제작 작업 중</MT_MakeHead_Missile.jobString>
+  <MT_MakeHead_Tesla.label>테슬라 메인 부품 제작</MT_MakeHead_Tesla.label>
+  <MT_MakeHead_Tesla.description>테슬라 메인 부품 제작 작업입니다.&#10;그 하늘을 날 수 있는 자동차 회사 아닙니다.&#10;니콜라 테슬라에서 따 온 이름입니다.&#10;아참!&#10;그래픽 모티브는 뮤지컬 테슬라 코일입니다.</MT_MakeHead_Tesla.description>
+  <MT_MakeHead_Tesla.jobString>테슬라 메인 부품 제작 작업 중</MT_MakeHead_Tesla.jobString>
+  <MT_MakeHead_Quantum.label>양자포 메인 부품 제작</MT_MakeHead_Quantum.label>
+  <MT_MakeHead_Quantum.description>양자포 메인 부품 제작 작업입니다.&#10;이 모드의 최상위 라인업을 대표하는 포탑 상부 부품입니다.&#10;필요하다면 일부 쉴드를 무시하며 대상을 정밀 타격합니다.&#10;&#10;앤트맨도 감탄할 침투 공격 방식입니다.</MT_MakeHead_Quantum.description>
+  <MT_MakeHead_Quantum.jobString>양자포 메인 부품 제작 작업 중</MT_MakeHead_Quantum.jobString>
+  <MT_MakeModule_Range.label>사거리 증가 모듈 제작</MT_MakeModule_Range.label>
+  <MT_MakeModule_Range.description>사거리 증가 모듈 제작 작업입니다.&#10;상부에 달면 돌아가지만 외곽에 달면 고정되는 기이한 레이더입니다.</MT_MakeModule_Range.description>
+  <MT_MakeModule_Range.jobString>사거리 증가 모듈 제작 중</MT_MakeModule_Range.jobString>
+  <MT_MakeModule_Shield.label>쉴드 모듈 제작</MT_MakeModule_Shield.label>
+  <MT_MakeModule_Shield.description>쉴드 모듈 제작 작업입니다.&#10;가벼운 방어막을 추가해 줍니다.</MT_MakeModule_Shield.description>
+  <MT_MakeModule_Shield.jobString>쉴드 모듈 제작 중</MT_MakeModule_Shield.jobString>
+  <MT_MakeModule_Auxiliary.label>보조 기관포 모듈 제작</MT_MakeModule_Auxiliary.label>
+  <MT_MakeModule_Auxiliary.description>보조 기관포 모듈 제작 작업입니다.&#10;독립적인 공격 주기를 가지는 기관포를 부착합니다.&#10;자주 엇박으로 발사될 수도 있습니다.</MT_MakeModule_Auxiliary.description>
+  <MT_MakeModule_Auxiliary.jobString>보조 기관포 모듈 제작 중</MT_MakeModule_Auxiliary.jobString>
+  <MT_MakeModule_Aiming.label>조준 보조 모듈 제작</MT_MakeModule_Aiming.label>
+  <MT_MakeModule_Aiming.description>조준 보조기 제작 작업입니다.&#10;마치 고스트가 핵을 날리기 위해 조준하는 것처럼 생겼습니다.</MT_MakeModule_Aiming.description>
+  <MT_MakeModule_Aiming.jobString>조준 보조 모듈 제작 중</MT_MakeModule_Aiming.jobString>
+  <MT_MakeModule_Cooling.label>냉각 모듈 제작</MT_MakeModule_Cooling.label>
+  <MT_MakeModule_Cooling.description>냉각기 제작 작업입니다.&#10;빠르게 식혀서 발사 주기를 줄입니다.&#10;역시 수냉이 공랭보다 좋습니다.</MT_MakeModule_Cooling.description>
+  <MT_MakeModule_Cooling.jobString>냉각 모듈 제작 중</MT_MakeModule_Cooling.jobString>
+  <MT_MakeModule_Fan.label>추적 서보 모듈 제작</MT_MakeModule_Fan.label>
+  <MT_MakeModule_Fan.description>포탑의 목표 추적 회전 속도를 높이는 추적 서보를 제작합니다.&#10;최종 목표는 테란의 미사일 포탑처럼 사람을 태우고 미친 듯이 돌아버리는 것입니다.</MT_MakeModule_Fan.description>
+  <MT_MakeModule_Fan.jobString>추적 서보 모듈 제작 중</MT_MakeModule_Fan.jobString>
+  <MT_MakeModule_FireControl.label>정밀 사격 통제 모듈 제작</MT_MakeModule_FireControl.label>
+  <MT_MakeModule_FireControl.description>포탑에 다양한 기능을 추가하는 정밀 사격 통제 모듈을 제작합니다.&#10;설명이 너무 긴데..&#10;기본값으로 포탑과 무기의 명중률을 높이고 오사를 방지합니다.&#10;단, 공격적인 정신이상 상태인 대상은 보호 대상에서 제외됩니다.&#10;박격포 포탑은 아군 진영 건물이 직접적인 피해를 입는 것도 방지합니다.&#10;하지만 이 모듈이 모든 상황에서 완벽하게 작동하지는 않습니다.</MT_MakeModule_FireControl.description>
+  <MT_MakeModule_FireControl.jobString>정밀 사격 통제 모듈 제작 중</MT_MakeModule_FireControl.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_AssemblyReturnBlocked>无空间退还部件</MT_AssemblyReturnBlocked>
+  <MT_RetryAssemblyReturn>重试退还</MT_RetryAssemblyReturn>
+  <MT_AssemblyReturnBlockedDesc>炮塔附近没有足够空间放置退还的部件或钢渣块。请先清理出周围空地，然后点击重试退还。已完成的工作量与拆卸判定结果均会保留。</MT_AssemblyReturnBlockedDesc>
+  <MT_RemovalReturnCannotCancel>拆卸结果已判定完成，无法取消此项工作。请清理出放置退还物品的空间后重试。</MT_RemovalReturnCannotCancel>
+
+</LanguageData>

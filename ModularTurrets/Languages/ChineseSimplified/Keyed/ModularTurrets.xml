@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SettingsCategory>Modular Turrets</MT_SettingsCategory>
+  <MT_SettingsTitle>模块化炮塔设置</MT_SettingsTitle>
+  <MT_SettingsLanguage>界面语言</MT_SettingsLanguage>
+  <MT_SettingsLanguageHint>选择本模组界面使用的语言。&#10;默认跟随游戏语言。&#10;可通过 XML 文件扩展语言列表与翻译；重新选择同一语言可重新加载文本。</MT_SettingsLanguageHint>
+  <MT_LanguageAutomatic>跟随游戏语言（{0}）</MT_LanguageAutomatic>
+  <MT_LanguageGameDefault>游戏默认</MT_LanguageGameDefault>
+  <MT_LanguageUnavailable>所选语言不可用——请重新选择</MT_LanguageUnavailable>
+  <MT_ManageLabel>管理炮塔组装</MT_ManageLabel>
+  <MT_ManageDesc>安装或拆卸部件，并升级炮塔的主炮、模块与基座。</MT_ManageDesc>
+  <MT_AttackLabel>指定攻击目标</MT_AttackLabel>
+  <MT_AttackDesc>指定主炮的攻击目标。辅助武器会自行索敌。</MT_AttackDesc>
+  <MT_HoldFireLabel>停止射击</MT_HoldFireLabel>
+  <MT_HoldFireDesc>停止主炮与辅助武器射击。</MT_HoldFireDesc>
+  <MT_ClearTargetLabel>清除强制目标</MT_ClearTargetLabel>
+  <MT_ClearTargetDesc>让主炮自动寻找并攻击目标。</MT_ClearTargetDesc>
+  <MT_AutoReloadLabel>自动重装</MT_AutoReloadLabel>
+  <MT_AutoReloadDesc>当剩余炮弹不超过 6 发时，自动发布将弹仓补满至 20 发的建造工作。</MT_AutoReloadDesc>
+  <MT_TurretReconnectPowerDesc>重新连接附近的有线电网。&#10;若无可用电线，则在同一楼层寻找覆盖到此炮塔的无线供电线圈。</MT_TurretReconnectPowerDesc>
+  <MT_InspectNoHead>未安装主炮组件。请打开组装管理进行安装。</MT_InspectNoHead>
+  <MT_InspectHead>主炮：{0}</MT_InspectHead>
+  <MT_InspectBase>基座升级：伤害 {0} / 防御 {1} / 射程 {2}</MT_InspectBase>
+  <MT_InspectCombat>伤害 ×{0:0.00} / 射程 {1:0.0} 格</MT_InspectCombat>
+  <MT_InspectShield>护盾：{0:0} / {1:0}</MT_InspectShield>
+  <MT_InspectShells>迫击炮弹：{0}/20</MT_InspectShells>
+  <MT_InspectHoldFire>停止射击中</MT_InspectHoldFire>
+  <MT_InspectQueue>{0}：{1} 项工作 / {2}</MT_InspectQueue>
+  <MT_QueuePausedName>组装已暂停</MT_QueuePausedName>
+  <MT_QueueName>组装队列</MT_QueueName>
+  <MT_SlotHead>主炮组件</MT_SlotHead>
+  <MT_SlotLeft>左侧模块</MT_SlotLeft>
+  <MT_SlotRight>右侧模块</MT_SlotRight>
+  <MT_SlotTop>顶部模块</MT_SlotTop>
+  <MT_SlotRear>后方模块</MT_SlotRear>
+  <MT_OperationDamage>伤害</MT_OperationDamage>
+  <MT_OperationArmor>防御</MT_OperationArmor>
+  <MT_OperationRange>射程</MT_OperationRange>
+  <MT_OperationUnknown>升级</MT_OperationUnknown>
+  <MT_OrderInstall>安装 {0}：{1}</MT_OrderInstall>
+  <MT_OrderRemove>拆卸 {0}</MT_OrderRemove>
+  <MT_OrderPartUpgrade>升级 {0} → {1} 级</MT_OrderPartUpgrade>
+  <MT_OrderReload>重装迫击炮</MT_OrderReload>
+  <MT_OrderBaseUpgrade>基座 {0} 升级 → 第 {1} 次</MT_OrderBaseUpgrade>
+  <MT_WindowTitle>模块化炮塔 · 组装管理</MT_WindowTitle>
+  <MT_CombatSummary>伤害 ×{0:0.00}   承伤 {1:P0}   射程 {2:0.0} 格   功率 {3:0} W</MT_CombatSummary>
+  <MT_SupportSummary>瞄准时间 ×{0:0.00}   冷却时间 ×{1:0.00}   护盾 {2:0}/{3:0}   {4}</MT_SupportSummary>
+  <MT_PowerOn>已通电</MT_PowerOn>
+  <MT_PowerOff>未通电</MT_PowerOff>
+  <MT_AssemblyNoHead>请先在炮塔组装工作台制作主炮组件，然后安装在此处。可用模块槽位取决于所装主炮。</MT_AssemblyNoHead>
+  <MT_AssemblyRules>部件安装/拆卸工作量：100 · 拆卸失败率：每部件 1% · 拆卸后保留升级等级。</MT_AssemblyRules>
+  <MT_PauseAssembly>暂停组装</MT_PauseAssembly>
+  <MT_ShellCount>迫击炮弹 {0}/20</MT_ShellCount>
+  <MT_ReloadButton>搬运炮弹并重装</MT_ReloadButton>
+  <MT_ReloadReject>弹仓已满，或已有重装工作在队列中。</MT_ReloadReject>
+  <MT_ReloadTip>请求运送 {0} 发{1}。&#10;重装工作量为 0。&#10;每运达一发炮弹即立刻装填，无需等弹仓全部补满即可开火。</MT_ReloadTip>
+  <MT_InstallPending>安装已排队</MT_InstallPending>
+  <MT_SelectPart>选择并安装部件</MT_SelectPart>
+  <MT_NeedCraftedPart>需要已制作完成的实体部件。</MT_NeedCraftedPart>
+  <MT_TierLabel>等级 {0}/5</MT_TierLabel>
+  <MT_MainTierLabel>主武器 · 等级 {0}/5</MT_MainTierLabel>
+  <MT_RemoveButton>拆卸</MT_RemoveButton>
+  <MT_RemoveHeadFirst>拆卸主炮组件前请先拆卸已安装的附属模块。</MT_RemoveHeadFirst>
+  <MT_SlotHasOrder>请先完成或取消此槽位已排队的工作。</MT_SlotHasOrder>
+  <MT_RemoveTip>工作量：100。完成拆卸时，该部件有 1% 几率损坏为钢渣块。</MT_RemoveTip>
+  <MT_UpgradeNext>升级 → {0}</MT_UpgradeNext>
+  <MT_MaxTier>最高等级</MT_MaxTier>
+  <MT_PartUpgradeReject>前置研究未完成，或此槽位已有其他工作排队。</MT_PartUpgradeReject>
+  <MT_PartUpgradeTip>升级至 {0} 级&#10;钢铁 {1}，玻璃钢 {2}，铀 {3}，高级零部件 {4}&#10;工作量：{5:N0}&#10;所需研究：{6}&#10;升级等级保存在该部件上，拆卸并重新安装后仍会保留。</MT_PartUpgradeTip>
+  <MT_NoParts>当前地图没有可选的合适部件。&#10;请在炮塔组装工作台制作，并确认部件未被禁用或预留。</MT_NoParts>
+  <MT_PartChoice>{0} · 等级 {1}/5 · 位置 {2},{3}</MT_PartChoice>
+  <MT_PartMoved>部件位置已变动，或此槽位已有排队工作。</MT_PartMoved>
+  <MT_BaseTitle>基座永久升级 · 更换主炮组件后依然保留</MT_BaseTitle>
+  <MT_EffectDamage>+5% 基础伤害</MT_EffectDamage>
+  <MT_EffectArmor>防御系数 +0.05</MT_EffectArmor>
+  <MT_EffectRange>+0.1 格</MT_EffectRange>
+  <MT_BaseStatus>{0}：{1} 次 · {2}</MT_BaseStatus>
+  <MT_BaseAddOne>排队 +1</MT_BaseAddOne>
+  <MT_BaseAddFive>排队 +5</MT_BaseAddFive>
+  <MT_BaseTip>将 {0} 升级第 {1}–{2} 次加入队列&#10;钢铁 {3:N0}，玻璃钢 {4:N0}，零部件 {5:N0}&#10;总工作量：{6:N0}&#10;所需研究：{7}&#10;工作将按队列顺序逐次完成。</MT_BaseTip>
+  <MT_NeedResearch>请先完成“{0}”研究。</MT_NeedResearch>
+  <MT_QueueFull>队列最多可容纳 100 项工作。</MT_QueueFull>
+  <MT_BaseQueueReject>无法将该升级加入队列。</MT_BaseQueueReject>
+  <MT_QueueTitle>组装队列 · {0}/100</MT_QueueTitle>
+  <MT_QueueEmpty>队列中没有工作。请选择要安装的部件或添加升级工作。</MT_QueueEmpty>
+  <MT_StatusWaiting>等待中</MT_StatusWaiting>
+  <MT_StatusPaused>已暂停</MT_StatusPaused>
+  <MT_StatusInvalid>请检查工作条件</MT_StatusInvalid>
+  <MT_StatusWorking>等待建造/建造中</MT_StatusWorking>
+  <MT_StatusHauling>等待运送部件/材料</MT_StatusHauling>
+  <MT_QueueRow>{0}. {1} · {2}</MT_QueueRow>
+  <MT_CostPart>部件 1 个 · {0}</MT_CostPart>
+  <MT_CostResource>{0} {1}</MT_CostResource>
+  <MT_NoCosts>无需额外材料</MT_NoCosts>
+  <MT_PartMissing>部件未送达</MT_PartMissing>
+  <MT_PartDelivered>部件已送达</MT_PartDelivered>
+  <MT_ResourceMissing>{0}：缺少 {1}</MT_ResourceMissing>
+  <MT_JoinDetails>{0} · {1}</MT_JoinDetails>
+  <MT_QueueTip>工作量：{0:N0}/{1:N0}&#10;{2}&#10;取消工作时，已运达的材料将会退还。</MT_QueueTip>
+  <MT_CancelButton>取消</MT_CancelButton>
+  <MT_NoDropSpace>请腾出周围空间以退还已运达的材料。</MT_NoDropSpace>
+  <MT_RemovalFailure>部件拆卸失败，只回收到了钢渣块。</MT_RemovalFailure>
+  <MT_CannotAttack>无法攻击此目标。</MT_CannotAttack>
+  <MT_TierInspect>升级等级：{0}/5</MT_TierInspect>
+  <MT_Resource_Steel>钢铁</MT_Resource_Steel>
+  <MT_Resource_Plasteel>玻璃钢</MT_Resource_Plasteel>
+  <MT_Resource_Uranium>铀</MT_Resource_Uranium>
+  <MT_Resource_ComponentSpacer>高级零部件</MT_Resource_ComponentSpacer>
+  <MT_Resource_ComponentIndustrial>零部件</MT_Resource_ComponentIndustrial>
+  <MT_Resource_Shell_HighExplosive>高爆炮弹</MT_Resource_Shell_HighExplosive>
+  <MT_Resource_ChunkSlagSteel>钢渣块</MT_Resource_ChunkSlagSteel>
+  <MT_ConstructionRequired>需要建造技能 {0}</MT_ConstructionRequired>
+  <MT_IconCenteringFailed>未能将 {0} 的模块化炮塔图标居中对齐：{1}。已保留原始图标。</MT_IconCenteringFailed>
+  <MT_IconCenteringMaterialUnsupported>{0} 的模块化炮塔图标使用了自定义 UI 材质，已保留其原始图标与材质。</MT_IconCenteringMaterialUnsupported>
+  <MT_BurstCacheUnavailable>模块化炮塔未能刷新当前游戏版本的连射缓存。射击仍会继续，但已升级辅助武器的连射发数或射击间隔可能需保存并重新读档后才会更新。</MT_BurstCacheUnavailable>
+  <MT_MigrationTitle>模块化炮塔占地转换</MT_MigrationTitle>
+  <MT_MigrationSuccess>已将原有的炮塔基座与建造物体转换为 3×3 占地。原物体保留其部件、升级、工作进度与弹药。位置变动与移除记录如下，完整记录已保存在当前地图的转换历史中。&#10;&#10;{0}</MT_MigrationSuccess>
+  <MT_MigrationFailure>未能完成炮塔转换或清理。共有 {0} 个炮塔/建造物体保存在当前地图的地图外存储中。原因：{1}&#10;&#10;腾出可用空间后，请点击当前地图左上角的重新放置按钮。系统不会自动重试；手动重试不会移除现有建筑，而是在空闲的 3×3 空间中放置。若受支持的引擎契约或最终生成失败，请恢复备份存档，切勿将其视为转换成功。&#10;&#10;{2}</MT_MigrationFailure>
+  <MT_MigrationInvalidTargets>存档中的炮塔物体存在重复标识符、无效状态或非预期的占地大小。</MT_MigrationInvalidTargets>
+  <MT_MigrationNoPlacement>按既定顺序执行的放置计划未能为所有受影响物体预留 3×3 位置。这并不代表绝对不存在可行的排列方式。</MT_MigrationNoPlacement>
+  <MT_MigrationUnknownFloor>无法安全读取存档物体的所在楼层。已保留原有建筑与岩石，并将炮塔物体暂存以供检查。</MT_MigrationUnknownFloor>
+  <MT_MigrationOccupiedContainer>位于 {1} 的冲突建筑内含存储物品，已受保护保留：{0}。请在重试前将其移走或清空。</MT_MigrationOccupiedContainer>
+  <MT_MigrationUnknownCompressed>无法识别位于 {1} 的压缩物体哈希值 {0}，未移除任何压缩数据。</MT_MigrationUnknownCompressed>
+  <MT_MigrationUnsupportedEngine>当前游戏版本缺少所需的生成前数据字段，无法确认数据完整保留。本次转换支持已验证的 Core 1.7.4998 契约；请恢复备份并使用受支持的游戏版本。</MT_MigrationUnsupportedEngine>
+  <MT_MigrationInternalFailure>操作过程中发生错误（{0}）。已恢复原始加载列表、位置与压缩数据，并将相关炮塔物体暂存保管。</MT_MigrationInternalFailure>
+  <MT_MigrationErrorLog>模块化炮塔占地转换错误：{0}</MT_MigrationErrorLog>
+  <MT_MigrationHoldingFailed>未能将物体 {0} 放入转换存储中。无法确认数据已保留，请恢复备份存档。</MT_MigrationHoldingFailed>
+  <MT_MigrationSpawnIncomplete>部分计划内的物体未能完成地图生成。无法确认转换成功，请恢复备份存档并检查日志。</MT_MigrationSpawnIncomplete>
+  <MT_MigrationCleanupFailure>待移除建筑 {0} 未能完成销毁处理，已保留在存档存储容器内以供检查。</MT_MigrationCleanupFailure>
+  <MT_MigrationMoved>已移动以适配 3×3 预留空间</MT_MigrationMoved>
+  <MT_MigrationRemovedBuilding>已移除冲突的空建筑或蓝图</MT_MigrationRemovedBuilding>
+  <MT_MigrationRemovedCompressed>已移除冲突的压缩建筑或岩石</MT_MigrationRemovedCompressed>
+  <MT_MigrationQuarantined>放置计划失败后已暂存至地图外</MT_MigrationQuarantined>
+  <MT_MigrationRestored>通过手动重试重新放置已从存储中恢复</MT_MigrationRestored>
+  <MT_MigrationEventLine>{0} [{1}]：{2} → {3}；{4}</MT_MigrationEventLine>
+  <MT_MigrationCompressedId>压缩物体；无已保存的 ThingID</MT_MigrationCompressedId>
+  <MT_MigrationLog>模块化炮塔占地转换：{0}</MT_MigrationLog>
+  <MT_MigrationPendingCount>暂存中的炮塔/建造物体：{0}</MT_MigrationPendingCount>
+  <MT_MigrationRetry>尝试在空闲的 3×3 空间重新放置</MT_MigrationRetry>
+  <MT_MigrationPendingRemain>仍有暂存的炮塔物体或待移除建筑尚未完成放置或清理，转换尚未全部完成。</MT_MigrationPendingRemain>
+  <MT_MigrationCleanupRetry>已完成 {0} 个冲突空建筑的移除清理</MT_MigrationCleanupRetry>
+  <MT_IffPatchFailed>模块化炮塔未能启用弹体友军保护判定补丁。请将标准 Harmony 模组排在模块化炮塔之前加载并检查游戏版本。伤害过滤仍然有效，但发射源消失后的友军弹体拦截或对攻击性精神崩溃目标的命中判定可能无法正常工作。详情：{0}</MT_IffPatchFailed>
+  <MT_IffInterceptShapeSkipped>模块化炮塔检测到不受支持的弹体拦截代码结构，已保持原有判定指令不变，仅跳过针对攻击性精神崩溃目标的拦截修正。详情：{0}</MT_IffInterceptShapeSkipped>
+  <MT_UnknownLauncher>未知发射源</MT_UnknownLauncher>
+  <MT_UnknownLauncherPossessive>该发射源的</MT_UnknownLauncherPossessive>
+  <MT_ImpactGrammarPatchFailed>模块化炮塔未能启用发射源丢失时的战斗日志备用名称补丁。请检查 Harmony 加载顺序与游戏版本。伤害与碰撞判定不受影响，但部分战斗日志文本可能无法正常生成。详情：{0}</MT_ImpactGrammarPatchFailed>
+  <MT_WreckRestoreDiscount>按已安装主炮享受的修复材料折扣：{0}。</MT_WreckRestoreDiscount>
+</LanguageData>

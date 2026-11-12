@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorldObjectDef ParentName="TravelingThing">
+    <defName>MT_CE_TravelingShell</defName>
+    <label>modular CE artillery shell</label>
+    <description>An artillery shell using Combat Extended's world travel and arrival, with its modular weapon snapshot.</description>
+    <worldObjectClass>ModularTurrets.Compat.CombatExtended.MountedTravelingShellCE</worldObjectClass>
+    <texture>Things/WorldObjects/Munitions/Shell_Invisible</texture>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconDrawSize>1.5</expandingIconDrawSize>
+    <expandingIconTexture>Things/WorldObjects/Munitions/Shell</expandingIconTexture>
+  </WorldObjectDef>
+</Defs>

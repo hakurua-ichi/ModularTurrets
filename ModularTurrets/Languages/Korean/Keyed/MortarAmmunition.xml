@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MortarAutoReloadDesc>탄약이 부족하면 선택한 포탄의 보급을 요청합니다.&#10;Core에서는 장전 작업량이 0이며 반입한 한 발부터 즉시 사용할 수 있습니다.&#10;속사 지원 모듈은 주변의 사용 가능한 실물 포탄을 자동 장전합니다.&#10;CE에서는 CE의 장전 규칙을 따릅니다.&#10;끄면 새로운 자동 보급 요청과 무인 장전이 중지됩니다.&#10;이미 예약한 운반 작업은 유지됩니다.</MT_MortarAutoReloadDesc>
+  <MT_MortarMixedAmmoReloadBlocked>현재 장전된 포탄과 선택한 포탄의 종류가 다릅니다. 기존 잔탄을 먼저 비우거나 현재 탄종을 다시 선택하세요.</MT_MortarMixedAmmoReloadBlocked>
+  <MT_MortarAmmoSelectValue>포탄 종류: {0}</MT_MortarAmmoSelectValue>
+  <MT_MortarAmmoSelectDesc>다음에 장전할 포탄을 선택합니다.&#10;현재 장전된 포탄은 다른 종류로 바뀌지 않습니다.&#10;탄종을 바로 바꾸려면 먼저 포탄 비우기를 사용하세요.</MT_MortarAmmoSelectDesc>
+  <MT_MortarUnloadLabel>포탄 비우기</MT_MortarUnloadLabel>
+  <MT_MortarUnloadDesc>현재 남은 포탄을 실제 물품으로 꺼내고 장전 요청을 취소합니다.&#10;자동 장전도 꺼집니다.&#10;새 포탄을 선택한 뒤 다시 켤 수 있습니다.</MT_MortarUnloadDesc>
+  <MT_MortarAmmoStock>장전: {0} ×{1}</MT_MortarAmmoStock>
+  <MT_MortarAmmoActionFailed>지금 포탄을 변경하거나 비울 수 없습니다. 남은 포탄, 진행 중인 장전, 예약과 배출 공간을 확인하세요.</MT_MortarAmmoActionFailed>
+  <MT_MortarNativeCEReloadTip>CE에서는 주민을 선택하여 우클릭으로 재장전을 지시할 수 있습니다. CE의 탄약·장전 규칙을 사용합니다.</MT_MortarNativeCEReloadTip>
+</LanguageData>

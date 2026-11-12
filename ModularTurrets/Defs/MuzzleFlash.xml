@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleckDef ParentName="FleckBase">
+    <defName>MT_AlternatingMuzzleFlash</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <solidTime>0.045</solidTime>
+    <fadeOutTime>0.015</fadeOutTime>
+    <graphicData>
+      <texPath>Things/Mote/ShotFlash</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+</Defs>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_DebugSpawnPart>Spawn graded part</MT_DebugSpawnPart>
+  <MT_DebugSpawnHeads>Turret heads</MT_DebugSpawnHeads>
+  <MT_DebugSpawnModules>Turret modules</MT_DebugSpawnModules>
+  <MT_DebugSpawnBatteryModules>Battery modules</MT_DebugSpawnBatteryModules>
+  <MT_DebugSpawnTier>Tier {0}</MT_DebugSpawnTier>
+  <MT_DebugSpawnLevel>Upgrade level {0}</MT_DebugSpawnLevel>
+  <MT_DebugSpawnParagon>Paragon (tier V)</MT_DebugSpawnParagon>
+  <MT_DebugSpawnChoice>{0} · {1}</MT_DebugSpawnChoice>
+  <MT_DebugSpawnOutsideMap>Select a cell inside the current map.</MT_DebugSpawnOutsideMap>
+  <MT_DebugSpawnFloorUnavailable>The current floor is unavailable; no part was placed.</MT_DebugSpawnFloorUnavailable>
+  <MT_DebugSpawnNoSpace>No safe nearby cell was available for this part.</MT_DebugSpawnNoSpace>
+  <MT_DebugSpawnFailed>Could not spawn the selected part: {0}</MT_DebugSpawnFailed>
+</LanguageData>

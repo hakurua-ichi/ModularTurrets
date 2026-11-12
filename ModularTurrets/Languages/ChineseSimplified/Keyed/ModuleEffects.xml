@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ConfigWorkerType>workerClass 必须为可实例化的 ModuleEffectWorker 类型。</MT_ConfigWorkerType>
+  <MT_ConfigBranches>射击分支数必须介于 1 到 9 之间。</MT_ConfigBranches>
+  <MT_ConfigDamage>射击伤害倍率不能为负数。</MT_ConfigDamage>
+  <MT_ConfigAccuracy>脱靶率降低值必须为大于或等于 0 的有限数值。</MT_ConfigAccuracy>
+  <MT_ConfigMuzzle>炮口 UV 坐标必须为有限数值。</MT_ConfigMuzzle>
+</LanguageData>

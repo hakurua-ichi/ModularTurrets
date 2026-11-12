@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MortarSupportAutoReloadDesc>박격포 속사 지원 모듈이 포탑 점유 영역 외곽 6칸 이내의 사용 가능한 실물 포탄을 자동으로 장전합니다. 금지·예약·운반 중이거나 다른 층에 있는 탄약은 제외하며, Combat Extended에서는 현재 선택한 호환 탄약을 사용합니다. 끄면 자동 장전을 중지합니다. 이미 등록된 주민의 재장전 작업은 유지됩니다.</MT_MortarSupportAutoReloadDesc>
+</LanguageData>

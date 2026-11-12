@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_ModularTurrets.label>모듈식 포탑</MT_ModularTurrets.label>
+  <MT_ModularTurrets.description>교체식 포탑 베이스와 조립 작업대, 기관포·저격포·화염방사기 및 기본 보조 모듈을 해금합니다.</MT_ModularTurrets.description>
+  <MT_AdvancedTurrets.label>고급 포탑 공학</MT_AdvancedTurrets.label>
+  <MT_AdvancedTurrets.description>이중 포탑, 미니건, 일반 고폭탄을 사용하는 박격포와 미사일포, 쉴드·추적 서보·정밀 사격 통제기를 해금합니다. 장착된 주포와 모듈의 I~III단계 업그레이드도 해금합니다.</MT_AdvancedTurrets.description>
+  <MT_ExoticTurrets.label>특수 에너지 포탑</MT_ExoticTurrets.label>
+  <MT_ExoticTurrets.description>레이저포·테슬라·양자포와 장착된 주포·모듈의 IV~V단계 업그레이드를 해금합니다.&#10;&#10;드디어 양자의 세계로!</MT_ExoticTurrets.description>
+  <MT_InfiniteEngineering.label>재귀 개선 공학</MT_InfiniteEngineering.label>
+  <MT_InfiniteEngineering.description>베이스의 공격·방어·사거리를 반복 개선하는 후반 공학을 해금합니다.&#10;&#10;이제 발판도 중요해졌군요!</MT_InfiniteEngineering.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_Module_SpecialistMortarPayload.label>이중 박격포 전용 포격 강화 모듈</MT_Module_SpecialistMortarPayload.label>
+  <MT_Module_SpecialistMortarPayload.description>포탄 피해와 폭발 반경을 늘리는 이중 박격포 전용 모듈입니다.&#10;현재 배율은 장착 정보에 표시됩니다.&#10;좌우·상단 슬롯에 장착하며 전력 100 W를 사용합니다.&#10;설치·분리에 각각 100 작업이 필요하며 분리 실패 확률은 기존과 같습니다.</MT_Module_SpecialistMortarPayload.description>
+  <MT_Module_SpecialistMortarSupport.label>이중 박격포 전용 속사 지원 모듈</MT_Module_SpecialistMortarSupport.label>
+  <MT_Module_SpecialistMortarSupport.description>사격 간격 단축과 주변 포탄 자동 장전을 지원하는 이중 박격포 전용 모듈입니다.&#10;현재 전투 방식에 적용되는 효과는 장착 정보에 표시됩니다.&#10;좌우·상단 슬롯에 장착하며 전력 100 W를 사용합니다.&#10;설치·분리에 각각 100 작업이 필요하며 분리 실패 확률은 기존과 같습니다.</MT_Module_SpecialistMortarSupport.description>
+</LanguageData>

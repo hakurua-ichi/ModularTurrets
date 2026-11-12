@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_CE_TravelingShell.label>모듈러 CE 야포 포탄</MT_CE_TravelingShell.label>
+  <MT_CE_TravelingShell.description>발사 당시의 모듈러 무기 상태를 유지하며 Combat Extended의 월드 이동과 도착 경로를 사용하는 야포 포탄입니다.</MT_CE_TravelingShell.description>
+</LanguageData>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_ParagonVisualFallback>[模块化炮塔] 典范外壳渲染不可用，将显示原始外观：{0}</MT_ParagonVisualFallback>
+  <MT_ParagonIconPatchFailed>[模块化炮塔] 典范物品图标联动不可用，将显示原始图标：{0}</MT_ParagonIconPatchFailed>
+
+</LanguageData>

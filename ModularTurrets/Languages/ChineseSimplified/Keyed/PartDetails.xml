@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_PartDetailsButton>详情</MT_PartDetailsButton>
+  <MT_PartDetailsHint>点击以在独立窗口中打开部件详细说明。</MT_PartDetailsHint>
+  <MT_PartDetailsTitle>{0} — 部件详情</MT_PartDetailsTitle>
+
+</LanguageData>

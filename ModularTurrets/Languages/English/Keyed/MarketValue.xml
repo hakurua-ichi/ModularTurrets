@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MarketValueBonus>Installed parts (100%) and completed upgrades (5% of materials): +{0}</MT_MarketValueBonus>
+  <MT_WealthTransferUnavailable>[Modular Turrets] Installed-part wealth transfer unavailable; original item accounting retained: {0}</MT_WealthTransferUnavailable>
+  <MT_WealthCoreShapeChanged>[Modular Turrets] Core wealth collection changed; installed-part transfer disabled and original accounting retained.</MT_WealthCoreShapeChanged>
+  <MT_WealthBreakdownUnavailable>[Modular Turrets] VisibleWealth compatibility unavailable; original accounting retained: {0}</MT_WealthBreakdownUnavailable>
+  <MT_WealthBreakdownShapeChanged>[Modular Turrets] VisibleWealth collection changed; installed-part transfer disabled and original accounting retained.</MT_WealthBreakdownShapeChanged>
+</LanguageData>

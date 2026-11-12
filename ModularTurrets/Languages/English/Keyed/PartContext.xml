@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_ContextScatterConfig>Mortar scatter reductions must be finite, non-negative, and below 100% at tier V.</MT_ContextScatterConfig>
+  <MT_ContextHeader>{0} · {1}</MT_ContextHeader>
+  <MT_ContextCE>CE ballistics</MT_ContextCE>
+  <MT_ContextCore>Standard ballistics</MT_ContextCore>
+  <MT_ContextUnavailable>Combat adapter unavailable</MT_ContextUnavailable>
+  <MT_ContextUnfitted>Mounting target not set</MT_ContextUnfitted>
+  <MT_ContextFireControlIntro>Improves aiming and protects non-hostile faction pawns.&#10;Shown effects use the current turret and combat system.&#10;Aggressive mental states, spreading fire and collapses are excluded from protection.</MT_ContextFireControlIntro>
+  <MT_ContextMortarCE>Uses CE mortar ballistics, ammunition and observation-marker targeting. The displayed effects apply to this mounted head.</MT_ContextMortarCE>
+  <MT_ContextMortarCore>Fires physical shells using standard mortar ballistics. Head upgrades improve shell damage, penetration and scatter.</MT_ContextMortarCore>
+  <MT_ContextSupportCE>Reduces mortar aiming and recovery time, with nearby automatic loading through the CE ammunition backend.</MT_ContextSupportCE>
+  <MT_ContextSupportCore>Reduces mortar aiming and recovery time, speeds up shells, and loads nearby physical shells automatically.</MT_ContextSupportCore>
+  <MT_ContextPayload>Strengthens mortar shell damage and explosion radius.</MT_ContextPayload>
+  <MT_ContextHeadSway>Head aiming sway reduced by {0:P0}</MT_ContextHeadSway>
+  <MT_ContextSway>CE aiming sway reduced by {0:P0}</MT_ContextSway>
+  <MT_ContextMortarScatter>Mortar scatter radius reduced by {0:P0}</MT_ContextMortarScatter>
+  <MT_ContextFriendlyPawns>Protects non-hostile faction people, animals and mechanoids; aggressive mental states are excluded</MT_ContextFriendlyPawns>
+  <MT_ContextFriendlyBuildings>Mortar shells also protect buildings owned by this turret's faction</MT_ContextFriendlyBuildings>
+  <MT_ContextPayloadDamage>Shell damage ×{0:0.##}</MT_ContextPayloadDamage>
+  <MT_ContextPayloadRadius>Explosion radius ×{0:0.##}</MT_ContextPayloadRadius>
+  <MT_ContextSupportTiming>Aiming time −{0:P0} · Recovery time −{1:P0}</MT_ContextSupportTiming>
+  <MT_ContextSupportSupply>Automatically loads usable shells within {0:0.#} cells of the base footprint</MT_ContextSupportSupply>
+  <MT_ContextRapidSpeed>In-map shell flight speed +25%</MT_ContextRapidSpeed>
+</LanguageData>

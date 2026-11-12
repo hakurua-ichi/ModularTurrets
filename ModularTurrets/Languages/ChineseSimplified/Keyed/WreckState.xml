@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_WreckInspect>损毁状态：武器、护盾与组装已离线。修复炮塔即可恢复运作。当损毁状态生命值归零或在损毁状态下拆除时，炮塔将彻底毁坏，不退还任何部件与资源。</MT_WreckInspect>
+  <MT_WreckRestoreLabel>修复炮塔</MT_WreckRestoreLabel>
+  <MT_WreckRestoreDesc>完成 {0:0} 点建造工作量即可将炮塔恢复至满生命值。&#10;将已安装主炮与模块的制作成本，加上基座与已安装部件已完成的升级投入相加，按每种资源总量的二分之一向上取整收费。&#10;已安装的部件、升级等级与队列中的工作均会保留。</MT_WreckRestoreDesc>
+  <MT_WreckRestoreQueued>修复工作已在队列中。</MT_WreckRestoreQueued>
+  <MT_WreckRestoreCosts>修复所需材料：</MT_WreckRestoreCosts>
+  <MT_WreckRestoreNoCost>此次修复无需消耗材料。</MT_WreckRestoreNoCost>
+  <MT_WreckRestoreEstimated>旧版升级未记录实际支出，其对应份额将按旧版升级价格估算。</MT_WreckRestoreEstimated>
+  <MT_WreckRestoreOrder>修复损毁炮塔</MT_WreckRestoreOrder>
+  <MT_WreckCannotAttack>必须先修复损毁的炮塔才能开火。</MT_WreckCannotAttack>
+  <MT_WreckAssemblyStopped>必须先修复损毁的炮塔才能继续组装工作。</MT_WreckAssemblyStopped>
+  <MT_WreckSupplyButton>放置剩余修复材料</MT_WreckSupplyButton>
+  <MT_WreckSupplyTip>在此炮塔附近的地面上放置缺少的修复材料。&#10;已送达、正在运往此处或附近可直接取用的材料会从所需数量中扣除。</MT_WreckSupplyTip>
+  <MT_DebugWreckMaterialsNone>附近无需放置额外的修复材料。</MT_DebugWreckMaterialsNone>
+  <MT_DebugWreckMaterialsDropped>已在炮塔附近放置 {0:N0} 个修复材料。</MT_DebugWreckMaterialsDropped>
+  <MT_DebugWreckMaterialsPartial>已放置 {0:N0} 个修复材料，还需要更多空间来放置剩余的 {1:N0} 个。</MT_DebugWreckMaterialsPartial>
+
+</LanguageData>

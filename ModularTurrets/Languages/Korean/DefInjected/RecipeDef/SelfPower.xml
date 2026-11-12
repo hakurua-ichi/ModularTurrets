@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_MakeModule_SelfPower.label>자체전력 모듈 제작</MT_MakeModule_SelfPower.label>
+  <MT_MakeModule_SelfPower.description>장착한 포탑에 필요한 모든 전력을 자체적으로 충당합니다.&#10;장착 부품과 본체 업그레이드로 증가한 전력 요구량도 포함하며 외부 전력망 없이 사용할 수 있습니다.&#10;이 고정형 모듈은 업그레이드할 수 없습니다.&#10;&#10;압도적인 힘으로!</MT_MakeModule_SelfPower.description>
+  <MT_MakeModule_SelfPower.jobString>자체전력 모듈 제작 중</MT_MakeModule_SelfPower.jobString>
+</LanguageData>

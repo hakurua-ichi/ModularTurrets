@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_QuantumShieldAdapterFailed>模块化炮塔：未能为 {0} 应用量子炮护盾穿透兼容，将保留原有防护效果。详情：{1}</MT_QuantumShieldAdapterFailed>
+
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_PartDetailsButton>설명</MT_PartDetailsButton>
+  <MT_PartDetailsHint>클릭하면 부품 설명을 별도 창으로 엽니다.</MT_PartDetailsHint>
+  <MT_PartDetailsTitle>{0} — 부품 설명</MT_PartDetailsTitle>
+</LanguageData>

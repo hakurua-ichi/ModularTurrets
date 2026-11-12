@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SettingsPerformanceTitle>성능</MT_SettingsPerformanceTitle>
+  <MT_SettingsPerformanceHint>변경은 다음 렌더링 프레임부터 적용됩니다. 기본값은 모두 켜짐입니다.&#10;이 옵션은 그리는 방식만 바꾸며 피해·표적 탐색·전력망에는 영향을 주지 않습니다.</MT_SettingsPerformanceHint>
+  <MT_TeslaInstancingLabel>테슬라 효과 GPU 인스턴싱</MT_TeslaInstancingLabel>
+  <MT_TeslaInstancingHint>같은 밝기의 번개 선분을 묶어 그립니다.&#10;끄거나 GPU가 지원하지 않으면 같은 선분을 하나씩 그립니다.</MT_TeslaInstancingHint>
+  <MT_TeslaParallelLabel>테슬라 효과 병렬 계산</MT_TeslaParallelLabel>
+  <MT_TeslaParallelHint>화면에 테슬라 효과가 충분히 많으면 게임의 병렬 그리기 단계에서 선분 좌표를 계산합니다.&#10;끄거나 효과가 적으면 메인 스레드에서 계산합니다. 전투 판정은 항상 기존 경로를 따릅니다.</MT_TeslaParallelHint>
+</LanguageData>

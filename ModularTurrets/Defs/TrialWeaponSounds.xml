@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Optional audition profile. All grains reference Core resources; no audio is bundled. -->
+  <SoundDef>
+    <defName>MT_TrialShot_Autocannon</defName>
+    <context>MapOnly</context>
+    <maxVoices>6</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/Autocannon</clipFolderPath></li></grains>
+      <volumeRange>62~66</volumeRange>
+      <pitchRange>0.76~0.84</pitchRange>
+      <distRange>18~90</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Sniper</defName>
+    <context>MapOnly</context>
+    <maxVoices>3</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/SniperRifle</clipFolderPath></li></grains>
+      <volumeRange>72~76</volumeRange>
+      <pitchRange>0.62~0.70</pitchRange>
+      <distRange>18~100</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Flamethrower</defName>
+    <context>MapOnly</context>
+    <maxVoices>4</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/InfernoCannon_Fire</clipFolderPath></li></grains>
+      <volumeRange>33~37</volumeRange>
+      <pitchRange>0.88~0.98</pitchRange>
+      <distRange>12~65</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Minigun</defName>
+    <context>MapOnly</context>
+    <maxVoices>8</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/Minigun/Shot</clipFolderPath></li></grains>
+      <volumeRange>30~34</volumeRange>
+      <pitchRange>0.78~0.86</pitchRange>
+      <distRange>15~85</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Laser</defName>
+    <context>MapOnly</context>
+    <maxVoices>3</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Clip"><clipPath>Weapon/ChargeShotA</clipPath></li></grains>
+      <volumeRange>65~70</volumeRange>
+      <pitchRange>0.74~0.82</pitchRange>
+      <distRange>18~95</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Missile</defName>
+    <context>MapOnly</context>
+    <maxVoices>5</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/RocketswarmLauncher/Cast</clipFolderPath></li></grains>
+      <volumeRange>40~44</volumeRange>
+      <pitchRange>0.76~0.86</pitchRange>
+      <distRange>18~95</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Tesla</defName>
+    <context>MapOnly</context>
+    <maxVoices>3</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Clip"><clipPath>Weapon/Artillery/EMPExplosion_01d</clipPath></li></grains>
+      <volumeRange>42~46</volumeRange>
+      <pitchRange>1.00~1.08</pitchRange>
+      <distRange>15~80</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Quantum</defName>
+    <context>MapOnly</context>
+    <maxVoices>8</maxVoices>
+    <maxSimultaneous>8</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <!-- The shortest Core charge-rifle sample avoids randomized long tails at 20 shots/s. -->
+      <grains><li Class="AudioGrain_Clip"><clipPath>Weapon/ChargeRifle/ShotChargeRifle_1b</clipPath></li></grains>
+      <volumeRange>22~25</volumeRange>
+      <pitchRange>1.15~1.22</pitchRange>
+      <distRange>15~85</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialShot_Auxiliary</defName>
+    <context>MapOnly</context>
+    <maxVoices>5</maxVoices>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/Minigun/Shot</clipFolderPath></li></grains>
+      <volumeRange>22~25</volumeRange>
+      <pitchRange>0.88~0.96</pitchRange>
+      <distRange>12~75</distRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>MT_TrialTail_Heavy</defName>
+    <context>MapOnly</context>
+    <maxVoices>2</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNewest</priorityMode>
+    <subSounds><li>
+      <onCamera>true</onCamera>
+      <grains><li Class="AudioGrain_Folder"><clipFolderPath>Weapon/Tails/Heavy</clipFolderPath></li></grains>
+      <volumeRange>20~23</volumeRange>
+      <pitchRange>0.80~0.88</pitchRange>
+      <sustainLoop>false</sustainLoop>
+    </li></subSounds>
+  </SoundDef>
+</Defs>

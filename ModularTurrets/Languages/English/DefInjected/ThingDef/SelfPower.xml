@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_Module_SelfPower.label>self-power module</MT_Module_SelfPower.label>
+  <MT_Module_SelfPower.description>Provide all electricity required by the turret carrying this module, including its installed parts and base upgrades.&#10;The turret can operate without an external power network.&#10;This fixed module cannot be upgraded.&#10;&#10;The Power of the Sun, in the Palm of My Hand</MT_Module_SelfPower.description>
+</LanguageData>

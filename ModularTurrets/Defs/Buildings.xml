@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <!-- Preserve this DefName and its implied blueprint/frame IDs for pre-0.1.5 saves. -->
+  <ThingDef Name="MT_TurretBaseShared" ParentName="BuildingBase">
+    <defName>MT_TurretBase</defName>
+    <label>modular turret base (legacy ID)</label>
+    <description>An existing modular turret base using its original saved identity. All bases now occupy 3×3. Completed footprint migrations are not repeated. An initial legacy conversion reserves obstacles by floor and keeps the current position when possible, or moves the base into vacant 3×3 space. Existing buildings, blueprints, rocks and compressed map data are preserved. If no placement is available, the same base and its construction objects are retained in off-map storage for an explicit placement retry. Installed parts, upgrades, work and ammunition remain on the same objects. New construction uses the current 3×3 modular turret base.&#10;Final combat destruction causes an explosion within an approximately 5×5 area. Entering wreck state or deconstruction does not explode.</description>
+    <thingClass>ModularTurrets.Building_ModularTurret</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsSecurity</li>
+    </thingCategories>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(3,3)</size>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.7</fillPercent>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <!-- Keep the category so old blueprint/frame definitions are still generated. -->
+    <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+    <stealable>false</stealable>
+    <graphicData>
+      <texPath>ModularTurrets/Components/TurretBase-clean</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.953125,3.884375)</drawSize>
+      <drawOffset>(0.00625001,0,0.2515625)</drawOffset>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <WorkToBuild>1100</WorkToBuild>
+      <Mass>100</Mass>
+      <Flammability>0.2</Flammability>
+      <Beauty>-8</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>MT_ModularTurrets</li>
+    </researchPrerequisites>
+    <comps>
+      <li>
+        <compClass>ModularTurrets.CompTurretWeaponAccuracy</compClass>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+        <shortCircuitInRain>false</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Stunnable">
+        <affectedDamageDefs>
+          <li>Stun</li>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretBurstWarmupTime>0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>1</turretBurstCooldownTime>
+      <turretGunDef>MT_Gun_Autocannon</turretGunDef>
+    </building>
+    <uiIconPath>ModularTurrets/Components/TurretBase-clean</uiIconPath>
+    <uiIconScale>1.33862434</uiIconScale>
+    <uiIconOffset>(0,-0.07671958)</uiIconOffset>
+  </ThingDef>
+  <ThingDef ParentName="MT_TurretBaseShared">
+    <defName>MT_TurretBaseLarge</defName>
+    <label>modular turret base</label>
+    <description>A powered 3×3 automatic turret platform with replaceable main heads and auxiliary modules. Carry a manufactured part here and complete 100 construction work to install it. A head is required to fire. The head and its attached modules rotate continuously toward targets. Main parts and modules can be upgraded through tier V; the base supports costly, repeatable damage, protection and range improvements.&#10;Final combat destruction causes an explosion within an approximately 5×5 area. Entering wreck state or deconstruction does not explode.</description>
+    <size>(3,3)</size>
+    <canGenerateDefaultDesignator>true</canGenerateDefaultDesignator>
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MT_AssemblyBench</defName>
+    <label>turret assembly bench</label>
+    <description>A precision workbench for manufacturing modular turret heads and auxiliary modules. Place a chair at its interaction spot for seated work. Nearby linked tool cabinets improve its work speed. Carry completed parts to a turret base for installation. Upgrade installed heads and modules at the base. Dual mortars use ordinary high-explosive shells; this workbench does not manufacture special ammunition.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <size>(2,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Production</designationCategory>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>ModularTurrets/Components/AssemblyBench-2x1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.16820208,1.44546805)</drawSize>
+      <drawOffset>(0,0,0.03528975)</drawOffset>
+      <drawOffsetEast>(0.03528975,0,0)</drawOffsetEast>
+      <drawOffsetSouth>(0,0,-0.03528975)</drawOffsetSouth>
+      <drawOffsetWest>(-0.03528975,0,0)</drawOffsetWest>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>2500</WorkToBuild>
+      <Mass>60</Mass>
+      <Flammability>0.4</Flammability>
+      <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+    </statBases>
+    <costList>
+      <Steel>160</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>MT_ModularTurrets</li>
+    </researchPrerequisites>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <uiIconPath>ModularTurrets/Components/AssemblyBench-2x1</uiIconPath>
+    <uiIconScale>1.14115899</uiIconScale>
+    <uiIconOffset>(0,-0.01857355)</uiIconOffset>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <unpoweredWorkTableWorkSpeedFactor>0</unpoweredWorkTableWorkSpeedFactor>
+      <buildingTags>
+        <li>Production</li>
+      </buildingTags>
+    </building>
+  </ThingDef>
+</Defs>

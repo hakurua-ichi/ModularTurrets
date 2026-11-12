@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>MT_ModularBattery</defName>
+    <label>modular battery</label>
+    <description>An upgradeable, weatherproof 3x3 battery with a central 1x3 body and two 1x3 side-module slots. Base storage is 1,200 Wd and charging efficiency is 80%. Each base upgrade costs 80 steel and 2 industrial components and adds 1,200 Wd before storage-module bonuses.</description>
+    <thingClass>ModularTurrets.Batteries.Building_ModularBattery</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <tickerType>Normal</tickerType>
+    <size>(3,3)</size>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Battery</texPath>
+      <graphicClass>ModularTurrets.Batteries.Graphic_ModularBattery</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <drawRotated>true</drawRotated>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <blockWind>true</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.4</fillPercent>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <WorkToBuild>1750</WorkToBuild>
+      <Mass>60</Mass>
+      <Flammability>1</Flammability>
+      <Beauty>-15</Beauty>
+    </statBases>
+    <costList>
+      <Steel>280</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="ModularTurrets.Batteries.CompProperties_ModularBattery">
+        <storedEnergyMax>1200</storedEnergyMax>
+        <efficiency>0.8</efficiency>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <transmitsPower>true</transmitsPower>
+      </li>
+      <li Class="ModularTurrets.Batteries.CompProperties_BatteryGeneration" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Stunnable">
+        <useLargeEMPEffecter>true</useLargeEMPEffecter>
+        <affectedDamageDefs>
+          <li>EMP</li>
+        </affectedDamageDefs>
+      </li>
+    </comps>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+    </building>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <uiOrder>2021</uiOrder>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <constructEffect>ConstructMetal</constructEffect>
+    <canOverlapZones>false</canOverlapZones>
+    <researchPrerequisites>
+      <li>MT_ModularBatteries</li>
+    </researchPrerequisites>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatterySettingsExtension">
+        <capacityPerUpgrade>1200</capacityPerUpgrade>
+        <upgradeSteel>80</upgradeSteel>
+        <upgradeComponents>2</upgradeComponents>
+        <upgradeWork>600</upgradeWork>
+        <installWork>100</installWork>
+        <removeWork>100</removeWork>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <ResearchProjectDef>
+    <defName>MT_ModularBatteries</defName>
+    <label>modular batteries</label>
+    <description>Build an upgradeable weatherproof battery and manufacture its six dedicated modules at machining tables or turret assembly benches.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Batteries</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <tab>MT_ModularResearch</tab>
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <JobDef>
+    <defName>MT_BatteryHaul</defName>
+    <driverClass>ModularTurrets.Batteries.JobDriver_ModularBatteryHaul</driverClass>
+    <reportString>Hauling battery modules or upgrade materials.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <JobDef>
+    <defName>MT_BatteryWork</defName>
+    <driverClass>ModularTurrets.Batteries.JobDriver_ModularBatteryWork</driverClass>
+    <reportString>Installing, removing, or upgrading a modular battery.</reportString>
+    <casualInterruptible>true</casualInterruptible>
+  </JobDef>
+  <WorkGiverDef>
+    <defName>MT_BatteryAssembly</defName>
+    <label>assemble modular batteries</label>
+    <giverClass>ModularTurrets.Batteries.WorkGiver_ModularBatteryAssembly</giverClass>
+    <workType>Construction</workType>
+    <priorityInType>104</priorityInType>
+    <verb>work on</verb>
+    <gerund>working on modular batteries</gerund>
+    <scanThings>true</scanThings>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <WorkGiverDef>
+    <defName>MT_FillBatteries</defName>
+    <label>deliver materials to batteries</label>
+    <giverClass>ModularTurrets.Batteries.WorkGiver_ModularBatteryHaul</giverClass>
+    <workType>Hauling</workType>
+    <priorityInType>104</priorityInType>
+    <verb>deliver materials to</verb>
+    <gerund>delivering battery modules and materials</gerund>
+    <scanThings>true</scanThings>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MT_BatteryGenerationModule</defName>
+    <label>battery self-generation module</label>
+    <description>Generate 1/100 of the effective storage capacity in Wd per day, at least 25 W per module. Install in either battery side slot.  Upgrade up to level V. Each level adds 25% of the base generation rate.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories Inherit="False">
+      <li>MT_BatteryModules</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Module-Generation</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <drawSize>(.33,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatteryModuleExtension">
+        <generationWattsPerWd>.01</generationWattsPerWd>
+        <generationMinimumWatts>25</generationMinimumWatts>
+        <maxUpgradeLevel>5</maxUpgradeLevel>
+        <upgradeSteelPerLevel>40</upgradeSteelPerLevel>
+        <upgradeComponentsPerLevel>1</upgradeComponentsPerLevel>
+        <upgradeWorkPerLevel>300</upgradeWorkPerLevel>
+        <generationBonusPerLevel>.25</generationBonusPerLevel>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="ModularTurrets.Batteries.CompProperties_BatteryModuleUpgrade" />
+    </comps>
+    <uiIconPath>ModularTurrets/Batteries/Module-Generation</uiIconPath>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeBatteryGenerationModule</defName>
+    <displayPriority>10000</displayPriority>
+    <label>make battery self-generation module</label>
+    <description>Generate 1/100 of the effective storage capacity in Wd per day, at least 25 W per module.</description>
+    <jobString>Making battery self-generation module.</jobString>
+    <workAmount>750</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MT_ModularBatteries</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>MT_AssemblyBench</li>
+    </recipeUsers>
+    <products>
+      <MT_BatteryGenerationModule>1</MT_BatteryGenerationModule>
+    </products>
+  </RecipeDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MT_BatteryStorageModule</defName>
+    <label>battery high-capacity storage module</label>
+    <description>Add 10,000 Wd of storage and increase the capacity gained from each base upgrade by 50%. These bonuses add per installed copy. Install in either battery side slot. This battery module has no upgrades.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories Inherit="False">
+      <li>MT_BatteryModules</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Module-Storage</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <drawSize>(.33,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>180</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatteryModuleExtension">
+        <additionalCapacityWd>10000</additionalCapacityWd>
+        <upgradeCapacityBonusFactor>.5</upgradeCapacityBonusFactor>
+      </li>
+    </modExtensions>
+    <uiIconPath>ModularTurrets/Batteries/Module-Storage</uiIconPath>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeBatteryStorageModule</defName>
+    <displayPriority>9999</displayPriority>
+    <label>make battery high-capacity storage module</label>
+    <description>Add 10,000 Wd of storage and increase the capacity gained from each base upgrade by 50%. These bonuses add per installed copy.</description>
+    <jobString>Making battery high-capacity storage module.</jobString>
+    <workAmount>750</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>180</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MT_ModularBatteries</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>MT_AssemblyBench</li>
+    </recipeUsers>
+    <products>
+      <MT_BatteryStorageModule>1</MT_BatteryStorageModule>
+    </products>
+  </RecipeDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MT_BatteryCoilModule</defName>
+    <label>battery wireless power module</label>
+    <description>Supply compatible electrical consumers within 40 cells without a connecting cable. Consumers use this battery's real power network. Install in either battery side slot.  Upgrade up to level V. Each level adds 5 cells of wireless range, from 40 up to 65 cells.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories Inherit="False">
+      <li>MT_BatteryModules</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Module-Coil</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <drawSize>(.33,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatteryModuleExtension">
+        <wirelessRadius>40</wirelessRadius>
+        <maxUpgradeLevel>5</maxUpgradeLevel>
+        <upgradeSteelPerLevel>40</upgradeSteelPerLevel>
+        <upgradeComponentsPerLevel>1</upgradeComponentsPerLevel>
+        <upgradeWorkPerLevel>300</upgradeWorkPerLevel>
+        <wirelessRadiusPerLevel>5</wirelessRadiusPerLevel>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="ModularTurrets.Batteries.CompProperties_BatteryModuleUpgrade" />
+    </comps>
+    <uiIconPath>ModularTurrets/Batteries/Module-Coil</uiIconPath>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeBatteryCoilModule</defName>
+    <displayPriority>9998</displayPriority>
+    <label>make battery wireless power module</label>
+    <description>Supply compatible electrical consumers within 40 cells without a connecting cable. Consumers use this battery's real power network.</description>
+    <jobString>Making battery wireless power module.</jobString>
+    <workAmount>750</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MT_ModularBatteries</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>MT_AssemblyBench</li>
+    </recipeUsers>
+    <products>
+      <MT_BatteryCoilModule>1</MT_BatteryCoilModule>
+    </products>
+  </RecipeDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MT_BatteryProtectionModule</defName>
+    <label>battery surge protection module</label>
+    <description>Protect this battery's stored electricity from power-network short circuits and prevent component breakdowns. Install in either battery side slot. This battery module has no upgrades.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories Inherit="False">
+      <li>MT_BatteryModules</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Module-Protection</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <drawSize>(.33,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatteryModuleExtension">
+        <protectsFromShortCircuit>true</protectsFromShortCircuit>
+        <preventsBreakdown>true</preventsBreakdown>
+      </li>
+    </modExtensions>
+    <uiIconPath>ModularTurrets/Batteries/Module-Protection</uiIconPath>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeBatteryProtectionModule</defName>
+    <displayPriority>9997</displayPriority>
+    <label>make battery surge protection module</label>
+    <description>Protect this battery's stored electricity from power-network short circuits and prevent component breakdowns.</description>
+    <jobString>Making battery surge protection module.</jobString>
+    <workAmount>750</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MT_ModularBatteries</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>MT_AssemblyBench</li>
+    </recipeUsers>
+    <products>
+      <MT_BatteryProtectionModule>1</MT_BatteryProtectionModule>
+    </products>
+  </RecipeDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MT_BatteryReserveModule</defName>
+    <label>battery emergency reserve module</label>
+    <description>Store an additional 20% of ordinary capacity as emergency reserve. Charge it from surplus electricity and release it when the network is short of power. Two copies keep the same reserve fraction. Install in either battery side slot. This battery module has no upgrades.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories Inherit="False">
+      <li>MT_BatteryModules</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Module-Reserve</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <drawSize>(.33,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatteryModuleExtension">
+        <reserveFraction>.2</reserveFraction>
+      </li>
+    </modExtensions>
+    <uiIconPath>ModularTurrets/Batteries/Module-Reserve</uiIconPath>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeBatteryReserveModule</defName>
+    <displayPriority>9996</displayPriority>
+    <label>make battery emergency reserve module</label>
+    <description>Store an additional 20% of ordinary capacity as emergency reserve. Charge it from surplus electricity and release it when the network is short of power. Two copies keep the same reserve fraction.</description>
+    <jobString>Making battery emergency reserve module.</jobString>
+    <workAmount>750</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MT_ModularBatteries</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>MT_AssemblyBench</li>
+    </recipeUsers>
+    <products>
+      <MT_BatteryReserveModule>1</MT_BatteryReserveModule>
+    </products>
+  </RecipeDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MT_BatteryEfficiencyModule</defName>
+    <label>battery charging-efficiency module</label>
+    <description>Set charging efficiency to 100%. One installed copy provides the full effect. Install in either battery side slot. This battery module has no upgrades.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <stackLimit>1</stackLimit>
+    <rotatable>false</rotatable>
+    <pathCost>15</pathCost>
+    <thingCategories Inherit="False">
+      <li>MT_BatteryModules</li>
+    </thingCategories>
+    <graphicData>
+      <texPath>ModularTurrets/Batteries/Module-Efficiency</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <drawSize>(.33,1)</drawSize>
+      <shaderType>Cutout</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.Batteries.BatteryModuleExtension">
+        <chargeEfficiencyFloor>1</chargeEfficiencyFloor>
+      </li>
+    </modExtensions>
+    <uiIconPath>ModularTurrets/Batteries/Module-Efficiency</uiIconPath>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeBatteryEfficiencyModule</defName>
+    <displayPriority>9995</displayPriority>
+    <label>make battery charging-efficiency module</label>
+    <description>Set charging efficiency to 100%. One installed copy provides the full effect. This module cannot be upgraded.</description>
+    <jobString>Making battery charging-efficiency module.</jobString>
+    <workAmount>750</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MT_ModularBatteries</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>MT_AssemblyBench</li>
+    </recipeUsers>
+    <products>
+      <MT_BatteryEfficiencyModule>1</MT_BatteryEfficiencyModule>
+    </products>
+  </RecipeDef>
+</Defs>

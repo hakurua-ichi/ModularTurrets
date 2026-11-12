@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ModularTurrets.ModLanguageDef>
+    <defName>MT_LanguageAutomatic</defName>
+    <label>Follow game language</label>
+    <gameLanguage>auto</gameLanguage>
+    <order>0</order>
+  </ModularTurrets.ModLanguageDef>
+  <ModularTurrets.ModLanguageDef>
+    <defName>MT_LanguageEnglish</defName>
+    <label>English</label>
+    <folder>English</folder>
+    <gameLanguage>English</gameLanguage>
+    <order>10</order>
+  </ModularTurrets.ModLanguageDef>
+  <ModularTurrets.ModLanguageDef>
+    <defName>MT_LanguageKorean</defName>
+    <label>한국어</label>
+    <folder>Korean</folder>
+    <gameLanguage>Korean</gameLanguage>
+    <order>20</order>
+  </ModularTurrets.ModLanguageDef>
+  <ModularTurrets.ModLanguageDef>
+    <defName>MT_LanguageChineseSimplified</defName>
+    <label>简体中文</label>
+    <folder>ChineseSimplified</folder>
+    <gameLanguage>ChineseSimplified</gameLanguage>
+    <order>30</order>
+  </ModularTurrets.ModLanguageDef>
+</Defs>

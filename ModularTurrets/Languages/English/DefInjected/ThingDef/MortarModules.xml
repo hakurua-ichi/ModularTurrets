@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_Module_SpecialistMortarPayload.label>dual mortar payload amplifier module</MT_Module_SpecialistMortarPayload.label>
+  <MT_Module_SpecialistMortarPayload.description>A fixed dual-mortar module that increases shell damage and explosion radius.&#10;Mounted effects show the current multipliers.&#10;Fits a side or top slot; uses 100 W.&#10;Installation and removal require 100 work; removal has the usual failure chance.</MT_Module_SpecialistMortarPayload.description>
+  <MT_Module_SpecialistMortarSupport.label>dual mortar rapid-fire support module</MT_Module_SpecialistMortarSupport.label>
+  <MT_Module_SpecialistMortarSupport.description>A fixed dual-mortar support module for faster firing cycles and nearby automatic loading.&#10;Mounted effects are shown for the active combat system.&#10;Fits a side or top slot; uses 100 W.&#10;Installation and removal require 100 work; removal has the usual failure chance.</MT_Module_SpecialistMortarSupport.description>
+</LanguageData>

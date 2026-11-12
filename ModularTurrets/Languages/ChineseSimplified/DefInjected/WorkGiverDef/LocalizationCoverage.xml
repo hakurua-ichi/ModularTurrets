@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_Assembly.label>组装模块化炮塔</MT_Assembly.label>
+  <MT_Assembly.verb>组装</MT_Assembly.verb>
+  <MT_Assembly.gerund>正在组装模块化炮塔</MT_Assembly.gerund>
+  <MT_FillTurrets.label>向炮塔运送材料</MT_FillTurrets.label>
+  <MT_FillTurrets.verb>运送材料至</MT_FillTurrets.verb>
+  <MT_FillTurrets.gerund>正在向炮塔运送部件与材料</MT_FillTurrets.gerund>
+  <MT_DoBillsAssemblyBench.label>制作炮塔部件</MT_DoBillsAssemblyBench.label>
+  <MT_DoBillsAssemblyBench.verb>制作部件于</MT_DoBillsAssemblyBench.verb>
+  <MT_DoBillsAssemblyBench.gerund>正在制作炮塔部件于</MT_DoBillsAssemblyBench.gerund>
+</LanguageData>

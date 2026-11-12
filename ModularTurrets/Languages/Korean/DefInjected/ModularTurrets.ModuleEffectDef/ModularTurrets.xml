@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_FanEffect.label>추적 서보 모듈</MT_FanEffect.label>
+  <MT_FanEffect.description>포탑이 목표를 추적하는 회전 속도를 높입니다. 같은 효과가 여러 개면 가장 높은 단계 하나만 적용합니다.</MT_FanEffect.description>
+  <MT_FireControlEffect.label>정밀 사격 통제 모듈</MT_FireControlEffect.label>
+  <MT_FireControlEffect.description>조준을 보조하고 비적대 진영의 주민을 보호합니다. 장착 효과는 현재 전투 방식과 포탑 주포에 맞춰 표시됩니다.</MT_FireControlEffect.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SettingsPerformanceTitle>Performance</MT_SettingsPerformanceTitle>
+  <MT_SettingsPerformanceHint>Changes apply from the next rendering frame. All options are on by default.&#10;These options change drawing only; damage, targeting and power networks are unaffected.</MT_SettingsPerformanceHint>
+  <MT_TeslaInstancingLabel>Tesla effect GPU instancing</MT_TeslaInstancingLabel>
+  <MT_TeslaInstancingHint>Draws lightning segments with matching opacity together.&#10;When disabled or unsupported by the GPU, draws the same segments individually.</MT_TeslaInstancingHint>
+  <MT_TeslaParallelLabel>Parallel Tesla effect geometry</MT_TeslaParallelLabel>
+  <MT_TeslaParallelHint>When enough Tesla effects are visible, computes segment coordinates during the game's parallel drawing phase.&#10;When disabled or below the threshold, computes them on the main thread. Combat calculations keep their existing path.</MT_TeslaParallelHint>
+</LanguageData>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MakeModule_FireControl.label>make precision fire control module</MT_MakeModule_FireControl.label>
+  <MT_MakeModule_FireControl.description>Manufacture a precision fire control module that adds various features to a turret.&#10;The description is way too long, though...&#10;By default, it improves turret and weapon accuracy and prevents friendly fire.&#10;Targets in aggressive mental states are excluded from protection.&#10;For mortar turrets, it also prevents direct and blast damage to buildings belonging to your faction.&#10;However, this module does not work perfectly in every situation.</MT_MakeModule_FireControl.description>
+  <MT_MakeModule_FireControl.jobString>Making precision fire control module.</MT_MakeModule_FireControl.jobString>
+  <MT_MakeHead_Autocannon.label>make autocannon head</MT_MakeHead_Autocannon.label>
+  <MT_MakeHead_Autocannon.description>Manufacture an autocannon main head.&#10;The most basic turret of the bunch, and the foundation for almost every other upper turret assembly.&#10;Mother...f...(turning to dust)</MT_MakeHead_Autocannon.description>
+  <MT_MakeHead_Autocannon.jobString>Making autocannon head.</MT_MakeHead_Autocannon.jobString>
+  <MT_MakeHead_Sniper.label>make sniper cannon head</MT_MakeHead_Sniper.label>
+  <MT_MakeHead_Sniper.description>Manufacture a sniper cannon main head.&#10;Pushes the autocannon's firepower to the limit at the cost of fire rate.</MT_MakeHead_Sniper.description>
+  <MT_MakeHead_Sniper.jobString>Making sniper cannon head.</MT_MakeHead_Sniper.jobString>
+  <MT_MakeHead_DualAutocannon.label>make dual autocannon head</MT_MakeHead_DualAutocannon.label>
+  <MT_MakeHead_DualAutocannon.description>Manufacture a dual autocannon main head.&#10;Two of anything is always better—though in Warcraft, splitting one sword into two wasn't such a hot idea.</MT_MakeHead_DualAutocannon.description>
+  <MT_MakeHead_DualAutocannon.jobString>Making dual autocannon head.</MT_MakeHead_DualAutocannon.jobString>
+  <MT_MakeHead_DualSniper.label>make dual sniper cannon head</MT_MakeHead_DualSniper.label>
+  <MT_MakeHead_DualSniper.description>Manufacture a dual sniper cannon main head.&#10;It may look like a CIWS, but don't expect it to act like one.</MT_MakeHead_DualSniper.description>
+  <MT_MakeHead_DualSniper.jobString>Making dual sniper cannon head.</MT_MakeHead_DualSniper.jobString>
+  <MT_MakeHead_DualMortar.label>make dual mortar head</MT_MakeHead_DualMortar.label>
+  <MT_MakeHead_DualMortar.description>Manufacture a dual mortar main head.&#10;A mortar turret with all the headaches of a vanilla mortar stripped right out.</MT_MakeHead_DualMortar.description>
+  <MT_MakeHead_DualMortar.jobString>Making dual mortar head.</MT_MakeHead_DualMortar.jobString>
+  <MT_MakeHead_Flamethrower.label>make flamethrower head</MT_MakeHead_Flamethrower.label>
+  <MT_MakeHead_Flamethrower.description>Manufacture a flamethrower main head.&#10;Nothing like a good Zergling roast.</MT_MakeHead_Flamethrower.description>
+  <MT_MakeHead_Flamethrower.jobString>Making flamethrower head.</MT_MakeHead_Flamethrower.jobString>
+  <MT_MakeHead_Minigun.label>make minigun head</MT_MakeHead_Minigun.label>
+  <MT_MakeHead_Minigun.description>Manufacture a minigun main head.&#10;An upper turret assembly that prides itself on a blistering rate of fire.</MT_MakeHead_Minigun.description>
+  <MT_MakeHead_Minigun.jobString>Making minigun head.</MT_MakeHead_Minigun.jobString>
+  <MT_MakeHead_Laser.label>make laser cannon head</MT_MakeHead_Laser.label>
+  <MT_MakeHead_Laser.description>Manufacture a laser cannon main head.&#10;Fries your enemies with a high-powered laser.&#10;And your allies, if necessary.</MT_MakeHead_Laser.description>
+  <MT_MakeHead_Laser.jobString>Making laser cannon head.</MT_MakeHead_Laser.jobString>
+  <MT_MakeHead_Missile.label>make missile launcher head</MT_MakeHead_Missile.label>
+  <MT_MakeHead_Missile.description>Manufacture a missile launcher main head.&#10;Unleashes a swarm of missiles.&#10;Do not operate while walled in from the front.</MT_MakeHead_Missile.description>
+  <MT_MakeHead_Missile.jobString>Making missile launcher head.</MT_MakeHead_Missile.jobString>
+  <MT_MakeHead_Tesla.label>make Tesla coil head</MT_MakeHead_Tesla.label>
+  <MT_MakeHead_Tesla.description>Manufacture a Tesla coil main head.&#10;No, not the car company that wants to fly—it's named after Nikola Tesla.&#10;Oh, and the visual motif is a musical Tesla coil!</MT_MakeHead_Tesla.description>
+  <MT_MakeHead_Tesla.jobString>Making Tesla coil head.</MT_MakeHead_Tesla.jobString>
+  <MT_MakeHead_Quantum.label>make quantum cannon head</MT_MakeHead_Quantum.label>
+  <MT_MakeHead_Quantum.description>Manufacture a quantum cannon main head.&#10;The flagship top-tier turret assembly of this mod.&#10;When needed, it ignores certain shields to deliver a pinpoint strike straight into the target...&#10;&#10;kind of like Ant-Man flying up Thanos's rear end and expanding.</MT_MakeHead_Quantum.description>
+  <MT_MakeHead_Quantum.jobString>Making quantum cannon head.</MT_MakeHead_Quantum.jobString>
+  <MT_MakeModule_Range.label>make range radar module</MT_MakeModule_Range.label>
+  <MT_MakeModule_Range.description>Manufacture a range radar module.&#10;A bizarre radar that spins when mounted on top, yet stays completely still when bolted to the sides.</MT_MakeModule_Range.description>
+  <MT_MakeModule_Range.jobString>Making range radar module.</MT_MakeModule_Range.jobString>
+  <MT_MakeModule_Shield.label>make shield module</MT_MakeModule_Shield.label>
+  <MT_MakeModule_Shield.description>Manufacture a shield module.&#10;Adds a light protective barrier to the turret.</MT_MakeModule_Shield.description>
+  <MT_MakeModule_Shield.jobString>Making shield module.</MT_MakeModule_Shield.jobString>
+  <MT_MakeModule_Auxiliary.label>make auxiliary autocannon module</MT_MakeModule_Auxiliary.label>
+  <MT_MakeModule_Auxiliary.description>Manufacture an auxiliary autocannon module.&#10;Bolts on an extra autocannon with its own independent firing cycle.&#10;Expect it to fire off-beat all the time.</MT_MakeModule_Auxiliary.description>
+  <MT_MakeModule_Auxiliary.jobString>Making auxiliary autocannon module.</MT_MakeModule_Auxiliary.jobString>
+  <MT_MakeModule_Aiming.label>make aiming assistant module</MT_MakeModule_Aiming.label>
+  <MT_MakeModule_Aiming.description>Manufacture an aiming assistant module.&#10;Looks suspiciously like a Terran Ghost painting a target for a nuclear strike.</MT_MakeModule_Aiming.description>
+  <MT_MakeModule_Aiming.jobString>Making aiming assistant module.</MT_MakeModule_Aiming.jobString>
+  <MT_MakeModule_Cooling.label>make coolant module</MT_MakeModule_Cooling.label>
+  <MT_MakeModule_Cooling.description>Manufacture a coolant module.&#10;Rapidly cools the weapon to shorten the firing cycle.&#10;Water cooling beats air cooling after all.</MT_MakeModule_Cooling.description>
+  <MT_MakeModule_Cooling.jobString>Making coolant module.</MT_MakeModule_Cooling.jobString>
+  <MT_MakeModule_Fan.label>make tracking servo module</MT_MakeModule_Fan.label>
+  <MT_MakeModule_Fan.description>Manufacture a tracking servo that accelerates turret target-tracking rotation.&#10;The ultimate dream is strapping a guy inside and spinning him around like a maniac, just like a Terran Missile Turret.</MT_MakeModule_Fan.description>
+  <MT_MakeModule_Fan.jobString>Making tracking servo module.</MT_MakeModule_Fan.jobString>
+  <MT_MakeModule_SpecialistAutocannon.label>make autocannon fuse chamber module</MT_MakeModule_SpecialistAutocannon.label>
+  <MT_MakeModule_SpecialistAutocannon.description>These maniacs finally figured out how to load literal bombs as bullets!&#10;&#10;Replaces each round with an explosive impact of radius 1.4 cells.&#10;Targets take up to the round damage, with less damage toward the blast edge; no additional direct-hit damage is added.&#10;Fits the left, right or top slot only on the autocannon and dual autocannon.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistAutocannon.description>
+  <MT_MakeModule_SpecialistAutocannon.jobString>Making autocannon fuse chamber module.</MT_MakeModule_SpecialistAutocannon.jobString>
+  <MT_MakeModule_SpecialistSniper.label>make sniper penetrator core module</MT_MakeModule_SpecialistSniper.label>
+  <MT_MakeModule_SpecialistSniper.description>Strategically relocates fin-stabilized sabot rounds straight through the target—and the next couple of guys behind them.&#10;&#10;Rounds continue through up to 3 targets along their flight path.&#10;Each further penetration retains 70% of the previous damage.&#10;Solid walls and shields stop the round.&#10;Fits the left, right or top slot only on the sniper cannon and dual sniper cannon.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistSniper.description>
+  <MT_MakeModule_SpecialistSniper.jobString>Making sniper penetrator core module.</MT_MakeModule_SpecialistSniper.jobString>
+  <MT_MakeModule_SpecialistMinigun.label>make minigun cycle drive module</MT_MakeModule_SpecialistMinigun.label>
+  <MT_MakeModule_SpecialistMinigun.description>Frequent jams cut the burst length down, but hey, it cools down way faster now.&#10;Looks like a botched overclock.&#10;&#10;Warmup and post-burst cooldown are reduced to 25% (1/4) of normal, while each burst also fires 25% (1/4) as many rounds (minimum 1).&#10;Time between rounds is unchanged.&#10;Fits the left, right or top slot only on the minigun.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistMinigun.description>
+  <MT_MakeModule_SpecialistMinigun.jobString>Making minigun cycle drive module.</MT_MakeModule_SpecialistMinigun.jobString>
+  <MT_MakeModule_SpecialistQuantum.label>make quantum field stabilizer module</MT_MakeModule_SpecialistQuantum.label>
+  <MT_MakeModule_SpecialistQuantum.description>A module that sells you a feature the gun really should have had at launch, packaged as paid DLC.&#10;&#10;Sets the main weapon armor penetration to at least 100%.&#10;Higher penetration from upgrades is retained.&#10;Fits the left, right or top slot only on the quantum cannon.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistQuantum.description>
+  <MT_MakeModule_SpecialistQuantum.jobString>Making quantum field stabilizer module.</MT_MakeModule_SpecialistQuantum.jobString>
+  <MT_MakeModule_SpecialistFlamethrower.label>make flamethrower pressure regulator module</MT_MakeModule_SpecialistFlamethrower.label>
+  <MT_MakeModule_SpecialistFlamethrower.description>Somehow, panicking when you're literally on fire was carved out into a separate add-on module.&#10;&#10;A flame hit has a 20% chance to make a living flesh target flee for up to 6 seconds; reaching safety may end it earlier.&#10;This temporary combat reaction does not affect targets already in a mental state, mechanoids or buildings.&#10;Fits the left, right or top slot only on the flamethrower.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistFlamethrower.description>
+  <MT_MakeModule_SpecialistFlamethrower.jobString>Making flamethrower pressure regulator module.</MT_MakeModule_SpecialistFlamethrower.jobString>
+  <MT_MakeModule_SpecialistLaser.label>make laser disruption optics module</MT_MakeModule_SpecialistLaser.label>
+  <MT_MakeModule_SpecialistLaser.description>Scatters the laser beam inside the target on impact, scoring bonus internal hits.&#10;&#10;After dealing actual damage, a hit has a 20% chance to apply 50% of its base damage again to the struck body part.&#10;If the target survives, it also applies one secondary hit worth 25% of base damage to a valid torso or internal organ.&#10;Each extra hit still checks armor; fully absorbed primary hits trigger neither effect.&#10;This does not forcibly delete limbs.&#10;Fits the left, right or top slot only on the laser cannon.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistLaser.description>
+  <MT_MakeModule_SpecialistLaser.jobString>Making laser disruption optics module.</MT_MakeModule_SpecialistLaser.jobString>
+  <MT_MakeModule_SpecialistTesla.label>make Tesla pulse capacitor module</MT_MakeModule_SpecialistTesla.label>
+  <MT_MakeModule_SpecialistTesla.description>Now with added muscle-relaxing tension relief built right into your electro-therapy session.&#10;Enjoy the massage!&#10;&#10;After dealing actual damage, pulses can stun each target for up to 2 seconds.&#10;A shared 5-second recovery period prevents repeated application by multiple turrets; normal stun immunity is retained.&#10;Fits only the left or right slot of a Tesla head.&#10;It is manufactured complete and cannot be upgraded.&#10;Only one copy of the same dedicated module may be installed or queued on a turret.&#10;Auxiliary weapons are unaffected.&#10;Installation and removal each require 100 construction work.&#10;Removal has the normal 1% failure chance.</MT_MakeModule_SpecialistTesla.description>
+  <MT_MakeModule_SpecialistTesla.jobString>Making Tesla pulse capacitor module.</MT_MakeModule_SpecialistTesla.jobString>
+</LanguageData>

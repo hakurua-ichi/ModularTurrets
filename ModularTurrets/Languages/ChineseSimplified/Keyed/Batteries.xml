@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_BatteryManage>管理蓄电池</MT_BatteryManage>
+  <MT_BatteryManageDesc>管理两侧模块、本体升级与待处理工作。</MT_BatteryManageDesc>
+  <MT_BatteryTitle>模块化蓄电池</MT_BatteryTitle>
+  <MT_BatteryBody>蓄电池本体</MT_BatteryBody>
+  <MT_BatteryCapacityGain>储能容量 {0:N0} Wd · 每次升级增加 {1:N0} Wd</MT_BatteryCapacityGain>
+  <MT_BatteryQueueCount>组装队列 · {0}/64</MT_BatteryQueueCount>
+  <MT_BatteryStats>当前储电：{0:0.##} / {1:0.##} Wd · 充电效率：{2:0.#}%</MT_BatteryStats>
+  <MT_BatteryLevel>本体升级：{0} 次</MT_BatteryLevel>
+  <MT_BatteryUpgrade>升级本体容量</MT_BatteryUpgrade>
+  <MT_BatteryUpgradeDesc>搬运钢铁与零部件后通过建造工作增加储能容量。&#10;不会直接凭空生成储存的电力。</MT_BatteryUpgradeDesc>
+  <MT_BatteryUpgradeCost>钢铁 {0} · 零部件 {1} · 工作量 {2}</MT_BatteryUpgradeCost>
+  <MT_BatteryLeft>左侧槽位</MT_BatteryLeft>
+  <MT_BatteryRight>右侧槽位</MT_BatteryRight>
+  <MT_BatteryEmpty>空</MT_BatteryEmpty>
+  <MT_BatteryInstall>安装</MT_BatteryInstall>
+  <MT_BatteryRemove>拆卸</MT_BatteryRemove>
+  <MT_BatteryNoModules>没有可用的蓄电池模块。</MT_BatteryNoModules>
+  <MT_BatteryQueueTitle>待处理工作</MT_BatteryQueueTitle>
+  <MT_BatteryOrderUpgrade>本体容量升级</MT_BatteryOrderUpgrade>
+  <MT_BatteryOrderUpgradeModule>{0} · 将 {1} 升至 {2} 级</MT_BatteryOrderUpgradeModule>
+  <MT_BatteryInstalledPart>{0} · {1}</MT_BatteryInstalledPart>
+  <MT_BatteryModuleStage>模块等级 {0} / {1}</MT_BatteryModuleStage>
+  <MT_BatteryCoilUpgradeEffect>此线圈无线供电半径：{0:0.#} → {1:0.#} 格</MT_BatteryCoilUpgradeEffect>
+  <MT_BatteryGenerationUpgradeEffect>此模块发电功率：{0:0.##} → {1:0.##} W</MT_BatteryGenerationUpgradeEffect>
+  <MT_BatteryOrderInstall>{0}：安装 {1}</MT_BatteryOrderInstall>
+  <MT_BatteryOrderRemove>{0}：拆卸模块</MT_BatteryOrderRemove>
+  <MT_BatteryWorkProgress>剩余工作量：{0} / {1}</MT_BatteryWorkProgress>
+  <MT_BatteryMaterial>{0}：需要 {1}</MT_BatteryMaterial>
+  <MT_BatteryCancel>取消工作</MT_BatteryCancel>
+  <MT_BatteryRetry>重试退还</MT_BatteryRetry>
+  <MT_BatteryNoOrders>无待处理工作。</MT_BatteryNoOrders>
+  <MT_BatteryRequestFailed>无法排队该蓄电池工作。</MT_BatteryRequestFailed>
+  <MT_BatteryConstructionRequired>需要建造技能 {0}。</MT_BatteryConstructionRequired>
+  <MT_BatteryClose>关闭</MT_BatteryClose>
+  <MT_BatteryReserveStatus>应急备用电力 {0:0.##} / {1:0.##} Wd</MT_BatteryReserveStatus>
+  <MT_BatteryGenerationStatus>自发电 {0:0.##} W</MT_BatteryGenerationStatus>
+  <MT_BatteryWirelessStatus>无线供电半径 {0:0.#} 格</MT_BatteryWirelessStatus>
+  <MT_BatteryModuleItemLabel>{0}（强化 {1} 级）</MT_BatteryModuleItemLabel>
+  <MT_BatteryModuleItemLevel>模块强化 {0} / {1} 级</MT_BatteryModuleItemLevel>
+</LanguageData>

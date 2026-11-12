@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TargetFramework>net10.0</TargetFramework>
+    <AssemblyName>ModularTurrets.Compat.AdaptiveStorage</AssemblyName>
+    <Version>0.1.1</Version>
+    <GameRoot Condition="'$(GameRoot)' == ''">F:/SteamLibrary/steamapps/common/RimWorld</GameRoot>
+    <HarmonyPath Condition="'$(HarmonyPath)' == ''">$(GameRoot)/../../workshop/content/294100/2009463077/1.7/Assemblies/0Harmony.dll</HarmonyPath>
+    <CorePath Condition="'$(CorePath)' == ''">$(MSBuildThisFileDirectory)../../../Assemblies/ModularTurrets.dll</CorePath>
+    <OutputPath>../Assemblies/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateDependencyFile>false</GenerateDependencyFile>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <Import Project="CompileOrder.props" />
+  <ItemGroup>
+    <Reference Include="ModularTurrets" HintPath="$(CorePath)" Private="false" />
+    <Reference Include="Assembly-CSharp" HintPath="$(GameRoot)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="UnityStubs" HintPath="$(GameRoot)/UnityStubs.dll" Private="false" />
+    <Reference Include="Waylith" HintPath="$(GameRoot)/Waylith.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(HarmonyPath)" Private="false" />
+  </ItemGroup>
+  <Target Name="RequireExistingCore" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(CorePath)')" Text="CorePath must point to an existing Core DLL. This optional project does not build Core." />
+  </Target>
+</Project>

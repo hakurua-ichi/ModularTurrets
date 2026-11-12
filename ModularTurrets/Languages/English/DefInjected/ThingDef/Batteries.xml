@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MT_ModularBattery.label>modular battery</MT_ModularBattery.label>
+  <MT_ModularBattery.description>An upgradeable, weatherproof 3x3 battery with a central 1x3 body and two 1x3 side-module slots.&#10;Base storage is 1,200 Wd and charging efficiency is 80%.&#10;Each base upgrade costs 80 steel and 2 industrial components and adds 1,200 Wd before storage-module bonuses.</MT_ModularBattery.description>
+  <MT_BatteryGenerationModule.label>battery self-generation module</MT_BatteryGenerationModule.label>
+  <MT_BatteryGenerationModule.description>Generate 1/100 of effective storage capacity in Wd per day, at least 25 W per module.&#10;Each upgrade level adds 25% of this base output, up to level V.&#10;Upgrade levels follow the physical module when it is removed and installed again.</MT_BatteryGenerationModule.description>
+  <MT_BatteryStorageModule.label>battery high-capacity storage module</MT_BatteryStorageModule.label>
+  <MT_BatteryStorageModule.description>Add 10,000 Wd of storage and increase the capacity gained from each base upgrade by 50%. These bonuses add per installed copy. Install in either battery side slot. This battery module has no upgrades.</MT_BatteryStorageModule.description>
+  <MT_BatteryCoilModule.label>battery wireless power module</MT_BatteryCoilModule.label>
+  <MT_BatteryCoilModule.description>Supply electrical consumers within 40 cells through the battery power network without connecting wires.&#10;Each upgrade adds 5 cells of range, up to 65 cells at level V.&#10;Upgrade levels follow the physical module when it is removed and installed again.</MT_BatteryCoilModule.description>
+  <MT_BatteryProtectionModule.label>battery surge protection module</MT_BatteryProtectionModule.label>
+  <MT_BatteryProtectionModule.description>Protect this battery's stored electricity from power-network short circuits and prevent component breakdowns.&#10;Does not protect against solar flares.&#10;Install in either battery side slot.&#10;This battery module has no upgrades.</MT_BatteryProtectionModule.description>
+  <MT_BatteryReserveModule.label>battery emergency reserve module</MT_BatteryReserveModule.label>
+  <MT_BatteryReserveModule.description>Store an additional 20% of ordinary capacity as emergency reserve.&#10;Charge it from surplus electricity and release it when the network is short of power.&#10;Two copies keep the same reserve fraction.&#10;Install in either battery side slot.&#10;This battery module has no upgrades.</MT_BatteryReserveModule.description>
+  <MT_BatteryEfficiencyModule.label>battery charging-efficiency module</MT_BatteryEfficiencyModule.label>
+  <MT_BatteryEfficiencyModule.description>Set charging efficiency to 100%. One installed copy provides the full effect. Install in either battery side slot. This battery module has no upgrades.</MT_BatteryEfficiencyModule.description>
+</LanguageData>

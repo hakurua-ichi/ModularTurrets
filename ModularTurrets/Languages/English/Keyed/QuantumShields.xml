@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_QuantumShieldAdapterFailed>Modular Turrets: quantum shield compatibility for {0} could not be applied. Existing protection remains active. Details: {1}</MT_QuantumShieldAdapterFailed>
+</LanguageData>

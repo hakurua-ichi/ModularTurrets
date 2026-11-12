@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_PhotothermalBurn.label>광열 화상</MT_PhotothermalBurn.label>
+  <MT_PhotothermalBurn.labelNoun>광열 화상</MT_PhotothermalBurn.labelNoun>
+  <MT_PhotothermalBurn.labelNounPretty>{1}의 {0}</MT_PhotothermalBurn.labelNounPretty>
+  <MT_PhotothermalBurn.description>레이저가 집중된 부위의 조직이 열에 탔습니다.</MT_PhotothermalBurn.description>
+  <MT_PhotothermalBurn.comps.HediffComp_TendDuration.labelTendedWell>붕대 감음</MT_PhotothermalBurn.comps.HediffComp_TendDuration.labelTendedWell>
+  <MT_PhotothermalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>치료됨</MT_PhotothermalBurn.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <MT_PhotothermalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>치료됨</MT_PhotothermalBurn.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <MT_PhotothermalBurn.comps.HediffComp_GetsPermanent.permanentLabel>광열 화상 흉터</MT_PhotothermalBurn.comps.HediffComp_GetsPermanent.permanentLabel>
+  <MT_PhotothermalBurn.injuryProps.destroyedLabel>레이저에 타버림</MT_PhotothermalBurn.injuryProps.destroyedLabel>
+  <MT_PhotothermalBurn.injuryProps.destroyedOutLabel>레이저에 타버림</MT_PhotothermalBurn.injuryProps.destroyedOutLabel>
+  <MT_QuantumRupture.label>양자 파열</MT_QuantumRupture.label>
+  <MT_QuantumRupture.labelNoun>양자 파열</MT_QuantumRupture.labelNoun>
+  <MT_QuantumRupture.labelNounPretty>{1}의 {0}</MT_QuantumRupture.labelNounPretty>
+  <MT_QuantumRupture.description>양자 충격이 집중된 지점에서 조직이 파열됐습니다.</MT_QuantumRupture.description>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWell>붕대 감음</MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWell>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWellInner>봉합됨</MT_QuantumRupture.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <MT_QuantumRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>접합됨</MT_QuantumRupture.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <MT_QuantumRupture.comps.HediffComp_GetsPermanent.permanentLabel>양자 파열 흉터</MT_QuantumRupture.comps.HediffComp_GetsPermanent.permanentLabel>
+  <MT_QuantumRupture.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>영구적 양자 파열</MT_QuantumRupture.comps.HediffComp_GetsPermanent.instantlyPermanentLabel>
+  <MT_QuantumRupture.injuryProps.destroyedLabel>양자 충격으로 파열됨</MT_QuantumRupture.injuryProps.destroyedLabel>
+  <MT_QuantumRupture.injuryProps.destroyedOutLabel>양자 충격으로 파열됨</MT_QuantumRupture.injuryProps.destroyedOutLabel>
+</LanguageData>

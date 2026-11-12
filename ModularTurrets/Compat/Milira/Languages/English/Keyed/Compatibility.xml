@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_MiliraShieldCompatibilityFailed>Modular Turrets: Milira shield compatibility could not be applied; existing defense behavior is retained. Details: {0}</MT_MiliraShieldCompatibilityFailed>
+</LanguageData>

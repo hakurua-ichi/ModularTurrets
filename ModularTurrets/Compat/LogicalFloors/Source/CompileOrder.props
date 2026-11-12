@@ -1,0 +1,7 @@
+<Project>
+  <!-- Preserve declaration and partial-field initialization order; register new files explicitly. -->
+  <ItemGroup>
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="LogicalFloorsCompatibility.cs" />
+  </ItemGroup>
+</Project>

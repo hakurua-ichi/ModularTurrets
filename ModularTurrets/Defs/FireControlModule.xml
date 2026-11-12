@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Defs>
+  <ModularTurrets.ModuleEffectDef>
+    <defName>MT_FireControlEffect</defName>
+    <label>precision fire control</label>
+    <description>Improves aiming and protects non-hostile faction pawns. Mounted effects follow the active combat system and turret head.</description>
+    <workerClass>ModularTurrets.ModuleEffect_Stats</workerClass>
+    <accuracyMissReductionPerPower>0.125</accuracyMissReductionPerPower>
+    <mortarScatterReductionBase>0.10</mortarScatterReductionBase>
+    <mortarScatterReductionPerTier>0.05</mortarScatterReductionPerTier>
+    <preventFriendlyFire>true</preventFriendlyFire>
+  </ModularTurrets.ModuleEffectDef>
+  <ThingDef ParentName="MT_PartBase">
+    <defName>MT_Module_FireControl</defName>
+    <thingCategories Inherit="False">
+      <li>MT_GeneralModules</li>
+    </thingCategories>
+    <label>precision fire control module</label>
+    <description>An aiming and friendly-fire protection module. Assembly management and item details show effects for the current turret and combat system. The upgrade tier is retained after removal. Aggressive mental states, spreading fire and collapses are excluded from protection.</description>
+    <graphicData>
+      <texPath>ModularTurrets/Components/FanPod-left</texPath>
+      <graphicClass>ModularTurrets.Graphic_LoosePartOutline</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(3.80167224,3.75050167)</drawSize>
+      <drawOffset>(0.82173913,0,0.25133779)</drawOffset>
+    </graphicData>
+    <statBases>
+      <Mass>8</Mass>
+      <MarketValue>1400</MarketValue>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>9</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <modExtensions>
+      <li Class="ModularTurrets.PartExtension">
+        <moduleKind>FireControl</moduleKind>
+        <power>120</power>
+        <effects>
+          <li>MT_FireControlEffect</li>
+        </effects>
+        <!-- Catalog synchronization owns the final pivots, sizes and icon framing. -->
+        <anchors>
+          <li>
+            <slot>left</slot>
+            <graphicData>
+              <texPath>ModularTurrets/Components/FanPod-left</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>Cutout</shaderType>
+              <drawSize>(3.64159184,3.71143394)</drawSize>
+              <drawOffset>(0,0,0)</drawOffset>
+            </graphicData>
+            <flipX>false</flipX>
+            <pivot>(0.35550277,0.56701445)</pivot>
+            <angle>0</angle>
+          </li>
+          <li>
+            <slot>right</slot>
+            <graphicData>
+              <texPath>ModularTurrets/Components/FanPod-left</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>Cutout</shaderType>
+              <drawSize>(3.64159184,3.71143394)</drawSize>
+              <drawOffset>(0,0,0)</drawOffset>
+            </graphicData>
+            <flipX>true</flipX>
+            <pivot>(0.35550277,0.56701445)</pivot>
+            <angle>0</angle>
+          </li>
+          <li>
+            <slot>top</slot>
+            <graphicData>
+              <texPath>ModularTurrets/Components/FanPod-top-steel</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <shaderType>Cutout</shaderType>
+              <drawSize>(1.43996062,1.43996062)</drawSize>
+              <drawOffset>(0,0,0)</drawOffset>
+            </graphicData>
+            <flipX>false</flipX>
+            <pivot>(0.5,0.5)</pivot>
+            <angle>0</angle>
+          </li>
+        </anchors>
+      </li>
+      <li Class="ModularTurrets.ParagonModuleExtension">
+        <powerMultiplier>8</powerMultiplier>
+        <auxiliaryDamageMultiplier>4</auxiliaryDamageMultiplier>
+        <auxiliaryBurstMultiplier>2</auxiliaryBurstMultiplier>
+        <powerConsumptionMultiplier>4</powerConsumptionMultiplier>
+        <detectionIntervalTicks>3</detectionIntervalTicks>
+        <emergencyShieldFraction>0.2</emergencyShieldFraction>
+        <emergencyShieldCooldownTicks>3600</emergencyShieldCooldownTicks>
+        <defenseRadius>8</defenseRadius>
+        <openingArmorBonus>0.25</openingArmorBonus>
+        <burstIntervalFactor>0.5</burstIntervalFactor>
+        <retargetWarmupFactor>0.5</retargetWarmupFactor>
+        <forcedMissRadiusFactor>0.5</forcedMissRadiusFactor>
+        <work>1500000</work>
+        <research>MT_InfiniteEngineering</research>
+        <costs>
+          <Steel>10000</Steel>
+          <Plasteel>5000</Plasteel>
+          <Uranium>2500</Uranium>
+          <ComponentIndustrial>180</ComponentIndustrial>
+          <ComponentSpacer>40</ComponentSpacer>
+        </costs>
+      </li>
+    </modExtensions>
+    <uiIconPath>ModularTurrets/Components/FanPod-left</uiIconPath>
+    <uiIconScale>4.22408027</uiIconScale>
+    <uiIconOffset>(0.91304348,-0.27926421)</uiIconOffset>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MT_MakeModule_FireControl</defName>
+    <displayPriority>29995</displayPriority>
+    <label>make precision fire control module</label>
+    <description>Manufacture a precision fire controller that improves turret and weapon accuracy and protects pawns belonging to the same or a non-hostile faction. Aggressive mental states such as berserk are excluded. For mortar shells only, buildings belonging to the firing turret's faction are also excluded from direct and explosion damage. Secondary spreading fires and collapses are not covered.</description>
+    <jobString>Making precision fire control module.</jobString>
+    <workAmount>5000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <researchPrerequisite>MT_AdvancedTurrets</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter><thingDefs><li>Steel</li></thingDefs></filter>
+        <count>120</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>Plasteel</li></thingDefs></filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentIndustrial</li></thingDefs></filter>
+        <count>9</count>
+      </li>
+      <li>
+        <filter><thingDefs><li>ComponentSpacer</li></thingDefs></filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>ComponentIndustrial</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products><MT_Module_FireControl>1</MT_Module_FireControl></products>
+    <skillRequirements><Crafting>10</Crafting></skillRequirements>
+    <recipeUsers><li>MT_AssemblyBench</li></recipeUsers>
+  </RecipeDef>
+</Defs>

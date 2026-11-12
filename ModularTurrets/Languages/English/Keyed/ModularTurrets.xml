@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_SettingsCategory>Modular Turrets</MT_SettingsCategory>
+  <MT_SettingsTitle>Modular Turrets settings</MT_SettingsTitle>
+  <MT_SettingsLanguage>Interface language</MT_SettingsLanguage>
+  <MT_SettingsLanguageHint>Choose a language for this mod's interface.&#10;The default follows the game language.&#10;Language choices and translations can be extended through XML files; select the language again to reload its text.</MT_SettingsLanguageHint>
+  <MT_LanguageAutomatic>Follow game language ({0})</MT_LanguageAutomatic>
+  <MT_LanguageGameDefault>game default</MT_LanguageGameDefault>
+  <MT_LanguageUnavailable>Unavailable language — choose again</MT_LanguageUnavailable>
+  <MT_ManageLabel>Manage assembly</MT_ManageLabel>
+  <MT_ManageDesc>Install or remove parts and upgrade the turret's parts and base.</MT_ManageDesc>
+  <MT_AttackLabel>Set attack target</MT_AttackLabel>
+  <MT_AttackDesc>Set the main weapon's target. Auxiliary weapons acquire their own targets.</MT_AttackDesc>
+  <MT_HoldFireLabel>Hold fire</MT_HoldFireLabel>
+  <MT_HoldFireDesc>Stop the main and auxiliary weapons from firing.</MT_HoldFireDesc>
+  <MT_ClearTargetLabel>Clear forced target</MT_ClearTargetLabel>
+  <MT_ClearTargetDesc>Allow the main weapon to acquire targets automatically.</MT_ClearTargetDesc>
+  <MT_AutoReloadLabel>Automatic reload</MT_AutoReloadLabel>
+  <MT_AutoReloadDesc>Queue a construction job to fill the magazine to 20 shells when 6 or fewer remain.</MT_AutoReloadDesc>
+  <MT_TurretReconnectPowerDesc>Look for a nearby wired power connection.&#10;If none is available, find a wireless coil on the same floor whose range reaches this turret.</MT_TurretReconnectPowerDesc>
+  <MT_InspectNoHead>No main head installed. Open assembly management to install one.</MT_InspectNoHead>
+  <MT_InspectHead>Main head: {0}</MT_InspectHead>
+  <MT_InspectBase>Base upgrades: damage {0} / defense {1} / range {2}</MT_InspectBase>
+  <MT_InspectCombat>Damage ×{0:0.00} / range {1:0.0} cells</MT_InspectCombat>
+  <MT_InspectShield>Shield: {0:0} / {1:0}</MT_InspectShield>
+  <MT_InspectShells>Mortar shells: {0}/20</MT_InspectShells>
+  <MT_InspectHoldFire>Holding fire</MT_InspectHoldFire>
+  <MT_InspectQueue>{0}: {1} jobs / {2}</MT_InspectQueue>
+  <MT_QueuePausedName>Assembly paused</MT_QueuePausedName>
+  <MT_QueueName>Assembly queue</MT_QueueName>
+  <MT_SlotHead>Main head</MT_SlotHead>
+  <MT_SlotLeft>Left module</MT_SlotLeft>
+  <MT_SlotRight>Right module</MT_SlotRight>
+  <MT_SlotTop>Upper module</MT_SlotTop>
+  <MT_SlotRear>Rear module</MT_SlotRear>
+  <MT_OperationDamage>Damage</MT_OperationDamage>
+  <MT_OperationArmor>Defense</MT_OperationArmor>
+  <MT_OperationRange>Range</MT_OperationRange>
+  <MT_OperationUnknown>Upgrade</MT_OperationUnknown>
+  <MT_OrderInstall>Install {0}: {1}</MT_OrderInstall>
+  <MT_OrderRemove>Remove {0}</MT_OrderRemove>
+  <MT_OrderPartUpgrade>Upgrade {0} → tier {1}</MT_OrderPartUpgrade>
+  <MT_OrderReload>Reload mortar</MT_OrderReload>
+  <MT_OrderBaseUpgrade>Base {0} upgrade → level {1}</MT_OrderBaseUpgrade>
+  <MT_WindowTitle>Modular turret · assembly</MT_WindowTitle>
+  <MT_CombatSummary>Damage ×{0:0.00}   Incoming damage {1:P0}   Range {2:0.0} cells   Power {3:0} W</MT_CombatSummary>
+  <MT_SupportSummary>Aim time ×{0:0.00}   Cooldown ×{1:0.00}   Shield {2:0}/{3:0}   {4}</MT_SupportSummary>
+  <MT_PowerOn>Powered</MT_PowerOn>
+  <MT_PowerOff>Unpowered</MT_PowerOff>
+  <MT_AssemblyNoHead>Craft a main head at the assembly bench, then install it here. Available module slots depend on the main head.</MT_AssemblyNoHead>
+  <MT_AssemblyRules>Part install/remove work: 100 · Removal failure: 1% per part · Part tiers remain after removal.</MT_AssemblyRules>
+  <MT_PauseAssembly>Pause assembly</MT_PauseAssembly>
+  <MT_ShellCount>Mortar shells {0}/20</MT_ShellCount>
+  <MT_ReloadButton>Haul shells and reload</MT_ReloadButton>
+  <MT_ReloadReject>The magazine is full or a reload job is already queued.</MT_ReloadReject>
+  <MT_ReloadTip>Request delivery of {0} {1}.&#10;Reload work is 0.&#10;Each delivered shell is loaded immediately, starting with the first round; a full magazine is not required.</MT_ReloadTip>
+  <MT_InstallPending>Installation queued</MT_InstallPending>
+  <MT_SelectPart>Choose and install a part</MT_SelectPart>
+  <MT_NeedCraftedPart>A crafted physical part is required.</MT_NeedCraftedPart>
+  <MT_TierLabel>Tier {0}/5</MT_TierLabel>
+  <MT_MainTierLabel>Main weapon · tier {0}/5</MT_MainTierLabel>
+  <MT_RemoveButton>Remove</MT_RemoveButton>
+  <MT_RemoveHeadFirst>Remove the attached modules before removing the main head.</MT_RemoveHeadFirst>
+  <MT_SlotHasOrder>Complete or cancel this slot's queued work first.</MT_SlotHasOrder>
+  <MT_RemoveTip>Work: 100. On completion, this part has a 1% chance to become steel slag.</MT_RemoveTip>
+  <MT_UpgradeNext>Upgrade → {0}</MT_UpgradeNext>
+  <MT_MaxTier>Maximum tier</MT_MaxTier>
+  <MT_PartUpgradeReject>Required research is incomplete, or this slot has another job queued.</MT_PartUpgradeReject>
+  <MT_PartUpgradeTip>Upgrade to tier {0}&#10;Steel {1}, plasteel {2}, uranium {3}, advanced components {4}&#10;Work: {5:N0}&#10;Research: {6}&#10;The tier stays on this part after removal and reinstallation.</MT_PartUpgradeTip>
+  <MT_NoParts>No suitable part can currently be selected on this map.&#10;Craft one at the assembly bench and ensure it is not forbidden or reserved.</MT_NoParts>
+  <MT_PartChoice>{0} · tier {1}/5 · position {2},{3}</MT_PartChoice>
+  <MT_PartMoved>The part moved or this slot already has a queued job.</MT_PartMoved>
+  <MT_BaseTitle>Permanent base upgrades · retained when the main head changes</MT_BaseTitle>
+  <MT_EffectDamage>+5% base damage</MT_EffectDamage>
+  <MT_EffectArmor>Defense coefficient +0.05</MT_EffectArmor>
+  <MT_EffectRange>+0.1 cells</MT_EffectRange>
+  <MT_BaseStatus>{0}: {1} levels · {2}</MT_BaseStatus>
+  <MT_BaseAddOne>Queue +1</MT_BaseAddOne>
+  <MT_BaseAddFive>Queue +5</MT_BaseAddFive>
+  <MT_BaseTip>Queue {0} levels {1}–{2}&#10;Steel {3:N0}, plasteel {4:N0}, components {5:N0}&#10;Total work: {6:N0}&#10;Research: {7}&#10;Jobs complete one at a time in queue order.</MT_BaseTip>
+  <MT_NeedResearch>Complete {0} research first.</MT_NeedResearch>
+  <MT_QueueFull>The queue can hold up to 100 jobs.</MT_QueueFull>
+  <MT_BaseQueueReject>The upgrade could not be queued.</MT_BaseQueueReject>
+  <MT_QueueTitle>Assembly queue · {0}/100</MT_QueueTitle>
+  <MT_QueueEmpty>No jobs queued. Choose a part to install or queue an upgrade.</MT_QueueEmpty>
+  <MT_StatusWaiting>Waiting</MT_StatusWaiting>
+  <MT_StatusPaused>Paused</MT_StatusPaused>
+  <MT_StatusInvalid>Check work requirements</MT_StatusInvalid>
+  <MT_StatusWorking>Construction pending/in progress</MT_StatusWorking>
+  <MT_StatusHauling>Waiting for parts/materials</MT_StatusHauling>
+  <MT_QueueRow>{0}. {1} · {2}</MT_QueueRow>
+  <MT_CostPart>1 part · {0}</MT_CostPart>
+  <MT_CostResource>{0} {1}</MT_CostResource>
+  <MT_NoCosts>No additional materials</MT_NoCosts>
+  <MT_PartMissing>Part not delivered</MT_PartMissing>
+  <MT_PartDelivered>Part delivered</MT_PartDelivered>
+  <MT_ResourceMissing>{0}: {1} missing</MT_ResourceMissing>
+  <MT_JoinDetails>{0} · {1}</MT_JoinDetails>
+  <MT_QueueTip>Work: {0:N0}/{1:N0}&#10;{2}&#10;Materials delivered for the canceled job are returned.</MT_QueueTip>
+  <MT_CancelButton>Cancel</MT_CancelButton>
+  <MT_NoDropSpace>Clear space to return the delivered materials.</MT_NoDropSpace>
+  <MT_RemovalFailure>Part removal failed. Steel slag was recovered.</MT_RemovalFailure>
+  <MT_CannotAttack>This target cannot be attacked.</MT_CannotAttack>
+  <MT_TierInspect>Upgrade tier: {0}/5</MT_TierInspect>
+  <MT_Resource_Steel>Steel</MT_Resource_Steel>
+  <MT_Resource_Plasteel>Plasteel</MT_Resource_Plasteel>
+  <MT_Resource_Uranium>Uranium</MT_Resource_Uranium>
+  <MT_Resource_ComponentSpacer>Advanced component</MT_Resource_ComponentSpacer>
+  <MT_Resource_ComponentIndustrial>Component</MT_Resource_ComponentIndustrial>
+  <MT_Resource_Shell_HighExplosive>High-explosive shell</MT_Resource_Shell_HighExplosive>
+  <MT_Resource_ChunkSlagSteel>Steel slag chunk</MT_Resource_ChunkSlagSteel>
+  <MT_ConstructionRequired>Construction skill {0} required</MT_ConstructionRequired>
+  <MT_IconCenteringFailed>Could not center the Modular Turrets icon for {0}: {1}. The original icon has been retained.</MT_IconCenteringFailed>
+  <MT_IconCenteringMaterialUnsupported>The Modular Turrets icon for {0} uses a custom UI material. Its original icon and material have been retained.</MT_IconCenteringMaterialUnsupported>
+  <MT_BurstCacheUnavailable>Modular Turrets could not refresh this game version's burst caches. Existing firing continues, but upgraded auxiliary weapons may retain their previous burst count or shot interval until reloaded.</MT_BurstCacheUnavailable>
+  <MT_MigrationTitle>Modular turret footprint conversion</MT_MigrationTitle>
+  <MT_MigrationSuccess>Existing turret bases and construction objects now use 3×3 footprints. The original objects retain their parts, upgrades, work and ammunition. Position and removal records are shown below; all records are retained in this map's migration history.&#10;&#10;{0}</MT_MigrationSuccess>
+  <MT_MigrationFailure>Turret conversion or cleanup could not be completed. {0} turret/construction objects are retained in the map's off-map storage. Reason: {1}&#10;&#10;When placement is possible, use the placement retry button at the upper left of this map. Retry does not run automatically and uses vacant 3×3 space without removing existing buildings. If the supported engine contract or final spawn failed, restore the backup rather than treating this as a successful conversion.&#10;&#10;{2}</MT_MigrationFailure>
+  <MT_MigrationInvalidTargets>The saved turret objects have duplicate identities, invalid state, or an unexpected footprint.</MT_MigrationInvalidTargets>
+  <MT_MigrationNoPlacement>The deterministic placement plan could not reserve a 3×3 position for every affected object. This does not prove that every possible arrangement is impossible.</MT_MigrationNoPlacement>
+  <MT_MigrationUnknownFloor>A saved object's floor could not be read safely. Existing buildings and rocks were preserved; turret objects are retained for inspection.</MT_MigrationUnknownFloor>
+  <MT_MigrationOccupiedContainer>A conflicting building at {1} contains stored objects and was protected: {0}. Move or empty it before retrying.</MT_MigrationOccupiedContainer>
+  <MT_MigrationUnknownCompressed>Compressed object hash {0} at {1} could not be identified. No compressed data was removed.</MT_MigrationUnknownCompressed>
+  <MT_MigrationUnsupportedEngine>The required pre-spawn data fields are unavailable in this game version. Preservation is NOT confirmed. This migration supports the verified Core 1.7.4998 contract; restore the backup and use a supported build.</MT_MigrationUnsupportedEngine>
+  <MT_MigrationInternalFailure>An operation failed ({0}). The original load list, positions and compressed data were restored before retaining affected turret objects.</MT_MigrationInternalFailure>
+  <MT_MigrationErrorLog>Modular Turrets footprint migration error: {0}</MT_MigrationErrorLog>
+  <MT_MigrationHoldingFailed>Could not retain object {0} in migration storage. Preservation is not confirmed; restore the backup.</MT_MigrationHoldingFailed>
+  <MT_MigrationSpawnIncomplete>Not every planned object completed map spawning. Conversion is NOT confirmed; restore the backup and inspect the log.</MT_MigrationSpawnIncomplete>
+  <MT_MigrationCleanupFailure>Removed building {0} could not finish destruction. Its saved holding container has been retained for inspection.</MT_MigrationCleanupFailure>
+  <MT_MigrationMoved>Moved to fit the 3×3 reservation</MT_MigrationMoved>
+  <MT_MigrationRemovedBuilding>Removed conflicting empty building or blueprint</MT_MigrationRemovedBuilding>
+  <MT_MigrationRemovedCompressed>Removed conflicting compressed building or rock</MT_MigrationRemovedCompressed>
+  <MT_MigrationQuarantined>Retained off-map after a failed placement plan</MT_MigrationQuarantined>
+  <MT_MigrationRestored>Returned from storage by explicit placement retry</MT_MigrationRestored>
+  <MT_MigrationEventLine>{0} [{1}]: {2} → {3}; {4}</MT_MigrationEventLine>
+  <MT_MigrationCompressedId>compressed; no saved ThingID</MT_MigrationCompressedId>
+  <MT_MigrationLog>Modular Turrets footprint migration: {0}</MT_MigrationLog>
+  <MT_MigrationPendingCount>Turrets/construction objects retained: {0}</MT_MigrationPendingCount>
+  <MT_MigrationRetry>Retry placement in vacant 3×3 space</MT_MigrationRetry>
+  <MT_MigrationPendingRemain>Stored turret objects or removed buildings still need placement or cleanup. This is not a completed conversion.</MT_MigrationPendingRemain>
+  <MT_MigrationCleanupRetry>Finish removing {0} displaced empty building(s)</MT_MigrationCleanupRetry>
+  <MT_IffPatchFailed>Modular Turrets could not enable its projectile friendly-fire checks. Enable the standard Harmony mod before Modular Turrets and check the game version. Damage filtering remains active, but friendly-pawn interception after launcher loss and hits on aggressive mental-state pawns may not behave correctly. Details: {0}</MT_IffPatchFailed>
+  <MT_IffInterceptShapeSkipped>Modular Turrets left the existing projectile interception instructions unchanged because their shape is unsupported. Only its adjustment for aggressive mental-state pawns was skipped. Details: {0}</MT_IffInterceptShapeSkipped>
+  <MT_UnknownLauncher>an unknown shooter</MT_UnknownLauncher>
+  <MT_UnknownLauncherPossessive>their</MT_UnknownLauncherPossessive>
+  <MT_ImpactGrammarPatchFailed>Modular Turrets could not enable the fallback name for a missing projectile launcher in combat logs. Check the Harmony load order and game version. Damage and collision are unchanged, but a combat-log sentence may fail to resolve. Details: {0}</MT_ImpactGrammarPatchFailed>
+  <MT_WreckRestoreDiscount>Repair material discount for the installed head: {0}.</MT_WreckRestoreDiscount>
+</LanguageData>
+

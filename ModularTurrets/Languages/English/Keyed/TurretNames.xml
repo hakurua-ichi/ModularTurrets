@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_TurretNameAutocannon>autocannon turret</MT_TurretNameAutocannon>
+  <MT_TurretNameSniper>sniper cannon turret</MT_TurretNameSniper>
+  <MT_TurretNameDualAutocannon>dual autocannon turret</MT_TurretNameDualAutocannon>
+  <MT_TurretNameDualSniper>dual sniper cannon turret</MT_TurretNameDualSniper>
+  <MT_TurretNameDualMortar>dual mortar turret</MT_TurretNameDualMortar>
+  <MT_TurretNameFlamethrower>flamethrower turret</MT_TurretNameFlamethrower>
+  <MT_TurretNameMinigun>minigun turret</MT_TurretNameMinigun>
+  <MT_TurretNameLaser>laser cannon turret</MT_TurretNameLaser>
+  <MT_TurretNameMissile>missile turret</MT_TurretNameMissile>
+  <MT_TurretNameTesla>Tesla turret</MT_TurretNameTesla>
+  <MT_TurretNameQuantum>quantum cannon turret</MT_TurretNameQuantum>
+  <MT_TurretNameGeneric>{0} turret</MT_TurretNameGeneric>
+</LanguageData>

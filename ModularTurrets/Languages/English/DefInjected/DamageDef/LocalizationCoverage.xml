@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_LaserDamage.label>laser</MT_LaserDamage.label>
+  <MT_LaserDamage.deathMessage>{0} has been killed by a laser.</MT_LaserDamage.deathMessage>
+  <MT_QuantumDamage.label>quantum impact</MT_QuantumDamage.label>
+  <MT_QuantumDamage.deathMessage>{0} has been killed by a quantum impact.</MT_QuantumDamage.deathMessage>
+  <MT_TeslaDischarge.label>Tesla discharge</MT_TeslaDischarge.label>
+  <MT_TeslaDischarge.deathMessage>{0} has been killed by a Tesla discharge.</MT_TeslaDischarge.deathMessage>
+</LanguageData>

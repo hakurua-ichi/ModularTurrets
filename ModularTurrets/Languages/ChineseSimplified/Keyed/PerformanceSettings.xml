@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <MT_SettingsPerformanceTitle>性能</MT_SettingsPerformanceTitle>
+  <MT_SettingsPerformanceHint>更改将在下一渲染帧生效。所有选项默认开启。&#10;这些选项仅改变绘制方式，不影响伤害、索敌与电网逻辑。</MT_SettingsPerformanceHint>
+  <MT_TeslaInstancingLabel>特斯拉特效 GPU 实例化</MT_TeslaInstancingLabel>
+  <MT_TeslaInstancingHint>将相同不透明度的闪电线段合并绘制。&#10;关闭或 GPU 不支持时将逐条绘制。</MT_TeslaInstancingHint>
+  <MT_TeslaParallelLabel>特斯拉特效并行几何计算</MT_TeslaParallelLabel>
+  <MT_TeslaParallelHint>当画面中可见的特斯拉特效足够多时，在游戏的并行绘制阶段计算线段坐标。&#10;关闭或数量较少时在主线程计算。战斗判定始终保持原有路径。</MT_TeslaParallelHint>
+
+</LanguageData>

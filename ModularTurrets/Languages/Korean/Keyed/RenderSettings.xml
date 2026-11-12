@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_RenderInstancingLabel>포탑 GPU 인스턴싱</MT_RenderInstancingLabel>
+  <MT_RenderInstancingHint>기본값: 켜짐. 같은 조건의 포탑 그림을 묶어 CPU의 렌더링 명령을 줄입니다.&#10;지원되지 않는 조건에서는 개별 그리기로 돌아갑니다. 깜빡임 등 화면 문제가 보이면 이 옵션을 꺼 주십시오.</MT_RenderInstancingHint>
+</LanguageData>

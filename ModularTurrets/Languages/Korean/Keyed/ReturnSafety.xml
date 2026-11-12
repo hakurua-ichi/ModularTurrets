@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MT_AssemblyReturnBlocked>부품 반환 공간 부족</MT_AssemblyReturnBlocked>
+  <MT_RetryAssemblyReturn>반환 다시 시도</MT_RetryAssemblyReturn>
+  <MT_AssemblyReturnBlockedDesc>포탑 주변에 반환할 부품이나 고철을 놓을 공간이 없습니다. 공간을 확보한 뒤 반환을 다시 시도하세요. 완료한 작업과 분해 판정은 유지됩니다.</MT_AssemblyReturnBlockedDesc>
+  <MT_RemovalReturnCannotCancel>분해 판정이 이미 완료되어 이 작업은 취소할 수 없습니다. 반환 공간을 확보한 뒤 다시 시도하세요.</MT_RemovalReturnCannotCancel>
+</LanguageData>
