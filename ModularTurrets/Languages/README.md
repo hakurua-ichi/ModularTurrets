@@ -69,13 +69,13 @@ Custom Def classes use their full type names as directory names:
   <label>Français</label>
   <folder>French</folder>
   <gameLanguage>French</gameLanguage>
-  <order>30</order>
+  <order>40</order>
 </ModularTurrets.ModLanguageDef>
 ```
 
 Choose a unique DefName and an unused order value. `folder` selects the dictionary for the explicit override. `gameLanguage=auto` identifies the special existing automatic entry; a non-automatic value does not change RimWorld's active language.
 
-The Def's label is enough to give the new selector entry a name. To localize that name, use `MT_LanguageFrench.label` in `DefInjected/ModularTurrets.ModLanguageDef/*.xml`. Keep the existing English, Korean and automatic entries.
+The Def's label is enough to give the new selector entry a name. To localize that name, use `MT_LanguageFrench.label` in `DefInjected/ModularTurrets.ModLanguageDef/*.xml`. Keep all existing language definitions and the automatic entry.
 
 ## Automatic selection, overrides and fallback
 
